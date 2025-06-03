@@ -7,8 +7,6 @@ const courseSchema = new mongoose.Schema({
   
   category: [String], // e.g., ["DSA", "Programming Fundamentals"]
 
-
-  
   tags: {
     1: [String], // Primary tags
     2: [String], // Secondary tags
