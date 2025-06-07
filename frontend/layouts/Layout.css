@@ -1,0 +1,29 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.layout-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Left sidebar: 20% width */
+.left-sidebar {
+  width: 15%;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Main content: 80% width */
+.main-content {
+  width: 85%;
+  padding: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}

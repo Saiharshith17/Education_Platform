@@ -38,22 +38,36 @@
 // export default App
 
 
+import React, { lazy, Suspense } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "../layouts/Layouts";
 
-import React,{lazy, Suspense} from 'react'
-import {BrowserRouter,Routes,Route} from "react-router-dom"
+const Login = lazy(() => import("../pages/Login"));
+const Signup = lazy(() => import("../pages/Signup"));
+const Home = lazy(() => import("../pages/Home"));
 
-const Login=lazy(()=> import("../pages/Login"));
 const App = () => {
   return (
-    <>
     <BrowserRouter>
-    <Routes>
-    <Route path="/login" element={<Login/>}/>
-    </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          {/* Pages with layout */}
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Home />
+              </Layout>
+            }
+          />
+          
+          {/* Login and Signup without layout */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/signUp" element={<Signup />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
-    <div>App</div>
-    </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
