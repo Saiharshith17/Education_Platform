@@ -1,0 +1,475 @@
+[
+  {
+    "_id": 501,
+    "title": "Introduction to DSA",
+    "description": "Overview of data structures and algorithms, why they matter, and how to approach problem solving.",
+    "category": [
+      "DSA",
+      "Programming Fundamentals",
+      "Computer Science"
+    ],
+    "tags": {
+      "1": [
+        "dsa",
+        "programming",
+        "algorithms",
+        "data structures",
+        "python",
+        "java",
+        "html",
+        "spring boot"
+      ],
+      "2": [
+        "cn",
+        "se",
+        "oops",
+        "system design",
+        "js",
+        "rest api",
+        "mern"
+      ],
+      "3": [
+        "beginners",
+        "logic building",
+        "problem solving",
+        "competitive programming"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: What is DSA?",
+        "videoUrl": "https://videos.edu/intro_to_dsa.mp4",
+        "pdfPath": "/uploads/intro_dsa.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-dsa-intro.png",
+    "createdBy": "user123",
+    "date": "2024-07-21T10:00:00",
+    "enrolledCount": 280
+  },
+  {
+    "_id": 502,
+    "title": "Arrays & Strings",
+    "description": "Learn about array manipulation, string algorithms, two-pointer techniques, and sliding window problems.",
+    "category": [
+      "DSA",
+      "Arrays",
+      "Strings",
+      "Coding Practice"
+    ],
+    "tags": {
+      "1": [
+        "dsa",
+        "arrays",
+        "strings",
+        "sliding window",
+        "java",
+        "python",
+        "mern"
+      ],
+      "2": [
+        "programming",
+        "problem solving",
+        "system design",
+        "spring boot",
+        "js"
+      ],
+      "3": [
+        "recursion",
+        "pointers",
+        "coding",
+        "html",
+        "react"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Array Basics",
+        "videoUrl": "https://videos.edu/arrays_basics.mp4",
+        "pdfPath": "/uploads/arrays_strings.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-arrays.png",
+    "createdBy": "user123",
+    "date": "2024-07-21T12:00:00",
+    "enrolledCount": 250
+  },
+  {
+    "_id": 503,
+    "title": "Recursion & Backtracking",
+    "description": "Understand recursive problem solving and explore backtracking through puzzles and path finding.",
+    "category": [
+      "DSA",
+      "Recursion",
+      "Algorithms"
+    ],
+    "tags": {
+      "1": [
+        "dsa",
+        "recursion",
+        "backtracking",
+        "java",
+        "nodejs",
+        "mern"
+      ],
+      "2": [
+        "algorithms",
+        "problem solving",
+        "system design",
+        "spring boot"
+      ],
+      "3": [
+        "dynamic programming",
+        "oops",
+        "firebase",
+        "react"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Recursive Basics",
+        "videoUrl": "https://videos.edu/recursion_intro.mp4",
+        "pdfPath": "/uploads/recursion_backtracking.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-recursion.png",
+    "createdBy": "user123",
+    "date": "2024-07-21T14:00:00",
+    "enrolledCount": 230
+  },
+  {
+    "_id": 504,
+    "title": "Linked Lists",
+    "description": "Master singly and doubly linked lists, operations like insert, delete, reverse, and detect cycles.",
+    "category": [
+      "DSA",
+      "Data Structures"
+    ],
+    "tags": {
+      "1": [
+        "linked list",
+        "dsa",
+        "java",
+        "python",
+        "mern",
+        "html"
+      ],
+      "2": [
+        "recursion",
+        "spring boot",
+        "system design",
+        "oops",
+        "rest api"
+      ],
+      "3": [
+        "memory",
+        "pointers",
+        "problem solving",
+        "backend"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Linked Lists",
+        "videoUrl": "https://videos.edu/linked_lists_intro.mp4",
+        "pdfPath": "/uploads/linked_lists.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-linkedlist.png",
+    "createdBy": "user123",
+    "date": "2024-07-21T16:00:00",
+    "enrolledCount": 240
+  },
+  {
+    "_id": 505,
+    "title": "Stacks & Queues",
+    "description": "Understand the implementation and application of stacks and queues using arrays and linked lists.",
+    "category": [
+      "DSA",
+      "Data Structures"
+    ],
+    "tags": {
+      "1": [
+        "stacks",
+        "queues",
+        "dsa",
+        "java",
+        "nodejs",
+        "mern"
+      ],
+      "2": [
+        "recursion",
+        "linked list",
+        "system design",
+        "spring boot"
+      ],
+      "3": [
+        "problem solving",
+        "coding",
+        "backend",
+        "firebase"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Stack Basics",
+        "videoUrl": "https://videos.edu/stacks_queues_intro.mp4",
+        "pdfPath": "/uploads/stacks_queues.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-stacks.png",
+    "createdBy": "user123",
+    "date": "2024-07-21T18:00:00",
+    "enrolledCount": 225
+  },
+  {
+    "_id": 506,
+    "title": "Binary Search Trees (BST)",
+    "description": "Dive into tree data structures, understand binary trees and implement BST operations.",
+    "category": [
+      "DSA",
+      "Trees"
+    ],
+    "tags": {
+      "1": [
+        "bst",
+        "binary tree",
+        "trees",
+        "dsa",
+        "java",
+        "spring boot",
+        "mern"
+      ],
+      "2": [
+        "linked list",
+        "recursion",
+        "system design",
+        "rest api"
+      ],
+      "3": [
+        "problem solving",
+        "dfs",
+        "bfs",
+        "firebase"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Understanding BST",
+        "videoUrl": "https://videos.edu/bst_intro.mp4",
+        "pdfPath": "/uploads/bst.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-bst.png",
+    "createdBy": "user123",
+    "date": "2024-07-22T10:00:00",
+    "enrolledCount": 215
+  },
+  {
+    "_id": 507,
+    "title": "Searching & Sorting",
+    "description": "Master essential algorithms like binary search, quick sort, merge sort, and their time complexities.",
+    "category": [
+      "DSA",
+      "Algorithms"
+    ],
+    "tags": {
+      "1": [
+        "sorting",
+        "searching",
+        "binary search",
+        "dsa",
+        "java",
+        "python",
+        "mern"
+      ],
+      "2": [
+        "recursion",
+        "system design",
+        "spring boot",
+        "backend"
+      ],
+      "3": [
+        "problem solving",
+        "logic building",
+        "rest api"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Binary Search",
+        "videoUrl": "https://videos.edu/searching_sorting.mp4",
+        "pdfPath": "/uploads/searching_sorting.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-searching.png",
+    "createdBy": "user123",
+    "date": "2024-07-22T12:00:00",
+    "enrolledCount": 220
+  },
+  {
+    "_id": 508,
+    "title": "Hashing & HashMaps",
+    "description": "Understand how hashing works, implement hash maps, and solve problems using them.",
+    "category": [
+      "DSA",
+      "Data Structures"
+    ],
+    "tags": {
+      "1": [
+        "hashing",
+        "hashmap",
+        "dsa",
+        "java",
+        "nodejs",
+        "mern"
+      ],
+      "2": [
+        "spring boot",
+        "problem solving",
+        "system design",
+        "backend"
+      ],
+      "3": [
+        "arrays",
+        "coding",
+        "firebase"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Hashing",
+        "videoUrl": "https://videos.edu/hashing_intro.mp4",
+        "pdfPath": "/uploads/hashing.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-hashing.png",
+    "createdBy": "user123",
+    "date": "2024-07-22T14:00:00",
+    "enrolledCount": 210
+  },
+  {
+    "_id": 509,
+    "title": "Heaps & Priority Queues",
+    "description": "Learn about heaps, priority queues, heap sort and applications like Dijkstra's algorithm.",
+    "category": [
+      "DSA",
+      "Data Structures"
+    ],
+    "tags": {
+      "1": [
+        "heaps",
+        "priority queue",
+        "dsa",
+        "java",
+        "spring boot",
+        "mern"
+      ],
+      "2": [
+        "hashmap",
+        "searching",
+        "system design",
+        "backend"
+      ],
+      "3": [
+        "graph",
+        "problem solving",
+        "firebase"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Understanding Heaps",
+        "videoUrl": "https://videos.edu/heaps_intro.mp4",
+        "pdfPath": "/uploads/heaps.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-heaps.png",
+    "createdBy": "user123",
+    "date": "2024-07-22T16:00:00",
+    "enrolledCount": 205
+  },
+  {
+    "_id": 510,
+    "title": "Graphs and Graph Traversal",
+    "description": "Explore graph representations and traversal algorithms like BFS and DFS with real-world applications.",
+    "category": [
+      "DSA",
+      "Algorithms"
+    ],
+    "tags": {
+      "1": [
+        "graphs",
+        "dfs",
+        "bfs",
+        "dsa",
+        "mern",
+        "java",
+        "spring boot"
+      ],
+      "2": [
+        "heaps",
+        "system design",
+        "rest api",
+        "backend"
+      ],
+      "3": [
+        "firebase",
+        "dynamic programming",
+        "problem solving"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Graph Basics",
+        "videoUrl": "https://videos.edu/graphs_intro.mp4",
+        "pdfPath": "/uploads/graphs.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-graphs.png",
+    "createdBy": "user123",
+    "date": "2024-07-22T18:00:00",
+    "enrolledCount": 215
+  },
+  {
+    "_id": 511,
+    "title": "Dynamic Programming (DP)",
+    "description": "Understand dynamic programming with top-down and bottom-up approaches, memoization, and tabulation.",
+    "category": [
+      "DSA",
+      "Algorithms"
+    ],
+    "tags": {
+      "1": [
+        "dp",
+        "dynamic programming",
+        "dsa",
+        "java",
+        "spring boot",
+        "mern"
+      ],
+      "2": [
+        "recursion",
+        "graphs",
+        "problem solving",
+        "system design"
+      ],
+      "3": [
+        "coding",
+        "firebase",
+        "react"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Intro to DP",
+        "videoUrl": "https://videos.edu/dp_intro.mp4",
+        "pdfPath": "/uploads/dp.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-dp.png",
+    "createdBy": "user123",
+    "date": "2024-07-23T10:00:00",
+    "enrolledCount": 230
+  }
+]

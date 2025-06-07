@@ -1,0 +1,563 @@
+[
+    {
+  "_id": 401,
+  "title": "Introduction to Backend Development",
+  "description": "Basics of servers, APIs, databases, and client-server architecture.",
+  "category": [
+    "Backend Development",
+    "Full Stack",
+    "API Development",
+    "Web Development",
+    "Databases",
+    "Networking"
+  ],
+  "tags": {
+    "1": ["backend", "api", "server", "database", "full stack", "client-server"],
+    "2": ["node", "express", "mongodb", "sql", "auth", "firebase"],
+    "3": ["basics", "cn", "os", "http", "programming fundamentals", "oops", "jwt"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to Backend",
+      "videoUrl": "https://videos.edu/backend_intro.mp4",
+      "pdfPath": "/uploads/backend_intro.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-backend-intro.png",
+  "createdBy": "user123",
+  "date": "2024-07-05T10:00:00",
+  "enrolledCount": 420
+},
+
+{
+  "_id": 402,
+  "title": "Node.js Fundamentals",
+  "description": "Master the Node.js runtime, including the event loop, file system operations, modules, and asynchronous programming.",
+  "category": [
+    "Backend Development",
+    "Node.js",
+    "JavaScript",
+    "Async Programming"
+  ],
+  "tags": {
+    "1": ["node", "event loop", "async", "fs", "modules", "node basics", "backend", "api"],
+    "2": ["express", "mongodb", "mern", "jwt", "auth", "docker", "rest api", "firebase backend"],
+    "3": ["js", "programming fundamentals", "oops", "cn", "system design"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to Node.js",
+      "videoUrl": "https://videos.edu/node_intro.mp4",
+      "pdfPath": "/uploads/node_fundamentals.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-node.png",
+  "createdBy": "user123",
+  "date": "2024-07-02T10:00:00",
+  "enrolledCount": 180
+},
+
+{
+  "_id": 403,
+  "title": "Express.js for Building APIs",
+  "description": "Learn how to create RESTful APIs with Express.js, including routing, middleware, and error handling.",
+  "category": [
+    "Backend Development",
+    "Node.js",
+    "Web APIs",
+    "JavaScript Frameworks"
+  ],
+  "tags": {
+    "1": ["express", "node", "api", "rest api", "middleware", "routing", "backend"],
+    "2": ["mongodb", "mern", "auth", "jwt", "deployment", "docker", "firebase", "sql"],
+    "3": ["system design", "http", "se", "cn", "error handling", "oop"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Express Introduction",
+      "videoUrl": "https://videos.edu/express_intro.mp4",
+      "pdfPath": "/uploads/express_api.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-express.png",
+  "createdBy": "user123",
+  "date": "2024-07-03T10:00:00",
+  "enrolledCount": 170
+},
+
+{
+  "_id": 404,
+  "title": "MongoDB and Mongoose",
+  "description": "Get started with NoSQL databases using MongoDB and Mongoose for schema design, queries, and integration with Node.js.",
+  "category": [
+    "Backend Development",
+    "Databases",
+    "MongoDB",
+    "Mongoose",
+    "NoSQL"
+  ],
+  "tags": {
+    "1": ["mongodb", "mongoose", "nosql", "crud", "schema", "express", "node", "mern"],
+    "2": ["sql", "api", "rest api", "auth", "jwt", "firebase", "backend"],
+    "3": ["database strategies", "system design", "cn", "oops", "json", "error handling"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Intro to MongoDB",
+      "videoUrl": "https://videos.edu/mongodb_intro.mp4",
+      "pdfPath": "/uploads/mongodb_mongoose.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-mongodb.png",
+  "createdBy": "user123",
+  "date": "2024-07-04T10:00:00",
+  "enrolledCount": 190
+},
+
+{
+  "_id": 405,
+  "title": "SQL and Relational Databases",
+  "description": "Master PostgreSQL or MySQL including CRUD operations, joins, normalization, and relational schema design.",
+  "category": [
+    "Backend Development",
+    "Databases",
+    "SQL",
+    "Relational Databases"
+  ],
+  "tags": {
+    "1": ["sql", "mysql", "postgresql", "joins", "normalization", "crud", "backend", "auth", "express"],
+    "2": ["mongodb", "mongoose", "rest api", "node", "deployment", "firebase", "spring boot"],
+    "3": ["database strategies", "system design", "oops", "se", "cn", "data models"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Intro to SQL",
+      "videoUrl": "https://videos.edu/sql_intro.mp4",
+      "pdfPath": "/uploads/sql_relational.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-sql.png",
+  "createdBy": "user123",
+  "date": "2024-07-05T10:00:00",
+  "enrolledCount": 180
+},
+
+{
+  "_id": 406,
+  "title": "Authentication & Authorization",
+  "description": "Understand authentication systems using JWT, OAuth, session-based auth, and implementing user roles and permissions.",
+  "category": [
+    "Backend Development",
+    "Security",
+    "Web Development"
+  ],
+  "tags": {
+    "1": ["auth", "jwt", "oauth", "sessions", "user roles", "security", "backend", "express", "node"],
+    "2": ["rest api", "firebase", "sql", "mongodb", "mern", "spring security"],
+    "3": ["system design", "http", "api gateway", "rate limiting", "middleware"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Authentication Basics",
+      "videoUrl": "https://videos.edu/auth_intro.mp4",
+      "pdfPath": "/uploads/auth_authorization.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-auth.png",
+  "createdBy": "user123",
+  "date": "2024-07-06T10:00:00",
+  "enrolledCount": 220
+},
+
+{
+  "_id": 407,
+  "title": "RESTful API Design Principles",
+  "description": "Learn best practices for REST API design, including status codes, versioning, naming, and error handling techniques.",
+  "category": [
+    "Backend Development",
+    "API Design",
+    "Web Development"
+  ],
+  "tags": {
+    "1": ["rest api", "status codes", "versioning", "error handling", "http", "backend", "express", "node"],
+    "2": ["auth", "sql", "mongodb", "firebase", "spring boot", "api gateway", "rate limiting"],
+    "3": ["system design", "logging", "se", "cn", "oops", "testing"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: REST API Basics",
+      "videoUrl": "https://videos.edu/rest_principles.mp4",
+      "pdfPath": "/uploads/rest_api_design.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-restapi.png",
+  "createdBy": "user123",
+  "date": "2024-07-07T10:00:00",
+  "enrolledCount": 210
+},
+
+{
+  "_id": 408,
+  "title": "Backend with Firebase",
+  "description": "Use Firebase for real-time databases, authentication, and backend cloud functions.",
+  "category": [
+    "Backend Development",
+    "Firebase",
+    "Cloud",
+    "Realtime Systems"
+  ],
+  "tags": {
+    "1": ["firebase", "realtime", "auth", "cloud functions", "backend", "mern", "rest api"],
+    "2": ["node", "express", "jwt", "mongodb", "sql", "deployment", "docker"],
+    "3": ["system design", "security", "serverless", "cloud", "testing"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Firebase Realtime DB",
+      "videoUrl": "https://videos.edu/firebase_intro.mp4",
+      "pdfPath": "/uploads/firebase_backend.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-firebase.png",
+  "createdBy": "user123",
+  "date": "2024-07-08T10:00:00",
+  "enrolledCount": 195
+},
+
+
+{
+  "_id": 409,
+  "title": "Error Handling & Logging in Backend",
+  "description": "Learn structured error handling and logging using Winston and custom middleware in your backend apps.",
+  "category": [
+    "Backend Development",
+    "Debugging",
+    "Logging",
+    "Error Handling"
+  ],
+  "tags": {
+    "1": ["error handling", "logging", "winston", "middleware", "backend", "express", "node"],
+    "2": ["rest api", "auth", "firebase", "sql", "system design", "spring boot"],
+    "3": ["centralized logging", "debugging", "exceptions", "testing", "cn", "se"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Logging Basics",
+      "videoUrl": "https://videos.edu/logging_intro.mp4",
+      "pdfPath": "/uploads/backend_logging.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-logging.png",
+  "createdBy": "user123",
+  "date": "2024-07-09T10:00:00",
+  "enrolledCount": 175
+},
+
+{
+  "_id": 410,
+  "title": "Deployment & Hosting of Backend Apps",
+  "description": "Deploy backend projects using Render, Railway, Vercel, and Docker basics for containerization.",
+  "category": [
+    "Backend Development",
+    "DevOps",
+    "Deployment",
+    "Cloud Hosting"
+  ],
+  "tags": {
+    "1": ["deployment", "hosting", "render", "railway", "vercel", "docker", "backend"],
+    "2": ["node", "express", "auth", "firebase", "mern", "spring boot", "kubernetes"],
+    "3": ["devops tools", "docker basics", "system design", "cloud", "capstone"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Deployment Overview",
+      "videoUrl": "https://videos.edu/backend_deploy.mp4",
+      "pdfPath": "/uploads/backend_hosting.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-deploy.png",
+  "createdBy": "user123",
+  "date": "2024-07-10T10:00:00",
+  "enrolledCount": 200
+},
+
+{
+  "_id": 411,
+  "title": "Building a Full-Stack App with MERN",
+  "description": "Build a complete application using MongoDB, Express, React, and Node.js with full integration.",
+  "category": [
+    "Full Stack Development",
+    "MERN Stack",
+    "Web Development"
+  ],
+  "tags": {
+    "1": ["mern", "full stack", "react", "node", "express", "mongodb", "integration", "backend"],
+    "2": ["auth", "rest api", "deployment", "firebase", "sql", "capstone", "frontend"],
+    "3": ["system design", "project", "cloud", "cn", "testing", "docker"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: MERN Setup & Planning",
+      "videoUrl": "https://videos.edu/mern_intro.mp4",
+      "pdfPath": "/uploads/mern_stack_full.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-mern.png",
+  "createdBy": "user123",
+  "date": "2024-07-11T10:00:00",
+  "enrolledCount": 260
+},
+
+{
+  "_id": 413,
+  "title": "Java Basics for Backend",
+  "description": "Master core Java concepts like OOP, collections, and exception handling to build a strong foundation for Spring development.",
+  "category": [
+    "Backend Development",
+    "Java",
+    "Programming Fundamentals"
+  ],
+  "tags": {
+    "1": ["java", "oop","programming", "collections", "exception handling", "backend", "spring boot", "spring framework"],
+    "2": ["node.js", "express", "sql", "mongodb", "authentication", "rest api"],
+    "3": ["programming fundamentals", "computer fundamentals", "cn", "se", "os", "oops", "maths", "python"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to Java for Backend",
+      "videoUrl": "https://videos.edu/java_backend_intro.mp4",
+      "pdfPath": "/uploads/java_basics_backend.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-java.png",
+  "createdBy": "user123",
+  "date": "2024-07-12T10:00:00",
+  "enrolledCount": 300
+},
+
+{
+  "_id": 414,
+  "title": "Spring Framework Fundamentals",
+  "description": "Learn the core concepts of the Spring Framework, including dependency injection, beans, and annotations.",
+  "category": [
+    "Backend Development",
+    "Spring Framework",
+    "Java"
+  ],
+  "tags": {
+    "1": ["spring", "dependency injection", "beans", "annotations", "java", "backend"],
+    "2": ["spring boot", "rest api", "hibernate", "jpa", "authentication", "validation"],
+    "3": ["system design", "programming fundamentals", "cn", "se", "os", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to Spring Framework",
+      "videoUrl": "https://videos.edu/spring_framework_intro.mp4",
+      "pdfPath": "/uploads/spring_framework_fundamentals.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-spring.png",
+  "createdBy": "user123",
+  "date": "2024-07-13T10:00:00",
+  "enrolledCount": 250
+},
+
+
+{
+  "_id": 415,
+  "title": "Spring Boot Essentials",
+  "description": "Understand the essentials of Spring Boot, including project structure, starters, and auto-configuration.",
+  "category": [
+    "Backend Development",
+    "Spring Boot",
+    "Java"
+  ],
+  "tags": {
+    "1": ["spring boot", "project structure", "starters", "auto-configuration", "java", "backend"],
+    "2": ["spring framework", "rest api", "jpa", "hibernate", "deployment", "docker"],
+    "3": ["system design", "programming fundamentals", "cn", "se", "os", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Getting Started with Spring Boot",
+      "videoUrl": "https://videos.edu/spring_boot_essentials.mp4",
+      "pdfPath": "/uploads/spring_boot_essentials.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-springboot.png",
+  "createdBy": "user123",
+  "date": "2024-07-14T10:00:00",
+  "enrolledCount": 270
+},
+
+
+{
+  "_id": 416,
+  "title": "REST APIs with Spring Boot",
+  "description": "Build RESTful APIs using Spring Boot, handling controllers, requests, responses, and JSON data.",
+  "category": [
+    "Backend Development",
+    "API Development",
+    "Spring Boot"
+  ],
+  "tags": {
+    "1": ["rest api", "spring boot", "controllers", "json", "http", "backend"],
+    "2": ["spring framework", "jpa", "hibernate", "authentication", "validation", "deployment"],
+    "3": ["system design", "programming fundamentals", "cn", "se", "os", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Building REST APIs with Spring Boot",
+      "videoUrl": "https://videos.edu/rest_api_spring_boot.mp4",
+      "pdfPath": "/uploads/rest_api_spring_boot.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-restapi.png",
+  "createdBy": "user123",
+  "date": "2024-07-15T10:00:00",
+  "enrolledCount": 290
+},
+
+
+{
+  "_id": 417,
+  "title": "Spring Boot with MySQL/PostgreSQL",
+  "description": "Integrate Spring Boot applications with MySQL or PostgreSQL using JPA and Hibernate for CRUD operations.",
+  "category": [
+    "Backend Development",
+    "Databases",
+    "Spring Boot"
+  ],
+  "tags": {
+    "1": ["spring boot", "mysql", "postgresql", "jpa", "hibernate", "crud", "backend"],
+    "2": ["rest api", "spring framework", "authentication", "validation", "deployment", "docker"],
+    "3": ["system design", "programming fundamentals", "cn", "se", "os", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Connecting Spring Boot with Databases",
+      "videoUrl": "https://videos.edu/spring_boot_databases.mp4",
+      "pdfPath": "/uploads/spring_boot_databases.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-database.png",
+  "createdBy": "user123",
+  "date": "2024-07-16T10:00:00",
+  "enrolledCount": 260
+},
+
+
+{
+  "_id": 418,
+  "title": "Spring Security & JWT Authentication",
+  "description": "Implement authentication and authorization in Spring Boot applications using Spring Security and JWT.",
+  "category": [
+    "Backend Development",
+    "Security",
+    "Spring Boot"
+  ],
+  "tags": {
+    "1": ["spring security", "jwt", "authentication", "authorization", "spring boot", "backend"],
+    "2": ["rest api", "spring framework", "validation", "deployment", "docker", "system design"],
+    "3": ["programming fundamentals", "cn", "se", "os", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Securing Spring Boot Applications",
+      "videoUrl": "https://videos.edu/spring_security_jwt.mp4",
+      "pdfPath": "/uploads/spring_security_jwt.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-security.png",
+  "createdBy": "user123",
+  "date": "2024-07-17T10:00:00",
+  "enrolledCount": 240
+},
+
+
+{
+  "_id": 419,
+  "title": "Validation and Exception Handling",
+  "description": "Learn to handle input validation and exceptions in Spring Boot applications using annotations and best practices.",
+  "category": [
+    "Backend Development",
+    "Spring Boot",
+    "Error Handling"
+  ],
+  "tags": {
+    "1": ["validation", "exception handling", "spring boot", "backend", "annotations", "error handling"],
+    "2": ["spring framework", "rest api", "spring security", "deployment", "docker", "system design"],
+    "3": ["programming fundamentals", "cn", "se", "os", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Handling Validation and Exceptions",
+      "videoUrl": "https://videos.edu/validation_exception_handling.mp4",
+      "pdfPath": "/uploads/validation_exception_handling.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-validation.png",
+  "createdBy": "user123",
+  "date": "2024-07-18T10:00:00",
+  "enrolledCount": 230
+},
+
+
+{
+  "_id": 420,
+  "title": "Spring Boot + Thymeleaf",
+  "description": "Build server-rendered web pages using Spring Boot and Thymeleaf templates.",
+  "category": [
+    "Backend Development",
+    "Web Development",
+    "Spring Boot"
+  ],
+  "tags": {
+    "1": ["spring boot", "thymeleaf", "templates", "server-side rendering", "backend", "web development"],
+    "2": ["spring framework", "rest api", "validation", "deployment", "docker", "system design"],
+    "3": ["programming fundamentals", "cn", "se", "os", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Integrating Thymeleaf with Spring Boot",
+      "videoUrl": "https://videos.edu/spring_boot_thymeleaf.mp4",
+      "pdfPath": "/uploads/spring_boot_thymeleaf.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-thymeleaf.png",
+  "createdBy": "user123",
+  "date": "2024-07-19T10:00:00",
+  "enrolledCount": 220
+},
+
+
+{
+  "_id": 421,
+  "title": "Testing Spring Boot Apps",
+  "description": "Learn to write unit and integration tests for Spring Boot applications using JUnit and MockMVC.",
+  "category": [
+    "Backend Development",
+    "Testing",
+    "Spring Boot"
+  ],
+  "tags": {
+    "1": ["testing", "spring boot", "junit", "mockmvc", "unit tests", "integration tests"],
+    "2": ["validation", "exception handling", "rest api", "java", "spring framework"],
+    "3": ["system design", "programming fundamentals", "cn", "se", "oops"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Testing Basics in Spring Boot",
+      "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+      "pdfPath": "/uploads/testing_springboot.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-testing.png",
+  "createdBy": "user123",
+  "date": "2024-07-20T10:00:00",
+  "enrolledCount": 200
+}
+
+
+
+]

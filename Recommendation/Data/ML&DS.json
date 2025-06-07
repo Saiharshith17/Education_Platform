@@ -1,0 +1,1817 @@
+[
+  {
+    "_id": 701,
+    "title": "Tools for AI/ML: Jupyter Notebook, Git/GitHub, VS Code",
+    "description": "Master essential tools used in AI/ML development. Learn how to use Jupyter Notebooks for interactive coding, Git & GitHub for version control, and VS Code as a powerful IDE for writing and debugging code.",
+    "category": ["Tools for AI/ML: Jupyter Notebook, Git/GitHub, VS Code","Tools for AI/ML",
+      "Development Tools",
+      "Version Control",
+      "IDE",
+      "Productivity",
+      "AI/ML Workflow",
+      "Software Tools",
+      "Jupyter Notebook", "Git/GitHub", "VS Code"
+    ],
+    "tags": {
+      "1": ["ml tools",
+        "jupyter",
+        "git",
+        "github",
+        "vs code",
+        "cli",
+        "terminal"
+      ],
+      "2": [
+        "ide",
+        "notebooks",
+        "extensions",
+        "repositories",
+        "markdown"
+      ],
+      "3": [
+        "version control",
+        "branching",
+        "merge",
+        "push",
+        "pull",
+        "coding"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Tools",
+        "videoUrl": "https://videos.edu/jupyter_notebooks_intro.mp4",
+        "pdfPath": "/uploads/jupyter_notebooks_guide.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-tools.png",
+    "createdBy": "user123",
+    "date": "2024-09-27T12:00:00",
+    "enrolledCount": 520
+  },
+  {
+    "_id": 702,
+    "title": "Python Fundamentals",
+    "description": "Master the basics of Python programming for machine learning and data science.",
+    "category": ["Python Fundamentals",
+      "Programming",
+      "Python",
+      "Software Development",
+      "Beginners",
+      "Scripting",
+      "Backend Development",
+      "Machine Learning"
+    ],
+    "tags": {
+      "1": ["beginners",
+        "logic building",
+        "problem solving",
+        "fundamentals",
+        "maths","ml basics",
+        "python",
+        "coding",
+        "programming"
+        
+      ],
+      "2": [
+        "variables",
+        "loops",
+        "functions",
+        "datatypes",
+        "modules",
+        "IDE"
+      ],
+      "3": [
+        "scripting"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Python",
+        "videoUrl": "https://videos.edu/python_intro.mp4",
+        "pdfPath": "/uploads/python_fundamentals.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-python.png",
+    "createdBy": "user123",
+    "date": "2024-07-05T10:00:00",
+    "enrolledCount": 420
+  },
+  {
+    "_id": 703,
+    "title": "Machine Learning Basics",
+    "description": "Understand the fundamentals of Machine Learning, models, and applications.",
+    "category": ["Machine Learning Basics",
+      "AI & ML",
+      "Data Science",
+      "Machine Learning",
+      "Beginners",
+      "Modeling",
+      "Python","scikit-learn"
+    ],
+    "tags": {
+      "1": ["ml basics","scikit-learn",
+        "machine learning",
+        "ml",
+        "data",
+        "ai",
+        "python"
+      ],
+      "2": [
+        "supervised",
+        "unsupervised",
+        "regression",
+        "classification"
+      ],
+      "3": [
+        
+        "algorithms",
+        "training",
+        "testing",
+        "data preprocessing"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: What is Machine Learning?",
+        "videoUrl": "https://videos.edu/ml_intro.mp4",
+        "pdfPath": "/uploads/ml_basics.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-ml.png",
+    "createdBy": "user123",
+    "date": "2024-07-10T09:30:00",
+    "enrolledCount": 500
+  },
+  {
+    "_id": 704,
+    "title": "NumPy Essentials",
+    "description": "Learn how to use NumPy for numerical computing and data manipulation in Python.",
+    "category": ["NumPy Essentials","Numpy",
+      "Python Libraries",
+      "Data Science",
+      "Machine Learning",
+      "Numerical Computing",
+      "Beginners"
+    ],
+    "tags": {
+      "1": ["python",
+        "data structures",
+        "computing",
+        "numerics","ml basics",
+        "numpy",
+        "arrays"
+        
+      ],
+      "2": [
+        "ndarray",
+        "broadcasting",
+        "indexing",
+        "slicing"
+      ],
+      "3": [
+        "matrix",
+        "linear algebra",
+        "math"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to NumPy Arrays",
+        "videoUrl": "https://videos.edu/numpy_intro.mp4",
+        "pdfPath": "/uploads/numpy_essentials.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-numpy.png",
+    "createdBy": "user123",
+    "date": "2024-07-12T08:45:00",
+    "enrolledCount": 300
+  },
+  {
+    "_id": 705,
+    "title": "Pandas for Data Analysis",
+    "description": "Explore data manipulation and analysis using the Pandas library in Python.",
+    "category": ["Pandas for Data Analysis","Pandas","Data Analysis",
+      "Python Libraries",
+      "Data Science",
+      "Machine Learning",
+      "Data Analysis",
+      "Beginners"
+    ],
+    "tags": {
+      "1": ["eda","ml basics",
+        "pandas",
+        "dataframes",
+        "series",
+        "data",
+        "csv"
+      ],
+      "2": [
+        "groupby",
+        "merge",
+        "filter",
+        "cleaning",
+        "exploration"
+      ],
+      "3": [
+        "python",
+        "analysis",
+        "libraries"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Getting Started with Pandas",
+        "videoUrl": "https://videos.edu/pandas_intro.mp4",
+        "pdfPath": "/uploads/pandas_analysis.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-pandas.png",
+    "createdBy": "user123",
+    "date": "2024-07-15T11:00:00",
+    "enrolledCount": 390
+  },
+  {
+    "_id": 706,
+    "title": "Data Visualization with Matplotlib",
+    "description": "Visualize data using Python's powerful Matplotlib library.",
+    "category": ["Data Visualization with Matplotlib","Matplotlib",
+      "Data Visualization",
+      "Python Libraries",
+      "Machine Learning",
+      "Analytics",
+      "Beginners"
+    ],
+    "tags": {
+      "1": ["ml basics",
+        "matplotlib",
+        "charts",
+        "plots",
+        "graphs",
+        "visuals"
+      ],
+      "2": [
+        "line",
+        "bar",
+        "scatter",
+        "histogram",
+        "labels",
+        "grid"
+      ],
+      "3": [
+        "python",
+        "data science",
+        "visual storytelling"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Matplotlib",
+        "videoUrl": "https://videos.edu/matplotlib_intro.mp4",
+        "pdfPath": "/uploads/matplotlib_visuals.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-matplotlib.png",
+    "createdBy": "user123",
+    "date": "2024-07-18T13:00:00",
+    "enrolledCount": 280
+  },
+  {
+    "_id": 707,
+    "title": "Deep Learning with ANN",
+    "description": "Learn how to build and train Artificial Neural Networks (ANNs) using Python and TensorFlow.",
+    "category": ["Deep Learning with ANN","ANN","Artificial Neural Network",
+      "Deep Learning",
+      "Neural Networks",
+      "AI",
+      "Machine Learning",
+      "Beginners"
+    ],
+    "tags": {
+      "1": [
+        "deep learning",
+        "ann",
+        "neural networks",
+        "ai",
+        "ml","classification",
+        "regression",
+        "supervised learning"
+      ],
+      "2": [
+        "tensorflow",
+        "keras",
+        "activation",
+        "loss",
+        "optimizer",
+        "layers"
+      ],
+      "3": [
+        "python",
+        "classification",
+        "regression",
+        "supervised learning"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Neural Networks",
+        "videoUrl": "https://videos.edu/ann_intro.mp4",
+        "pdfPath": "/uploads/ann_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-ann.png",
+    "createdBy": "user123",
+    "date": "2024-07-20T10:00:00",
+    "enrolledCount": 410
+  },
+  {
+    "_id": 708,
+    "title": "Deep Learning with LSTM",
+    "description": "Understand Long Short-Term Memory networks for sequence modeling in deep learning.",
+    "category": [
+      "Deep Learning","Deep Learning with LSTM","LSTM","Long short term meory ",
+      "Sequence Modeling",
+      "RNN",
+      "Time Series",
+      "AI"
+    ],
+    "tags": {
+      "1": [
+        "lstm",
+        "rnn",
+        "sequence",
+        "deep learning",
+        "nlp"
+      ],
+      "2": [
+        "keras",
+        "tensorflow",
+        "timesteps",
+        "memory",
+        "forecasting"
+      ],
+      "3": [
+        "text data",
+        "time series",
+        "stock prediction",
+        "sentiment analysis"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: LSTM Network Basics",
+        "videoUrl": "https://videos.edu/lstm_intro.mp4",
+        "pdfPath": "/uploads/lstm_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-lstm.png",
+    "createdBy": "user123",
+    "date": "2024-07-22T11:00:00",
+    "enrolledCount": 330
+  },
+  {
+    "_id": 709,
+    "title": "Deep Learning with CNN",
+    "description": "Build and train Convolutional Neural Networks (CNNs) for image classification and object detection.",
+    "category": [
+      "Deep Learning","Deep Learning with CNN",
+      "Computer Vision",
+      "CNN",
+      "AI",
+      "ML"
+    ],
+    "tags": {
+      "1": [
+        "cnn","Computer vision",
+        "convolutional",
+        "vision",
+        "images",
+        "deep learning"
+      ],
+      "2": [
+        "tensorflow",
+        "keras",
+        "image data",
+        "filters",
+        "pooling"
+      ],
+      "3": [
+        "classification",
+        "digit recognition",
+        "object detection"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: CNN Architecture Explained",
+        "videoUrl": "https://videos.edu/cnn_intro.mp4",
+        "pdfPath": "/uploads/cnn_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-cnn.png",
+    "createdBy": "user123",
+    "date": "2024-07-24T09:30:00",
+    "enrolledCount": 370
+  },
+  {
+    "_id": 710,
+    "title": "Transformers and Attention Mechanisms",
+    "description": "Master transformer architectures and attention mechanisms behind modern NLP models.",
+    "category": [
+      "Deep Learning","Transformers and Attention Mechanisms","NLP",
+      "Transformers",
+      "LLMs",
+      "AI"
+    ],
+    "tags": {
+      "1": ["deep learning",
+        "transformers",
+        "attention",
+        "nlp",
+        "bert",
+        "gpt"
+      ],
+      "2": [
+        "huggingface",
+        "self-attention",
+        "contextual embeddings"
+      ],
+      "3": [
+        "language modeling",
+        "sequence modeling",
+        "text classification"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Self-Attention and Transformer Basics",
+        "videoUrl": "https://videos.edu/transformers_intro.mp4",
+        "pdfPath": "/uploads/transformers_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-transformers.png",
+    "createdBy": "user123",
+    "date": "2024-07-26T14:00:00",
+    "enrolledCount": 390
+  },
+  {
+    "_id": 711,
+    "title": "PyTorch for Deep Learning",
+    "description": "Learn to build, train, and deploy neural networks using PyTorch.",
+    "category": ["PyTorch for Deep Learning",
+      "Deep Learning",
+      "PyTorch",
+      "AI",
+      "ML",
+      "Programming"
+    ],
+    "tags": {
+      "1": [
+        "pytorch",
+        "neural networks",
+        "autograd",
+        "deep learning"
+      ],
+      "2": [
+        "tensors",
+        "forward pass",
+        "backpropagation",
+        "model training"
+      ],
+      "3": [
+        "vision",
+        "nlp",
+        "torchvision",
+        "models",
+        "custom layers"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to PyTorch Tensors",
+        "videoUrl": "https://videos.edu/pytorch_intro.mp4",
+        "pdfPath": "/uploads/pytorch_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-pytorch.png",
+    "createdBy": "user123",
+    "date": "2024-07-28T12:00:00",
+    "enrolledCount": 360
+  },
+  {
+    "_id": 712,
+    "title": "Machine Learning with scikit-learn",
+    "description": "Build and evaluate ML models using the scikit-learn library.",
+    "category": [
+      "Machine Learning","Machine Learning with scikit-learn","scikit-learn",
+      "Data Science",
+      "AI",
+      "Python"
+    ],
+    "tags": {
+      "1": ["ml basics",
+        "scikit-learn",
+        "ml",
+        "models",
+        "python"
+      ],
+      "2": [
+        "classification",
+        "regression",
+        "metrics",
+        "pipelines"
+      ],
+      "3": [
+        "data preprocessing",
+        "model evaluation",
+        "cross validation"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Getting Started with scikit-learn",
+        "videoUrl": "https://videos.edu/sklearn_intro.mp4",
+        "pdfPath": "/uploads/sklearn_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-sklearn.png",
+    "createdBy": "user123",
+    "date": "2024-07-30T15:00:00",
+    "enrolledCount": 410
+  },
+  {
+    "_id": 713,
+    "title": "Data Preprocessing in ML",
+    "description": "Learn techniques to clean, transform, and prepare your data for ML models.",
+    "category": [
+      "Data Science","EDA","Data Preprocessing in ML",
+      "Machine Learning",
+      "Python"
+    ],
+    "tags": {
+      "1": ["ml basics","EDA",
+        "data cleaning",
+        "feature engineering",
+        "normalization",
+        "encoding"
+      ],
+      "2": [
+        "missing values",
+        "outliers",
+        "scaling",
+        "transformation"
+      ],
+      "3": [
+        "EDA",
+        "ml pipeline",
+        "data quality"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Data Cleaning Essentials",
+        "videoUrl": "https://videos.edu/preprocessing_intro.mp4",
+        "pdfPath": "/uploads/data_preprocessing.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-preprocessing.png",
+    "createdBy": "user123",
+    "date": "2024-08-01T10:30:00",
+    "enrolledCount": 400
+  },
+  {
+    "_id": 714,
+    "title": "Exploratory Data Analysis (EDA)",
+    "description": "Master data exploration using statistical summaries and visual techniques.",
+    "category": ["EDA","Exploratory Data Analysis (EDA)",
+      "Data Science",
+      "Analytics",
+      "ML",
+      "Python"
+    ],
+    "tags": {
+      "1": [
+        "eda",
+        "data exploration",
+        "statistics",
+        "pandas",
+        "visualization"
+      ],
+      "2": [
+        "outliers",
+        "distribution",
+        "correlation",
+        "insights"
+      ],
+      "3": [
+        "matplotlib",
+        "seaborn",
+        "profiling",
+        "plots"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to EDA",
+        "videoUrl": "https://videos.edu/eda_intro.mp4",
+        "pdfPath": "/uploads/eda_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-eda.png",
+    "createdBy": "user123",
+    "date": "2024-08-03T09:00:00",
+    "enrolledCount": 380
+  },
+  {
+    "_id": 715,
+    "title": "TensorFlow Deep Learning",
+    "description": "Implement neural networks and deep learning models using TensorFlow and Keras.",
+    "category": ["TensorFlow Deep Learning",
+      "Deep Learning",
+      "TensorFlow",
+      "AI",
+      "ML",
+      "Python"
+    ],
+    "tags": {
+      "1": [
+        "tensorflow",
+        "keras",
+        "deep learning",
+        "nn",
+        "python"
+      ],
+      "2": [
+        "model building",
+        "training",
+        "callbacks",
+        "layers"
+      ],
+      "3": [
+        "cnn",
+        "rnn",
+        "ann",
+        "framework"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: TensorFlow Basics and Setup",
+        "videoUrl": "https://videos.edu/tensorflow_intro.mp4",
+        "pdfPath": "/uploads/tensorflow_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-tensorflow.png",
+    "createdBy": "user123",
+    "date": "2024-08-05T14:30:00",
+    "enrolledCount": 420
+  },
+  {
+    "_id": 716,
+    "title": "Natural Language Processing (NLP)",
+    "description": "Explore techniques and models for processing and understanding human language using NLP.",
+    "category": [
+      "NLP","Natural Language Processing (NLP)",
+      "Machine Learning",
+      "AI",
+      "Text Processing"
+    ],
+    "tags": {
+      "1": [
+        "nlp",
+        "text",
+        "language",
+        "tokenization",
+        "embedding"
+      ],
+      "2": [
+        "spacy",
+        "nltk",
+        "transformers",
+        "bert",
+        "gpt"
+      ],
+      "3": [
+        "sentiment analysis",
+        "text classification",
+        "named entity recognition"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to NLP",
+        "videoUrl": "https://videos.edu/nlp_intro.mp4",
+        "pdfPath": "/uploads/nlp_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-nlp.png",
+    "createdBy": "user123",
+    "date": "2024-08-07T10:00:00",
+    "enrolledCount": 450
+  },
+  {
+    "_id": 717,
+    "title": "Computer Vision",
+    "description": "Learn how to process and analyze visual data using computer vision techniques.",
+    "category": [
+      "Computer Vision",
+      "Deep Learning",
+      "AI",
+      "Image Processing"
+    ],
+    "tags": {
+      "1": ["cnn",
+        "computer vision",
+        "image processing",
+        "object detection",
+        "cnn"
+      ],
+      "2": [
+        "opencv",
+        "tensorflow",
+        "keras",
+        "image classification"
+      ],
+      "3": [
+        "face recognition",
+        "image segmentation",
+        "feature extraction"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Computer Vision",
+        "videoUrl": "https://videos.edu/cv_intro.mp4",
+        "pdfPath": "/uploads/cv_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-cv.png",
+    "createdBy": "user123",
+    "date": "2024-08-09T11:00:00",
+    "enrolledCount": 420
+  },
+  {
+    "_id": 718,
+    "title": "Generative AI",
+    "description": "Understand the principles and models behind Generative AI for content creation.",
+    "category": [
+      "Generative AI",
+      "Deep Learning",
+      "AI",
+      "Content Generation"
+    ],
+    "tags": {
+      "1": [
+        "generative ai",
+        "gpt",
+        "vae",
+        "gan",
+        "text generation","nlp"
+      ],
+      "2": [
+        "stable diffusion",
+        "image synthesis",
+        "language models"
+      ],
+      "3": [
+        "content creation",
+        "deep learning",
+        "unsupervised learning"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Generative AI",
+        "videoUrl": "https://videos.edu/genai_intro.mp4",
+        "pdfPath": "/uploads/genai_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-genai.png",
+    "createdBy": "user123",
+    "date": "2024-08-11T12:00:00",
+    "enrolledCount": 400
+  },
+  {
+    "_id": 719,
+    "title": "LangChain",
+    "description": "Learn to build applications powered by language models using the LangChain framework.",
+    "category": [
+      "LangChain",
+      "AI",
+      "Frameworks",
+      "LLM Applications"
+    ],
+    "tags": {
+      "1": [
+        "langchain",
+        "llm",
+        "framework",
+        "agents",
+        "chains","nlp"
+      ],
+      "2": [
+        "prompt engineering",
+        "memory",
+        "retrieval",
+        "tools"
+      ],
+      "3": [
+        "python",
+        "openai",
+        "integration",
+        "applications"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Getting Started with LangChain",
+        "videoUrl": "https://videos.edu/langchain_intro.mp4",
+        "pdfPath": "/uploads/langchain_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-langchain.png",
+    "createdBy": "user123",
+    "date": "2024-08-13T13:00:00",
+    "enrolledCount": 380
+  },
+  {
+    "_id": 720,
+    "title": "LangGraph",
+    "description": "Build advanced AI agents and workflows using the LangGraph framework.",
+    "category": [
+      "LangGraph",
+      "AI",
+      "Agentic AI",
+      "Workflow Automation"
+    ],
+    "tags": {
+      "1": [
+        "langgraph",
+        "agents",
+        "workflow",
+        "llm",
+        "graph","nlp"
+      ],
+      "2": [
+        "state management",
+        "multi-agent",
+        "orchestration"
+      ],
+      "3": [
+        "python",
+        "langchain",
+        "automation",
+        "applications"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to LangGraph",
+        "videoUrl": "https://videos.edu/langgraph_intro.mp4",
+        "pdfPath": "/uploads/langgraph_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-langgraph.png",
+    "createdBy": "user123",
+    "date": "2024-08-15T14:00:00",
+    "enrolledCount": 360
+  },
+  {
+    "_id": 721,
+    "title": "Agentic AI",
+    "description": "Explore the design and implementation of autonomous, goal-driven AI agents.",
+    "category": [
+      "Agentic AI",
+      "AI",
+      "Autonomous Systems",
+      "Multi-Agent Systems"
+    ],
+    "tags": {
+      "1": [
+        "agentic ai",
+        "autonomous agents",
+        "multi-agent",
+        "decision making","nlp","gen ai"
+      ],
+      "2": [
+        "reinforcement learning",
+        "planning",
+        "memory",
+        "reasoning"
+      ],
+      "3": [
+        "python",
+        "llm",
+        "frameworks",
+        "applications"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Fundamentals of Agentic AI",
+        "videoUrl": "https://videos.edu/agentic_ai_intro.mp4",
+        "pdfPath": "/uploads/agentic_ai_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-agenticai.png",
+    "createdBy": "user123",
+    "date": "2024-08-17T15:00:00",
+    "enrolledCount": 340
+  },
+  {
+    "_id": 722,
+    "title": "Prompt Engineering",
+    "description": "Master the art of crafting effective prompts to guide language models.",
+    "category": [
+      "Prompt Engineering","Prompting","Prompt",      "AI",
+      "NLP",
+      "LLM Applications"
+    ],
+    "tags": {
+      "1": ["nlp",
+        "prompt engineering",
+        "llm",
+        "prompt design",
+        "instruction tuning"
+      ],
+      "2": [
+        "chatgpt",
+        "gpt",
+        "few-shot",
+        "zero-shot"
+      ],
+      "3": [
+        "applications",
+        "best practices",
+        "techniques"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Prompt Engineering",
+        "videoUrl": "https://videos.edu/prompt_engineering_intro.mp4",
+        "pdfPath": "/uploads/prompt_engineering_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-promptengineering.png",
+    "createdBy": "user123",
+    "date": "2024-08-19T16:00:00",
+    "enrolledCount": 320
+  },
+  {
+    "_id": 723,
+    "title": "Mathematics for Machine Learning",
+    "description": "Build a strong mathematical foundation essential for understanding machine learning algorithms.",
+    "category": [
+      "Mathematics","Mathematics for Machine Learning",
+      "Machine Learning",
+      "Linear Algebra",
+      "Probability"
+    ],
+    "tags": {
+      "1": ["ml basics",
+        "mathematics",
+        "linear algebra",
+        "calculus",
+        "probability",
+        "statistics"
+      ],
+      "2": [
+        "vectors",
+        "matrices",
+        "derivatives",
+        "distributions"
+      ],
+      "3": [
+        "machine learning",
+        "algorithms",
+        "foundations"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Linear Algebra Basics",
+        "videoUrl": "https://videos.edu/math_ml_intro.mp4",
+        "pdfPath": "/uploads/math_ml_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-mathml.png",
+    "createdBy": "user123",
+    "date": "2024-08-21T17:00:00",
+    "enrolledCount": 300
+  },
+  {
+    "_id": 724,
+    "title": "Supervised Learning",
+    "description": "Learn how to train models using labeled data for classification and regression tasks.",
+    "category": [
+      "Machine Learning",
+      "Supervised Learning",
+      "AI",
+      "Data Science"
+    ],
+    "tags": {
+      "1": [
+        "supervised learning",
+        "classification",
+        "regression",
+        "labeled data"
+      ],
+      "2": [
+        "decision trees",
+        "svm",
+        "knn",
+        "logistic regression"
+      ],
+      "3": [
+        "model training",
+        "evaluation",
+        "metrics"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Supervised Learning",
+        "videoUrl": "https://videos.edu/supervised_learning_intro.mp4",
+        "pdfPath": "/uploads/supervised_learning_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-supervised.png",
+    "createdBy": "user123",
+    "date": "2024-08-23T18:00:00",
+    "enrolledCount": 280
+  },
+  {
+    "_id": 725,
+    "title": "Reinforcement Learning",
+    "description": "Understand how agents learn optimal actions through trial-and-error interactions with dynamic environments.",
+    "category": [
+      "Reinforcement Learning",
+      "AI",
+      "Machine Learning",
+      "Decision Making"
+    ],
+    "tags": {
+      "1": ["ml basics","rl",
+        "reinforcement learning",
+        "agents",
+        "q-learning",
+        "policy learning",
+        "environment"
+      ],
+      "2": [
+        "markov decision process",
+        "reward",
+        "exploration vs exploitation",
+        "value function"
+      ],
+      "3": [
+        "rl algorithms",
+        "deep q-networks",
+        "actor-critic",
+        "gym",
+        "python"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Fundamentals of Reinforcement Learning",
+        "videoUrl": "https://videos.edu/rl_intro.mp4",
+        "pdfPath": "/uploads/rl_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-rl.png",
+    "createdBy": "user123",
+    "date": "2024-08-25T11:00:00",
+    "enrolledCount": 320
+  },
+  {
+    "_id": 726,
+    "title": "Unsupervised Learning",
+    "description": "Learn how to extract patterns, groupings, and structures from unlabeled datasets.",
+    "category": [
+      "Machine Learning",
+      "Unsupervised Learning",
+      "AI",
+      "Data Clustering"
+    ],
+    "tags": {
+      "1": ["ml basics",
+        "unsupervised learning",
+        "clustering",
+        "dimensionality reduction",
+        "unlabeled data"
+      ],
+      "2": [
+        "k-means",
+        "hierarchical clustering",
+        "pca",
+        "tsne",
+        "association rules"
+      ],
+      "3": [
+        "pattern discovery",
+        "anomaly detection",
+        "data visualization"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Unsupervised Learning",
+        "videoUrl": "https://videos.edu/unsupervised_intro.mp4",
+        "pdfPath": "/uploads/unsupervised_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-unsupervised.png",
+    "createdBy": "user123",
+    "date": "2024-08-27T14:00:00",
+    "enrolledCount": 300
+  },
+  {
+    "_id": 727,
+    "title": "Model Evaluation & Hyperparameter Tuning",
+    "description": "Master the techniques to assess model performance and optimize hyperparameters for better generalization.",
+    "category": ["Model Evaluation & Hyperparameter Tuning",
+      "Machine Learning",
+      "Model Evaluation",
+      "Optimization",
+      "Data Science"
+    ],
+    "tags": {
+      "1": ["ml tools",
+        "model evaluation",
+        "cross-validation",
+        "metrics",
+        "hyperparameter tuning"
+      ],
+      "2": [
+        "grid search",
+        "random search",
+        "roc curve",
+        "f1 score",
+        "confusion matrix"
+      ],
+      "3": [
+        "bias-variance",
+        "overfitting",
+        "underfitting",
+        "parameter optimization"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Model Evaluation",
+        "videoUrl": "https://videos.edu/model_eval_intro.mp4",
+        "pdfPath": "/uploads/model_evaluation_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-evaluation.png",
+    "createdBy": "user123",
+    "date": "2024-08-29T16:00:00",
+    "enrolledCount": 310
+  },
+  {
+    "_id": 728,
+    "title": "RL in Robotics & Autonomous Systems",
+    "description": "Apply Reinforcement Learning to robotics and autonomous systems to teach machines to perceive, decide, and act in real-world environments.",
+    "category": ["RL in Robotics & Autonomous Systems",
+      "Reinforcement Learning",
+      "Robotics",
+      "Autonomous Systems",
+      "AI"
+    ],
+    "tags": {
+      "1": ["rl",
+        "robotics",
+        "autonomous systems",
+        "rl",
+        "robot navigation"
+      ],
+      "2": [
+        "path planning",
+        "manipulation",
+        "control systems",
+        "robot learning"
+      ],
+      "3": [
+        "gym",
+        "ros",
+        "pytorch",
+        "deep rl",
+        "drl"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Fundamentals of RL in Robotics",
+        "videoUrl": "https://videos.edu/rl_robotics_intro.mp4",
+        "pdfPath": "/uploads/rl_robotics_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-rl-robotics.png",
+    "createdBy": "user123",
+    "date": "2024-09-08T10:00:00",
+    "enrolledCount": 280
+  },
+  {
+    "_id": 729,
+    "title": "Video Analytics & Action Recognition",
+    "description": "Learn how to analyze video data and detect human actions and object movements using deep learning and computer vision techniques.",
+    "category": ["Video Analytics & Action Recognition",
+      "Computer Vision",
+      "Video Analytics",
+      "Action Recognition",
+      "AI"
+    ],
+    "tags": {
+      "1": ["cnn",
+        "video analytics",
+        "action recognition",
+        "cv",
+        "temporal networks"
+      ],
+      "2": [
+        "3d cnn",
+        "lstm",
+        "video classification",
+        "pose estimation"
+      ],
+      "3": [
+        "opencv",
+        "pytorch",
+        "tensorflow",
+        "yolo",
+        "resnet"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Action Recognition in Videos",
+        "videoUrl": "https://videos.edu/video_analytics_intro.mp4",
+        "pdfPath": "/uploads/video_analytics_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-video-analytics.png",
+    "createdBy": "user123",
+    "date": "2024-09-09T11:30:00",
+    "enrolledCount": 310
+  },
+  {
+    "_id": 730,
+    "title": "Introduction to MLOps",
+    "description": "Get introduced to MLOps and learn the foundational practices for deploying, monitoring, and maintaining ML models in production.",
+    "category": ["Introduction to MLOps",
+      "MLOps",
+      "DevOps",
+      "Machine Learning",
+      "Deployment"
+    ],
+    "tags": {
+      "1": [
+        "mlops","ml tools",
+        "deployment",
+        "model lifecycle",
+        "ml pipeline"
+      ],
+      "2": [
+        "cloud",
+        "docker",
+        "kubernetes",
+        "ci/cd"
+      ],
+      "3": [
+        "production",
+        "monitoring",
+        "data drift",
+        "scalability"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Overview of MLOps",
+        "videoUrl": "https://videos.edu/mlops_intro.mp4",
+        "pdfPath": "/uploads/mlops_intro_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-mlops.png",
+    "createdBy": "user123",
+    "date": "2024-09-10T12:00:00",
+    "enrolledCount": 400
+  },
+  {
+    "_id": 731,
+    "title": "CI/CD Pipeline in MLOps",
+    "description": "Implement Continuous Integration and Continuous Deployment pipelines for machine learning workflows using modern DevOps tools.",
+    "category": [
+      "MLOps","CI/CD Pipeline in MLOps",
+      "CI/CD",
+      "Automation",
+      "Model Deployment"
+    ],
+    "tags": {
+      "1": ["ml tools",
+        "ci/cd",
+        "git",
+        "github actions",
+        "devops",
+        "testing"
+      ],
+      "2": [
+        "docker",
+        "kubernetes",
+        "jenkins",
+        "mlflow",
+        "pipeline automation"
+      ],
+      "3": [
+        "deployment",
+        "mlops engineering",
+        "airflow",
+        "cloud"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Building CI/CD Pipelines for ML",
+        "videoUrl": "https://videos.edu/mlops_cicd_intro.mp4",
+        "pdfPath": "/uploads/mlops_cicd_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-mlops-cicd.png",
+    "createdBy": "user123",
+    "date": "2024-09-11T14:30:00",
+    "enrolledCount": 350
+  },
+  {
+    "_id": 732,
+    "title": "Orchestration Tools (Airflow, Metaflow)",
+    "description": "Learn to automate and orchestrate data and ML workflows using industry-standard tools like Airflow, Prefect, and Metaflow.",
+    "category": ["Orchestration Tools (Airflow, Metaflow, Prefect)","Airflow","MLFlow",
+      "MLOps",
+      "Workflow Orchestration",
+      "Automation",
+      "Data Pipelines"
+    ],
+    "tags": {
+      "1": ["ml tools",
+        "airflow",
+        "prefect",
+        "metaflow",
+        "orchestration",
+        "ml workflows"
+      ],
+      "2": [
+        "data engineering",
+        "dag",
+        "pipeline",
+        "automation"
+      ],
+      "3": [
+        "python",
+        "scheduling",
+        "etl",
+        "ci/cd"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Workflow Automation with Orchestration Tools",
+        "videoUrl": "https://videos.edu/orchestration_intro.mp4",
+        "pdfPath": "/uploads/orchestration_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-orchestration.png",
+    "createdBy": "user123",
+    "date": "2024-09-12T16:00:00",
+    "enrolledCount": 290
+  },
+  {
+    "_id": 733,
+    "title": "ML Model Monitoring",
+    "description": "Monitor your deployed ML models for performance, data drift, and anomalies in production environments.",
+    "category": [
+      "MLOps","ML Model Monitoring","ML tools",
+      "Monitoring",
+      "Production ML",
+      "Model Management"
+    ],
+    "tags": {
+      "1": ["ml tools",
+        "model monitoring",
+        "data drift",
+        "concept drift",
+        "performance"
+      ],
+      "2": [
+        "evidently ai",
+        "prometheus",
+        "grafana",
+        "alerts"
+      ],
+      "3": [
+        "cloudwatch",
+        "mlops tools",
+        "mlflow",
+        "real-time monitoring"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Model Monitoring",
+        "videoUrl": "https://videos.edu/model_monitoring_intro.mp4",
+        "pdfPath": "/uploads/model_monitoring_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-model-monitoring.png",
+    "createdBy": "user123",
+    "date": "2024-09-13T17:00:00",
+    "enrolledCount": 310
+  },
+  {
+    "_id": 734,
+    "title": "Complete MLOps: End-to-End",
+    "description": "Build an entire end-to-end MLOps pipeline from data ingestion to monitoring using state-of-the-art tools and practices.",
+    "category": [
+      "MLOps","Complete MLOps: End-to-End",
+      "AI Engineering",
+      "End-to-End Systems",
+      "DevOps"
+    ],
+    "tags": {
+      "1": ["ml tools",
+        "mlops",
+        "end-to-end ml",
+        "ci/cd",
+        "monitoring",
+        "deployment"
+      ],
+      "2": [
+        "airflow",
+        "mlflow",
+        "docker",
+        "kubernetes",
+        "cloud"
+      ],
+      "3": [
+        "feature store",
+        "experiment tracking",
+        "model registry",
+        "orchestration"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Building a Full MLOps System",
+        "videoUrl": "https://videos.edu/mlops_end2end_intro.mp4",
+        "pdfPath": "/uploads/mlops_end2end_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-mlops-end2end.png",
+    "createdBy": "user123",
+    "date": "2024-09-14T10:30:00",
+    "enrolledCount": 420
+  },
+  {
+    "_id": 735,
+    "title": "Recommendation Systems",
+    "description": "Understand collaborative and content-based filtering, hybrid models, and build intelligent recommendation engines for real-world applications.",
+    "category": [
+      "Machine Learning","Recommendation Systems",
+      "AI",
+      "Personalization",
+      "Recommender Systems"
+    ],
+    "tags": {
+      "1": ["ml basics",
+        "recommendation",
+        "collaborative filtering",
+        "content-based",
+        "hybrid models"
+      ],
+      "2": [
+        "user-item matrix",
+        "cosine similarity",
+        "matrix factorization"
+      ],
+      "3": [
+        "surprise",
+        "lightfm",
+        "tensorflow",
+        "pytorch"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Basics of Recommendation Systems",
+        "videoUrl": "https://videos.edu/recommendation_intro.mp4",
+        "pdfPath": "/uploads/recommendation_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-recommender.png",
+    "createdBy": "user123",
+    "date": "2024-09-15T13:00:00",
+    "enrolledCount": 380
+  },
+  {
+    "_id": 736,
+    "title": "SQL  ,NoSQL, vector Databases for Data Science",
+    "description": "Learn how to use both SQL and NoSQL databases for querying, storing, and managing structured and unstructured data in data science workflows.",
+    "category": [
+      "Data Science","SQL  ,NoSQL, vector Databases for Data Science",  "Generative AI","Gen AI",
+      "Databases",
+      "SQL",
+      "NoSQL",
+      "Backend"
+    ],
+    "tags": {
+      "1": ["backened",
+        "sql",
+        "nosql",
+        "mysql",
+        "mongodb",
+        "postgres"
+      ],
+      "2": [
+        "queries",
+        "data modeling",
+        "indexes",
+        "joins",
+        "aggregation"
+      ],
+      "3": [
+        "data storage",
+        "json",
+        "collections",
+        "tables",
+        "transactions"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: SQL vs NoSQL \u2013 Overview and Use Cases",
+        "videoUrl": "https://videos.edu/sql_nosql_intro.mp4",
+        "pdfPath": "/uploads/sql_nosql_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-sql-nosql.png",
+    "createdBy": "user123",
+    "date": "2024-09-20T10:00:00",
+    "enrolledCount": 420
+  },
+  {
+    "_id": 737,
+    "title": "Big Data Tools",
+    "description": "Explore modern tools and technologies like Hadoop, Spark, and Kafka for handling, processing, and analyzing large-scale data.",
+    "category": [
+      "Big Data","Big Data Tools",
+      "Data Engineering",
+      "Analytics",
+      "Data Science"
+    ],
+    "tags": {
+      "1": ["Eda",
+        "big data",
+        "hadoop",
+        "spark",
+        "kafka",
+        "distributed computing"
+      ],
+      "2": [
+        "mapreduce",
+        "hdfs",
+        "etl",
+        "real-time data",
+        "streaming"
+      ],
+      "3": [
+        "data pipeline",
+        "cloudera",
+        "data lakes",
+        "batch processing"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to Big Data and Apache Hadoop",
+        "videoUrl": "https://videos.edu/bigdata_tools_intro.mp4",
+        "pdfPath": "/uploads/big_data_tools.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-bigdata.png",
+    "createdBy": "user123",
+    "date": "2024-09-21T11:30:00",
+    "enrolledCount": 370
+  },
+  {
+    "_id": 738,
+    "title": "Excel & Advanced Analytics",
+    "description": "Master data analysis using Excel's advanced features including pivot tables, dashboards, and statistical functions.",
+    "category": [
+      "Analytics",
+      "Business Intelligence","Excel & Advanced Analytics",
+      "Excel",
+      "Data Analysis"
+    ],
+    "tags": {
+      "1": ["eda",
+        "excel",
+        "pivot tables",
+        "charts",
+        "dashboards",
+        "analytics"
+      ],
+      "2": [
+        "formulas",
+        "vlookup",
+        "data cleaning",
+        "macros",
+        "statistics"
+      ],
+      "3": [
+        "regression",
+        "descriptive analytics",
+        "excel modeling"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Excel Fundamentals for Data Analysis",
+        "videoUrl": "https://videos.edu/excel_analytics_intro.mp4",
+        "pdfPath": "/uploads/excel_analytics_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-excel.png",
+    "createdBy": "user123",
+    "date": "2024-09-22T13:00:00",
+    "enrolledCount": 450
+  },
+  {
+    "_id": 739,
+    "title": "ETL & Data Wrangling",
+    "description": "Understand how to extract, transform, and load (ETL) data efficiently, and perform data wrangling for real-world analytics.",
+    "category": [
+      "Data Engineering","ETL & Data Wrangling",
+      "Data Cleaning",
+      "Data Science"
+    ],
+    "tags": {
+      "1": [
+        "etl","eda",
+        "data wrangling",
+        "data cleaning",
+        "transformation"
+      ],
+      "2": [
+        "pandas",
+        "python",
+        "airflow",
+        "data pipelines"
+      ],
+      "3": [
+        "unstructured data",
+        "ingestion",
+        "parsing",
+        "aggregation"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Introduction to ETL and Data Wrangling",
+        "videoUrl": "https://videos.edu/etl_wrangle_intro.mp4",
+        "pdfPath": "/uploads/etl_data_wrangling.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-etl.png",
+    "createdBy": "user123",
+    "date": "2024-09-23T14:30:00",
+    "enrolledCount": 390
+  },
+  {
+    "_id": 740,
+    "title": "Business Intelligence Tools",
+    "description": "Learn how to use leading BI tools like Tableau, Power BI, and Looker to create dashboards, reports, and data visualizations.",
+    "category": [
+      "Business Intelligence","Business Intelligence Tools",
+      "Analytics",
+      "Data Visualization"
+    ],
+    "tags": {
+      "1": ["eda","ml tools",
+        "bi",
+        "tableau",
+        "powerbi",
+        "dashboards",
+        "reporting"
+      ],
+      "2": [
+        "looker",
+        "kpi",
+        "metrics",
+        "data storytelling",
+        "visualization"
+      ],
+      "3": [
+        "interactive charts",
+        "data sources",
+        "etl integration"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: BI Tools Overview & Use Cases",
+        "videoUrl": "https://videos.edu/bi_tools_intro.mp4",
+        "pdfPath": "/uploads/bi_tools_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-bi.png",
+    "createdBy": "user123",
+    "date": "2024-09-24T15:00:00",
+    "enrolledCount": 410
+  },
+  {
+    "_id": 741,
+    "title": "SQL for BI",
+    "description": "Use SQL to derive insights for business intelligence, generate reports, and work with KPIs and business metrics.",
+    "category": [
+      "SQL","SQL for BI",
+      "BI",
+      "Analytics",
+      "Data Querying"
+    ],
+    "tags": {
+      "1": ["backened",
+        "sql",
+        "business intelligence",
+        "metrics",
+        "aggregation",
+        "joins"
+      ],
+      "2": [
+        "cte",
+        "window functions",
+        "reporting",
+        "group by",
+        "kpi"
+      ],
+      "3": [
+        "data extraction",
+        "databases",
+        "dashboards",
+        "queries"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Writing SQL for Business Metrics",
+        "videoUrl": "https://videos.edu/sql_bi_intro.mp4",
+        "pdfPath": "/uploads/sql_for_bi_course.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-sql-bi.png",
+    "createdBy": "user123",
+    "date": "2024-09-25T16:30:00",
+    "enrolledCount": 430
+  },
+  {
+    "_id": 742,
+    "title": "Ethics & Fairness in AI",
+    "description": "Understand the ethical implications of AI systems and how to design algorithms that are fair, transparent, and accountable.",
+    "category": [
+      "Ethics",
+      "Responsible AI",
+      "AI Governance",
+      "Policy"
+    ],
+    "tags": {
+      "1": ["ml basics",
+        "ethics",
+        "fairness",
+        "bias",
+        "ai governance",
+        "transparency"
+      ],
+      "2": [
+        "explainability",
+        "privacy",
+        "regulations",
+        "responsible ai"
+      ],
+      "3": [
+        "accountability",
+        "inclusive ai",
+        "human-centered design"
+      ]
+    },
+    "content": [
+      {
+        "title": "Lecture 1: Foundations of AI Ethics",
+        "videoUrl": "https://videos.edu/ai_ethics_intro.mp4",
+        "pdfPath": "/uploads/ethics_fairness_ai.pdf"
+      }
+    ],
+    "thumbnail": "/uploads/thumb-ethics-ai.png",
+    "createdBy": "user123",
+    "date": "2024-09-26T17:00:00",
+    "enrolledCount": 390
+  }
+]

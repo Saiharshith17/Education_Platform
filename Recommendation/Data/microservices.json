@@ -1,0 +1,293 @@
+[
+    {
+  "_id": 301,
+  "title": "Intro to System Design & Microservices",
+  "description": "Understand system design principles and the fundamentals of microservices architecture.",
+  "category": [
+    "System Design",
+    "Microservices",
+    "Software Architecture",
+    "Backend Development",
+    "Cloud Computing",
+    "Scalability"
+  ],
+  "tags": {
+    "1": ["system design", "microservices", "backend", "cloud", "software architecture", "full stack"],
+    "2": ["scalability", "service design", "nodejs", "springboot", "devops", "docker", "kubernetes"],
+    "3": ["api design", "event driven", "kafka", "redis", "rate limiting", "monitoring", "terraform"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Fundamentals of System Design & Microservices",
+      "videoUrl": "https://videos.edu/intro_system_design_microservices.mp4",
+      "pdfPath": "/uploads/intro_system_design_microservices.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-system_design.png",
+  "createdBy": "user123",
+  "date": "2024-07-15T10:00:00",
+  "enrolledCount": 180
+},
+
+{
+  "_id": 302,
+  "title": "Designing Microservices with Node.js / Spring Boot",
+  "description": "Learn how to build scalable and independent microservices using Node.js and Spring Boot frameworks.",
+  "category": [
+    "Microservices",
+    "Backend Development",
+    "Node.js",
+    "Spring Boot",
+    "Cloud Computing",
+    "Software Architecture"
+  ],
+  "tags": {
+    "1": ["microservices", "nodejs", "springboot", "backend", "software architecture", "full stack"],
+    "2": ["service design", "scalability", "rest api", "docker", "kubernetes", "devops", "cloud"],
+    "3": ["event driven", "kafka", "redis", "ci/cd", "monitoring", "terraform", "aws"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Microservices Design with Node.js and Spring Boot",
+      "videoUrl": "https://videos.edu/design_microservices_node_spring.mp4",
+      "pdfPath": "/uploads/design_microservices_node_spring.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-microservices_design.png",
+  "createdBy": "user123",
+  "date": "2024-07-16T10:00:00",
+  "enrolledCount": 160
+},
+{
+  "_id": 303,
+  "title": "REST API Design Best Practices",
+  "description": "Master RESTful API design with consistent endpoints, versioning, status codes, and security.",
+  "category": [
+    "API Development",
+    "Backend Development",
+    "Microservices",
+    "Web Services",
+    "Software Architecture"
+  ],
+  "tags": {
+    "1": ["rest api", "api design", "backend", "microservices", "web services", "full stack"],
+    "2": ["versioning", "status codes", "security", "swagger", "postman", "nodejs", "springboot"],
+    "3": ["ci/cd", "docker", "kubernetes", "monitoring", "aws", "terraform", "redis"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: REST API Design Principles",
+      "videoUrl": "https://videos.edu/rest_api_design_best_practices.mp4",
+      "pdfPath": "/uploads/rest_api_design_best_practices.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-rest_api_design.png",
+  "createdBy": "user123",
+  "date": "2024-07-18T10:00:00",
+  "enrolledCount": 140
+},
+
+{
+  "_id": 304,
+  "title": "Service Discovery & Load Balancing",
+  "description": "Learn tools like Eureka, Consul, and Nginx for service registration, discovery, and load balancing in microservices.",
+  "category": [
+    "Microservices",
+    "Backend Development",
+    "Cloud Infrastructure",
+    "DevOps",
+    "Networking"
+  ],
+  "tags": {
+    "1": ["service discovery", "load balancing", "microservices", "backend", "full stack"],
+    "2": ["eureka", "consul", "nginx", "kubernetes", "docker", "nodejs", "springboot"],
+    "3": ["aws", "terraform", "monitoring", "ci/cd", "redis", "kafka"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to Service Discovery",
+      "videoUrl": "https://videos.edu/service_discovery_load_balancing.mp4",
+      "pdfPath": "/uploads/service_discovery_load_balancing.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-service_discovery.png",
+  "createdBy": "user123",
+  "date": "2024-07-20T10:00:00",
+  "enrolledCount": 125
+},
+
+{
+  "_id": 305,
+  "title": "Event-Driven Architecture with Kafka",
+  "description": "Understand Kafka topics, brokers, producers, and consumers to build event-driven microservices.",
+  "category": [
+    "Microservices",
+    "Event-Driven Architecture",
+    "Data Streaming",
+    "Backend Development",
+    "Cloud"
+  ],
+  "tags": {
+    "1": ["kafka", "event-driven", "microservices", "backend", "full stack"],
+    "2": ["topics", "brokers", "producers", "consumers", "stream processing", "springboot", "nodejs"],
+    "3": ["docker", "kubernetes", "ci/cd", "aws", "monitoring", "redis"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Kafka Basics and Architecture",
+      "videoUrl": "https://videos.edu/event_driven_kafka.mp4",
+      "pdfPath": "/uploads/event_driven_kafka.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-kafka.png",
+  "createdBy": "user123",
+  "date": "2024-07-22T10:00:00",
+  "enrolledCount": 110
+},
+
+{
+  "_id": 306,
+  "title": "Caching with Redis",
+  "description": "Learn session caching, TTL, and pub-sub messaging with Redis for high-performance microservices.",
+  "category": [
+    "Microservices",
+    "Caching",
+    "Backend Development",
+    "Cloud",
+    "Performance Optimization"
+  ],
+  "tags": {
+    "1": ["redis", "caching", "microservices", "backend", "full stack"],
+    "2": ["ttl", "pub-sub", "session caching", "performance", "nodejs", "springboot", "docker"],
+    "3": ["kubernetes", "aws", "ci/cd", "monitoring", "kafka"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to Redis Caching",
+      "videoUrl": "https://videos.edu/redis_caching.mp4",
+      "pdfPath": "/uploads/redis_caching.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-redis.png",
+  "createdBy": "user123",
+  "date": "2024-07-24T10:00:00",
+  "enrolledCount": 115
+},
+
+{
+  "_id": 307,
+  "title": "Database Strategies in Microservices",
+  "description": "Explore database per service, eventual consistency, and transaction patterns in microservices architecture.",
+  "category": [
+    "Microservices",
+    "Databases",
+    "Backend Development",
+    "Cloud Architecture",
+    "Software Design"
+  ],
+  "tags": {
+    "1": ["databases", "microservices", "backend", "full stack", "database strategies"],
+    "2": ["eventual consistency", "transactions", "sql", "nosql", "springboot", "nodejs", "docker"],
+    "3": ["kubernetes", "aws", "ci/cd", "monitoring", "redis", "kafka"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Database per Service Concept",
+      "videoUrl": "https://videos.edu/database_strategies_microservices.mp4",
+      "pdfPath": "/uploads/database_strategies_microservices.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-db_microservices.png",
+  "createdBy": "user123",
+  "date": "2024-07-26T10:00:00",
+  "enrolledCount": 100
+},
+
+{
+  "_id": 308,
+  "title": "Rate Limiting & API Gateways",
+  "description": "Implement rate limiting and API gateway services like Kong and Nginx for secure and scalable microservices.",
+  "category": [
+    "Microservices",
+    "API Management",
+    "Backend Development",
+    "Security",
+    "Cloud Infrastructure"
+  ],
+  "tags": {
+    "1": ["api gateway", "rate limiting", "microservices", "backend", "full stack"],
+    "2": ["kong", "nginx", "security", "load balancing", "nodejs", "springboot", "docker"],
+    "3": ["kubernetes", "aws", "ci/cd", "monitoring", "redis", "kafka"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to API Gateways",
+      "videoUrl": "https://videos.edu/rate_limiting_api_gateways.mp4",
+      "pdfPath": "/uploads/rate_limiting_api_gateways.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-api_gateway.png",
+  "createdBy": "user123",
+  "date": "2024-07-28T10:00:00",
+  "enrolledCount": 95
+},
+
+{
+  "_id": 309,
+  "title": "Deploying Microservices on Kubernetes",
+  "description": "Deploy microservice pods, manage ingress controllers, and scale services efficiently on Kubernetes.",
+  "category": [
+    "Microservices",
+    "Kubernetes",
+    "Cloud Deployment",
+    "DevOps",
+    "Backend Development"
+  ],
+  "tags": {
+    "1": ["kubernetes", "microservices", "deployment", "backend", "full stack"],
+    "2": ["pods", "ingress", "scaling", "docker", "ci/cd", "aws", "monitoring"],
+    "3": ["redis", "kafka", "terraform", "security", "nodejs", "springboot"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Kubernetes Basics for Microservices",
+      "videoUrl": "https://videos.edu/deploying_microservices_k8s.mp4",
+      "pdfPath": "/uploads/deploying_microservices_k8s.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-k8s_microservices.png",
+  "createdBy": "user123",
+  "date": "2024-07-30T10:00:00",
+  "enrolledCount": 105
+},
+
+{
+  "_id": 310,
+  "title": "Building a Scalable Full Stack System (Capstone)",
+  "description": "Build a complete MERN or Spring Boot microservices project integrating Kafka, Redis, CI/CD, Docker, and Kubernetes.",
+  "category": [
+    "Full Stack Development",
+    "Microservices",
+    "DevOps",
+    "Cloud Deployment",
+    "Project-Based Learning"
+  ],
+  "tags": {
+    "1": ["full stack", "microservices", "capstone", "devops", "cloud"],
+    "2": ["mern", "springboot", "kafka", "redis", "docker", "kubernetes", "ci/cd"],
+    "3": ["aws", "terraform", "monitoring", "security", "nodejs", "react"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Project Setup and Architecture",
+      "videoUrl": "https://videos.edu/scalable_fullstack_capstone.mp4",
+      "pdfPath": "/uploads/scalable_fullstack_capstone.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-capstone.png",
+  "createdBy": "user123",
+  "date": "2024-08-01T10:00:00",
+  "enrolledCount": 90
+}
+
+]

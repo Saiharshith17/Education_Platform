@@ -1,0 +1,380 @@
+[{
+  "_id": 101,
+  "title": "HTML Fundamentals",
+  "description": "Learn the basics of HTML for building web page structures and content.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "UI/UX",
+    "Markup Languages",
+    "Web Design",
+    "Web Technologies",
+    "Beginners",
+    "HTML"
+  ],
+  "tags": {
+    "1": ["html", "markup", "frontend", "web", "full stack"],
+    "2": ["styling", "bootstrap", "web design", "ui", "coding", "programming", "js", "react", "backend"],
+    "3": ["beginners", "programming fundamentals", "computer fundamentals", "cn", "se", "os", "oops", "maths", "python"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to HTML",
+      "videoUrl": "https://videos.edu/html_fundamentals_intro.mp4",
+      "pdfPath": "/uploads/html_fundamentals.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-html.png",
+  "createdBy": "user123",
+  "date": "2024-07-01T10:00:00",
+  "enrolledCount": 350
+},
+
+{
+  "_id": 102,
+  "title": "CSS Fundamentals",
+  "description": "Learn how to style web pages using CSS, covering selectors, box model, positioning, and more.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "UI/UX",
+    "Styling",
+    "Web Design",
+    "Web Technologies",
+    "Beginners",
+    "CSS"
+  ],
+  "tags": {
+  "1": ["css", "styling", "frontend", "web", "full stack"],
+  "2": ["bootstrap", "web design", "ui", "coding", "programming", "js", "react", "backend", "html", "typescript", "testing"],
+  "3": ["beginners", "programming fundamentals", "computer fundamentals", "cn", "se", "os", "oops", "maths", "python"]
+},
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to CSS",
+      "videoUrl": "https://videos.edu/css_fundamentals_intro.mp4",
+      "pdfPath": "/uploads/css_fundamentals.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-css.png",
+  "createdBy": "user123",
+  "date": "2024-07-02T10:00:00",
+  "enrolledCount": 290
+},
+{
+  "_id": 103,
+  "title": "JavaScript for Beginners",
+  "description": "Start your journey with JavaScript by learning its syntax, variables, data types, and control structures.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "Programming",
+    "Scripting Languages",
+    "JavaScript",
+    "Software Development",
+    "Beginners",
+    "Interactive Web"
+  ],
+  "tags": {
+    "1": ["javascript", "frontend", "web", "full stack", "js","responsive"],
+    "2": ["programming", "coding", "react", "backend", "html", "css", "bootstrap", "ui", "styling"],
+    "3": ["beginners", "programming fundamentals", "oops", "maths", "python", "cn", "os", "se", "computer fundamentals"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: JavaScript Basics",
+      "videoUrl": "https://videos.edu/js_beginners_intro.mp4",
+      "pdfPath": "/uploads/js_beginners.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-js-beginners.png",
+  "createdBy": "user123",
+  "date": "2024-07-02T10:00:00",
+  "enrolledCount": 480
+},
+{
+  "_id": 104,
+  "title": "Advanced JavaScript & ES6+ Features",
+  "description": "Master JavaScript’s advanced concepts including ES6+ syntax, closures, promises, async/await, and more.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "Advanced Programming",
+    "JavaScript",
+    "Software Development",
+    "ES6",
+    "Modern JavaScript",
+    "Asynchronous Programming"
+  ],
+  "tags": {
+    "1": ["javascript", "es6", "frontend", "js", "web", "full stack"],
+    "2": ["promises", "async", "await", "closures", "react", "programming", "backend", "coding", "html", "css"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals", "beginners"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Advanced Functions and Closures",
+      "videoUrl": "https://videos.edu/advanced_js_intro.mp4",
+      "pdfPath": "/uploads/advanced_js_es6.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-js-advanced.png",
+  "createdBy": "user123",
+  "date": "2024-07-03T10:00:00",
+  "enrolledCount": 410
+},
+{
+  "_id": 105,
+  "title": "Responsive Web Design",
+  "description": "Learn to build web pages that adapt across devices using flexible layouts, media queries, and responsive techniques.",
+  "category": [
+    "Frontend Development",
+    "Web Design",
+    "Web Development",
+    "CSS",
+    "UI/UX",
+    "Responsive Design",
+    "Cross-Platform",
+    "Mobile Design"
+  ],
+  "tags": {
+    "1": ["responsive", "web", "frontend", "css", "html", "full stack"],
+    "2": ["styling", "ui", "bootstrap", "media queries", "flexbox", "grid", "js", "react", "programming", "coding"],
+    "3": ["beginners", "programming fundamentals", "oops", "maths", "python", "cn", "os", "se", "computer fundamentals"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Intro to Responsive Design",
+      "videoUrl": "https://videos.edu/responsive_web_intro.mp4",
+      "pdfPath": "/uploads/responsive_design.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-responsive.png",
+  "createdBy": "user123",
+  "date": "2024-07-04T10:00:00",
+  "enrolledCount": 390
+},
+{
+  "_id": 106,
+  "title": "React.js Essentials",
+  "description": "Understand React fundamentals including components, props, state, hooks, and building dynamic UIs.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "JavaScript Frameworks",
+    "React",
+    "UI/UX",
+    "Software Development",
+    "Single Page Applications"
+  ],
+  "tags": {
+    "1": ["react", "frontend", "js", "javascript", "web", "full stack"],
+    "2": ["components", "hooks", "state", "props", "coding", "programming", "backend", "html", "css", "bootstrap"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals", "beginners"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: React Basics",
+      "videoUrl": "https://videos.edu/react_essentials_intro.mp4",
+      "pdfPath": "/uploads/react_essentials.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-react.png",
+  "createdBy": "user123",
+  "date": "2024-07-05T10:00:00",
+  "enrolledCount": 460
+},
+{
+  "_id": 107,
+  "title": "State Management in React",
+  "description": "Dive into managing application state using React Context, Redux, and other state handling libraries.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "React",
+    "State Management",
+    "JavaScript Frameworks",
+    "Software Architecture"
+  ],
+  "tags": {
+    "1": ["state", "redux", "context", "react", "frontend", "web", "full stack"],
+    "2": ["programming", "coding", "js", "javascript", "backend", "html", "css", "ui", "hooks", "components"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals", "beginners"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: React Context API",
+      "videoUrl": "https://videos.edu/react_state_intro.mp4",
+      "pdfPath": "/uploads/state_management_react.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-state-react.png",
+  "createdBy": "user123",
+  "date": "2024-07-06T10:00:00",
+  "enrolledCount": 430
+},
+
+{
+  "_id": 108,
+  "title": "Frontend Build Tools & Workflow",
+  "description": "Understand how to use tools like Vite, Webpack, Babel, and npm to optimize your frontend workflow.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "Build Tools",
+    "Software Development",
+    "JavaScript",
+    "Automation",
+    "Developer Tools",
+    "Vite",
+    "Webpack",
+    "Babel"
+  ],
+  "tags": {
+    "1": ["build tools", "vite", "webpack", "frontend", "web", "full stack"],
+    "2": ["babel", "npm", "js", "typescript", "coding", "programming", "react", "backend", "html", "css"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Intro to Build Tools",
+      "videoUrl": "https://videos.edu/build_tools_intro.mp4",
+      "pdfPath": "/uploads/build_tools.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-build-tools.png",
+  "createdBy": "user123",
+  "date": "2024-07-04T10:00:00",
+  "enrolledCount": 320
+},
+
+{
+  "_id": 109,
+  "title": "TypeScript for Frontend Developers",
+  "description": "Learn TypeScript and how it enhances JavaScript by adding static types for more reliable code.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "Type Systems",
+    "Software Development",
+    "TypeScript",
+    "Programming",
+    "JavaScript",
+    "Modern Frontend"
+  ],
+  "tags": {
+    "1": ["typescript", "javascript", "frontend", "web", "full stack", "js"],
+    "2": ["programming", "coding", "react", "backend", "html", "css", "build tools", "babel", "webpack"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: TypeScript Basics",
+      "videoUrl": "https://videos.edu/typescript_intro.mp4",
+      "pdfPath": "/uploads/typescript.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-typescript.png",
+  "createdBy": "user123",
+  "date": "2024-07-05T10:00:00",
+  "enrolledCount": 300
+},
+
+{
+  "_id": 110,
+  "title": "Testing Frontend Applications",
+  "description": "Learn to write unit, integration, and end-to-end tests for React and other frontend applications.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "Testing",
+    "Software Development",
+    "Quality Assurance",
+    "Unit Testing",
+    "E2E Testing",
+    "React"
+  ],
+  "tags": {
+    "1": ["testing", "unit testing", "e2e testing", "frontend", "web", "full stack", "react"],
+    "2": ["coding", "programming", "js", "html", "css", "typescript", "automation", "qa"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Introduction to Testing",
+      "videoUrl": "https://videos.edu/frontend_testing_intro.mp4",
+      "pdfPath": "/uploads/frontend_testing.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-testing.png",
+  "createdBy": "user123",
+  "date": "2024-07-06T10:00:00",
+  "enrolledCount": 290
+},
+
+{
+  "_id": 111,
+  "title": "Performance Optimization",
+  "description": "Improve web performance through efficient loading, caching, lazy loading, and other best practices.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "Performance Optimization",
+    "Software Development",
+    "Web Performance",
+    "Best Practices",
+    "SEO"
+  ],
+  "tags": {
+    "1": ["performance", "optimization", "frontend", "web", "full stack"],
+    "2": ["lazy loading", "caching", "seo", "coding", "programming", "html", "css", "js", "react", "testing"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Web Performance Basics",
+      "videoUrl": "https://videos.edu/performance_intro.mp4",
+      "pdfPath": "/uploads/performance_optimization.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-performance.png",
+  "createdBy": "user123",
+  "date": "2024-07-07T10:00:00",
+  "enrolledCount": 270
+},
+
+{
+  "_id": 112,
+  "title": "Bootstrap Framework Basics",
+  "description": "Learn how to quickly design responsive and visually appealing websites using Bootstrap.",
+  "category": [
+    "Frontend Development",
+    "Web Development",
+    "UI/UX",
+    "Frameworks",
+    "CSS Frameworks",
+    "Responsive Design",
+    "Styling",
+    "Bootstrap"
+  ],
+  "tags": {
+    "1": ["bootstrap", "css", "styling", "frontend", "web", "full stack"],
+    "2": ["ui", "responsive", "html", "js", "programming", "coding", "react", "backend"],
+    "3": ["oops", "maths", "python", "cn", "os", "se", "computer fundamentals", "programming fundamentals"]
+  },
+  "content": [
+    {
+      "title": "Lecture 1: Getting Started with Bootstrap",
+      "videoUrl": "https://videos.edu/bootstrap_intro.mp4",
+      "pdfPath": "/uploads/bootstrap_basics.pdf"
+    }
+  ],
+  "thumbnail": "/uploads/thumb-bootstrap.png",
+  "createdBy": "user123",
+  "date": "2024-07-08T10:00:00",
+  "enrolledCount": 310
+}
+
+
+
+]
