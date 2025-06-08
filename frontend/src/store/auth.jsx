@@ -29,8 +29,8 @@ const userAuthentication=async ()=>{
         });
 
 
-        
-        
+
+    
         if(response.ok){
          const data=await response.json();
          console.log("user data",data.userData);
