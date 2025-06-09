@@ -1,52 +1,107 @@
+.section-registration {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("/images/bg.png") #030728 no-repeat center;
+  background-size: cover;
+  padding: 2rem;
+  animation: fadeIn 0.6s ease-in-out;
+}
 
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
 
-.signup-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-    background: url("bg.png") #030728 no-repeat center;
-  }
-  
-  .signup-box {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-    text-align: center;
-    width: 400px;
-  }
+.grid {
+  display: grid;
+  gap: 2rem;
+}
 
-  .signup-box h1{
-     padding:20px;
+.grid-two-cols {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+
+.reg-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.registration-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  animation: slideUp 0.5s ease-in-out;
+}
+
+.registration-form h1 {
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.registration-form form div {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form label {
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.registration-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.registration-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn.btn-submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
   }
-  
-  .signup-box input {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  .signup-button,
-  .login-button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  .signup-button {
-    background-color: #007bff;
-    color: white;
+  to {
+    opacity: 1;
   }
-  
-  .login-button {
-    background-color: #28a745;
-    color: white;
-  }
-  
+}

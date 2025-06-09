@@ -41,6 +41,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../layouts/Layouts";
+import Contact from "../pages/Contact";
 
 const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/Signup"));
@@ -53,13 +54,14 @@ const App = () => {
         <Routes>
           {/* Pages with layout */}
           <Route
-            path="/"
+            path="/Home"
             element={
               <Layout>
                 <Home />
               </Layout>
             }
           />
+          <Route path="/contactus" element={<Contact/>}/>
           
           {/* Login and Signup without layout */}
           <Route path="/login" element={<Login />} />

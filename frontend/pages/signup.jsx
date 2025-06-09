@@ -1,65 +1,130 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./SignUp.css"; // Ensure you create a corresponding CSS file
+import React,{ useState } from 'react'
+import {useNavigate} from 'react-router-dom'
+import { useAuth } from '../src/store/auth'
+import "./Signup.css";
+const Register = () => {
 
-const SignUp = () => {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [userName, setUserName] = useState("");
-  const [password, setPassword] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const navigate = useNavigate();
+  const URL="http://localhost:5000/api/auth/register";
+  const [user, setUser] = useState({
+    username: "",
+    email: "",
+    phone: "",
+    password: "",
+  });
 
-  const navigateToLoginScreen = async () => {
-    try {
-      //const SERVER_BASE_URL = "http://Expens-KongA-ChasZNdaOM4K-1208155051.ap-south-1.elb.amazonaws.com";
-      const response = await fetch(`http://127.0.0.1:9898/auth/v1/signup`, {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-          "X-Requested-With": "XMLHttpRequest",
-        },
-        body: JSON.stringify({
-          first_name: firstName,
-          last_name: lastName,
-          email: email,
-          phone_number: phoneNumber,
-          password: password,
-          username: userName,
-        }),
-        mode:"cors"
-      });
+  const Navigate=useNavigate();
+const {storetokenInLS}=useAuth();
 
-      const data = await response.json();
-      console.log(data);
+  const handleInput = (e) => {
+    console.log(e);
+    let name = e.target.name;
+    let value = e.target.value;
 
-      localStorage.setItem("accessToken", data["accessToken"]);
-      localStorage.setItem("refreshToken", data["token"]);
-
-      navigate("/home");
-    } catch (error) {
-      console.error("Error during sign up:", error);
-    }
+    setUser({
+      ...user,
+      [name]: value,
+    });
   };
 
-  return (
-    <div className="signup-container">
-      <div className="signup-box">
-        <h1>Sign Up</h1>
-        <input type="text" placeholder="First Name" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
-        <input type="text" placeholder="Last Name" value={lastName} onChange={(e) => setLastName(e.target.value)} />
-        <input type="text" placeholder="User Name" value={userName} onChange={(e) => setUserName(e.target.value)} />
-        <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-        <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-        <input type="tel" placeholder="Phone Number" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} />
-        
-        <button onClick={navigateToLoginScreen} className="signup-button">Sign Up</button>
-        <button onClick={() => navigate("/login")} className="login-button">Go to Login</button>
-      </div>
-    </div>
-  );
-};
+  // handle form on submit
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(user);
+    try{
+      const response= await fetch(URL,{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json",
+        },
+        body:JSON.stringify(user),
+      });
+      if(response.ok){
+        const res_data=await response.json();
+        console.log("res from server", res_data);
 
-export default SignUp;
+        storetokenInLS(res_data.token);
+
+       setUser( {username: "",email: "",phone: "",password: "",});
+    Navigate("/login");
+      }
+      console.log(response);
+    }catch(error){
+      console.log(error);
+    }
+   
+
+     
+  };
+  return (
+    <>
+    <section>
+      <main>
+        <div className="section-registration">
+          <div className="container grid grid-two-cols">
+            <div className="registration-image reg-img">
+              <img
+                src="/images/register.png"
+                alt="a nurse with a cute look"
+                width="400"
+                height="500"
+              />
+            </div>
+            {/* our main registration code  */}
+            <div className="registration-form">
+              <h1 className="main-heading mb-3">registration form</h1>
+              <br />
+              <form onSubmit={handleSubmit}>
+                <div>
+                  <label htmlFor="username">username</label>
+                  <input
+                    type="text"
+                    name="username"
+                    value={user.username}
+                    onChange={handleInput}
+                    placeholder="username"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="email">email</label>
+                  <input
+                    type="text"
+                    name="email"
+                    value={user.email}
+                    onChange={handleInput}
+                    placeholder="email"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="phone">phone</label>
+                  <input
+                    type="number"
+                    name="phone"
+                    value={user.phone}
+                    onChange={handleInput}
+                  />
+                </div>
+                <div>
+                  <label htmlFor="password">password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    value={user.password}
+                    onChange={handleInput}
+                    placeholder="password"
+                  />
+                </div>
+                <br />
+                <button type="submit" className="btn btn-submit">
+                  Register Now
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+  </>
+  )
+}
+
+export default Register

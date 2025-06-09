@@ -38,7 +38,7 @@ const login = async (req,res)=>{
       
       console.log(userExist);
       if(!userExist){
-        return res.status(400).json({message:"Invalid Credentials"});
+        return res.status(400).json({message:"Invalid User"});
       }
 
       const isPassword=await userExist.compare(password);
@@ -53,7 +53,7 @@ const login = async (req,res)=>{
                 }
 
        else {
-        res.status(401).json({message : "Invalid Credentials"});
+        res.status(401).json({message : "Invalid Credential"});
       }
 
 

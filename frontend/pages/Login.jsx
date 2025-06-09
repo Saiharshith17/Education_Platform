@@ -1,95 +1,111 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./Login.css";
-
-//const SERVER_BASE_URL = "http://Expens-KongA-ChasZNdaOM4K-1208155051.ap-south-1.elb.amazonaws.com";
-
+import React,{useState} from 'react'
+import {useNavigate} from "react-router-dom";
+import {useAuth} from "../src/store/auth";
 const Login = () => {
-  const [userName, setUserName] = useState("");
-  const [password, setPassword] = useState("");
-  const navigate = useNavigate();
 
-  // Function to refresh token
-  const refreshToken = async () => {
-    console.log("Inside Refresh Token");
-    const refreshToken = localStorage.getItem("refreshToken");
 
-    const response = await fetch(`http://localhost:9898/auth/v1/refreshToken`, {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-        "X-Requested-With": "XMLHttpRequest",
-      },
-      body: JSON.stringify({ token: refreshToken }),
+  const URL="http://localhost:5000/api/auth/login"
+    const [user,setUser]=useState({
+        email:"",
+        password:"",
     });
 
-    if (response.ok) {
-      const data = await response.json();
-      localStorage.setItem("accessToken", data.accessToken);
-      localStorage.setItem("refreshToken", data.token);
-      console.log(`Tokens after refresh: ${data.refreshToken} ${data.accessToken}`);
-      return true;
-    }
-    return false;
-  };
+    const navigate=useNavigate();
+     const {storetokenInLS}=useAuth();
+    const handleInput=(e)=>{
+        let name=e.target.name;
+        let value=e.target.value;
 
-  // Function to handle login
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const response = await fetch(`http://localhost:9898/auth/v1/login`, {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-        "X-Requested-With": "XMLHttpRequest",
-      },
-      body: JSON.stringify({ username: userName, password }),
-    });
-
-    if (response.ok) {
-      const data = await response.json();
-      localStorage.setItem("refreshToken", data.token);
-      localStorage.setItem("accessToken", data.accessToken);
-      console.log(`Login successful: ${data.token} ${data.accessToken}`);
-      navigate("/home");
-    }
-  };
-
-  // Auto-check if the user is logged in
-  useEffect(() => {
-    const checkLoginStatus = async () => {
-      const refreshSuccess = await refreshToken();
-      if (refreshSuccess) {
-        navigate("/home");
-      }
+        setUser({
+            ...user,
+            [name]:value,
+        });
     };
-    checkLoginStatus();
-  }, []);
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        console.log(user);
+        try{
+          const response=await fetch(URL,{
+          method:"POST",
+          headers:{
+            "Content-Type":"application/json",
+          },
+          body:JSON.stringify(user),
+          });
+          console.log("login", response);
+          if(response.ok){
+            alert("login successful");
+            const res_data=await response.json();
+            storetokenInLS(res_data.token);
+            setUser({
+              email:"",password:""
+            });
+            navigate("/Home");
+          }else{
+            alert("invalid Credentials");
+          }
+        }catch(error){
+          console.log(error);
+        }
+      };
+
+
+
 
   return (
-    <div className="login-container">
-      <form className="login-box" onSubmit={handleSubmit}>
-        <h1 className="heading">Login</h1>
-        <input
-          type="text"
-          placeholder="User Name"
-          value={userName}
-          onChange={(e) => setUserName(e.target.value)}
-          className="text-input"
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          className="text-input"
-        />
-        <button type="submit" className="button">Submit</button>
-      </form>
-      <button onClick={() => navigate("/signup")} className="button-goto">Goto Signup</button>
-    </div>
-  );
-};
+    <>
+    <section>
+        <main>
+          <div className="section-registration">
+            <div className="container grid grid-two-cols">
+              <div className="registration-image reg-img">
+                <img
+                  src="/images/register.png"
+                  alt="a nurse with a cute look"
+                  width="400"
+                  height="500"
+                />
+              </div>
+              {/* our main registration code  */}
+              <div className="registration-form">
+                <h1 className="main-heading mb-3">Login form</h1>
+                <br />
+                <form onSubmit={handleSubmit}>
+                  <div>
+                    <label htmlFor="email">email</label>
+                    <input
+                      type="text"
+                      name="email"
+                      value={user.email}
+                      onChange={handleInput}
+                      placeholder="email"
+                      style={{ width: '400px' }}
+                    />
+                  </div>
 
-export default Login;
+                  <div>
+                    <label htmlFor="password">password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      value={user.password}
+                      onChange={handleInput}
+                      placeholder="password"
+                      style={{ width: '400px' }}
+                    />
+                  </div>
+                  <br />
+                  <button type="submit" className="btn btn-submit">
+                    Login
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+    </>
+  )
+}
+
+export default Login
