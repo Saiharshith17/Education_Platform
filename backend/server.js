@@ -6,6 +6,7 @@ const authRoute=require("./router/auth-router");
 const contactRoute=require("./router/contact-router")
 const connectDb= require("./utils/db")
 const courseRoute = require("./router/course-router")
+const courseRoutes = require("./router/course-routes");
 const errorMiddleware=require("./middlewares/error-middleware");
 const corsOptions={
     origin:"http://localhost:5173",
@@ -19,6 +20,9 @@ app.use("/api/form",contactRoute);
 app.use(errorMiddleware);
 
 app.use("/api/courses", courseRoute);
+
+app.use("/api", courseRoutes);
+
 
 // app.get("/",(req,res)=>{
 //     res.status(200).send("mg");

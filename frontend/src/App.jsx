@@ -46,7 +46,7 @@ import Contact from "../pages/Contact";
 const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/Signup"));
 const Home = lazy(() => import("../pages/Home"));
-
+const AllCourses=lazy(()=>import("../pages/AllCourses"));
 const App = () => {
   return (
     <BrowserRouter>
@@ -58,6 +58,14 @@ const App = () => {
             element={
               <Layout>
                 <Home />
+              </Layout>
+            }
+          />
+          <Route
+            path="/courses"
+            element={
+              <Layout>
+                <AllCourses />
               </Layout>
             }
           />

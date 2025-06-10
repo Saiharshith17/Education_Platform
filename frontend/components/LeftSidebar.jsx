@@ -7,7 +7,11 @@ import { useAuth } from "../src/store/auth";
 const LeftSidebar = () => {
   
    const {user}=useAuth();
+   if(user){
    console.log(user);
+   }else{
+    console.log("no user");
+   }
   return (
     <div className="leftbar">
       <div className="profile">

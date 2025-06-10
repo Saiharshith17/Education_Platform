@@ -1,0 +1,26 @@
+.course-loader-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.course-loader-card {
+  height: 200px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  animation: pulse 1.2s infinite ease-in-out;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #e1e1e1;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}

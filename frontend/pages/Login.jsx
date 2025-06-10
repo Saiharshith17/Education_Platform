@@ -40,6 +40,7 @@ const Login = () => {
             setUser({
               email:"",password:""
             });
+            console.log(res_data);
             navigate("/Home");
           }else{
             alert("invalid Credentials");
