@@ -64,3 +64,15 @@
 .animate-right {
   transform: translateY(-30px);
 }
+.search-info p {
+   z-index: 1000;
+
+}
+.clear-btn{
+  border:2px solid rgb(114, 114, 114);
+  padding:10px;
+  border-radius:5px;
+  margin-top:10px;
+  margin-bottom:40px;
+  cursor:pointer;
+}

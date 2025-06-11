@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import "./AllCourses.css";
 import "./CourseLoader.css";
+import { useSearch } from "../src/store/searchContext";
 
 const CourseLoader = () => {
   const loaders = Array.from({ length: 16 });
@@ -14,8 +16,14 @@ const CourseLoader = () => {
 };
 
 const AllCourses = () => {
+  const { setSearchInput } = useSearch();
   const [courses, setCourses] = useState([]);
+  const [filteredCourses, setFilteredCourses] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchKeyword, setSearchKeyword] = useState("");
+
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const fetchCourses = async () => {
     try {
@@ -33,7 +41,26 @@ const AllCourses = () => {
     fetchCourses();
   }, []);
 
-  // Add scroll-triggered animations
+  useEffect(() => {
+    const keyword = new URLSearchParams(location.search).get("search")?.toLowerCase() || "";
+
+    if (keyword) {
+      const filtered = courses.filter((c) =>
+        c.category.some((cat) => cat.toLowerCase().includes(keyword))
+      );
+      setFilteredCourses(filtered);
+    } else {
+      setFilteredCourses(courses);
+    }
+
+    setSearchKeyword(keyword);
+  }, [location.search, courses]);
+
+  const handleClearSearch = () => {
+    setSearchInput("");
+    navigate("/courses");
+  };
+
   useEffect(() => {
     if (!loading) {
       const observer = new IntersectionObserver(
@@ -56,25 +83,36 @@ const AllCourses = () => {
 
       return () => observer.disconnect();
     }
-  }, [loading]);
+  }, [loading, filteredCourses]);
 
   return (
     <div className="courses-list">
       <h2>All Courses</h2>
+
+      {searchKeyword && (
+        <div className="search-info">
+          <p>
+            Showing results for <strong>{searchKeyword}</strong>
+          </p>
+          <button onClick={handleClearSearch} className="clear-btn">Clear Search</button>
+        </div>
+      )}
+
       {loading ? (
         <CourseLoader />
       ) : (
         <div className="grid">
-          {courses.map((course) => (
+          {filteredCourses.map((course) => (
             <div key={course._id} className="course-card">
-           <img
-  src="\public\2606584_5920.jpg"
-  alt={course.title}
-/>
+              <img
+                src={course.thumbnail || "/2606584_5920.jpg"}
+                alt={course.title}
+              />
               <h3>{course.title}</h3>
               <p>{course.description}</p>
             </div>
           ))}
+          {filteredCourses.length === 0 && <p>No matching courses found.</p>}
         </div>
       )}
     </div>

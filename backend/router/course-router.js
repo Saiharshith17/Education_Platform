@@ -14,5 +14,16 @@ router.post("/bulk-add", async (req, res) => {
   }
 });
 
+router.get("/categories", async (req, res) => {
+  try {
+    const courses = await Course.find({});
+    const allCategories = courses.flatMap(c => c.category);
+    const uniqueCategories = [...new Set(allCategories)];
+    res.json({ categories: uniqueCategories });
+  } catch (error) {
+    res.status(500).json({ error: "Error fetching categories" });
+  }
+});
+
 
 module.exports = router;

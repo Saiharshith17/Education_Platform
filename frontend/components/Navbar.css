@@ -7,7 +7,7 @@
   align-items: center;
   padding: 15px 30px;
   border-bottom: 1px solid #ddd;
-  position: sticky;
+  position:sticky;
   top: 0;
   z-index: 1000;
 }
@@ -78,4 +78,30 @@
 
 .login-btn:hover {
   background-color: #005fa3;
+}
+.search-suggestions {
+  position: absolute;
+  background: white;
+  border: 1px solid #7c7c7c;
+  margin-top: 50px;
+  margin-left: 25%;
+  max-height: 300px;         /* LIMIT HEIGHT */
+  overflow-y: auto; 
+  width: 50%;
+  z-index: 999;
+  list-style: none;
+  padding: 0;
+  border-radius:5px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.8);
+
+}
+
+.search-suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.search-suggestions li:hover {
+  background-color: #c6c6c6;
+  border-radius:5px;
 }
