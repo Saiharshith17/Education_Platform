@@ -5,6 +5,13 @@
   margin: 0px;
 }
 
+
+.course-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .courses-list h2 {
     position:relative;
   text-align: center;

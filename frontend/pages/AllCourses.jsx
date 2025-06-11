@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate,Link } from "react-router-dom";
 import "./AllCourses.css";
 import "./CourseLoader.css";
-import { useSearch } from "../src/store/searchContext";
+import {useCourseData} from "../src/store/CourseContext.jsx"
+import { useSearch } from "../src/store/searchContext.jsx";
 
 const CourseLoader = () => {
   const loaders = Array.from({ length: 16 });
@@ -17,15 +18,17 @@ const CourseLoader = () => {
 
 const AllCourses = () => {
   const { setSearchInput } = useSearch();
-  const [courses, setCourses] = useState([]);
+  const {courses,setCourses}=useCourseData();
+  
   const [filteredCourses, setFilteredCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchKeyword, setSearchKeyword] = useState("");
-
+  
   const location = useLocation();
   const navigate = useNavigate();
-
+   console.log(courses);
   const fetchCourses = async () => {
+    if(courses.length===0){
     try {
       const res = await fetch("http://localhost:5000/api/courses");
       const data = await res.json();
@@ -35,6 +38,7 @@ const AllCourses = () => {
       console.error("Error fetching courses:", err);
       setLoading(false);
     }
+  }
   };
 
   useEffect(() => {
@@ -103,14 +107,21 @@ const AllCourses = () => {
       ) : (
         <div className="grid">
           {filteredCourses.map((course) => (
-            <div key={course._id} className="course-card">
-              <img
-                src={course.thumbnail || "/2606584_5920.jpg"}
-                alt={course.title}
-              />
-              <h3>{course.title}</h3>
-              <p>{course.description}</p>
-            </div>
+    <Link
+      key={course._id}
+      to={`/courses/${course._id}`}
+      state={{ course }} // 👈 Send course data to the detail page
+      className="course-card-link"
+    >
+      <div className="course-card">
+        <img
+          src="\public\2606584_5920.jpg"
+          alt={course.title}
+        />
+        <h3>{course.title}</h3>
+        <p>{course.description}</p>
+      </div>
+    </Link>
           ))}
           {filteredCourses.length === 0 && <p>No matching courses found.</p>}
         </div>

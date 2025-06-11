@@ -47,6 +47,7 @@ const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/Signup"));
 const Home = lazy(() => import("../pages/Home"));
 const AllCourses=lazy(()=>import("../pages/AllCourses"));
+const CourseDetail=lazy(()=>import("../pages/CourseDetail"));
 const App = () => {
   return (
     <BrowserRouter>
@@ -68,6 +69,14 @@ const App = () => {
                 <AllCourses />
               </Layout>
             }
+          />
+          <Route
+             path="/courses/:id" 
+             element={
+              <Layout>
+                <CourseDetail />
+              </Layout>
+            } 
           />
           <Route path="/contactus" element={<Contact/>}/>
           
