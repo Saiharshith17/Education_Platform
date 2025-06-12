@@ -19,12 +19,13 @@ const courseSchema = new mongoose.Schema({
   content: [
     {
       title: String,
+      
       videoUrl: String,
       pdfPath: String
     }
   ],
 
-  
+
 
   thumbnail: String, // e.g., "/uploads/thumb-dsa.png"
   createdBy: { type: String }, // userId or username
