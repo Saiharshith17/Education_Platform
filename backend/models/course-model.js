@@ -24,6 +24,8 @@ const courseSchema = new mongoose.Schema({
     }
   ],
 
+  
+
   thumbnail: String, // e.g., "/uploads/thumb-dsa.png"
   createdBy: { type: String }, // userId or username
   date: { type: Date, default: Date.now },
