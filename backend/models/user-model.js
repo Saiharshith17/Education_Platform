@@ -10,6 +10,7 @@ const userSchema = new mongoose.Schema({
 
   stream:    { type: String },
   preferences: [String],
+  
 
   coursesRead:  [{ type: mongoose.Schema.Types.ObjectId, ref: "Course" }],
   coursesAdded: [{ type: mongoose.Schema.Types.ObjectId, ref: "Course" }],
