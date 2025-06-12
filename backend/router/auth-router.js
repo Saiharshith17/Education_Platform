@@ -15,6 +15,7 @@ const authmiddleware=require("../middlewares/auth-middleware");
 router.route("/").get(home);
 
 router.route("/register").post(validate(signupSchema),register);
+
 router.route("/login").post(login);
 
 router.route("/user").get(authmiddleware, user);
