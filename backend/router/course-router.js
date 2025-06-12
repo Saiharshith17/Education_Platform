@@ -14,6 +14,17 @@ router.post("/bulk-add", async (req, res) => {
   }
 });
 
+// // Add a route for bulk deletion
+// router.delete("/bulk-delete", async (req, res) => {
+//   try {
+//     await Course.deleteMany({});
+//     res.json({ message: "All courses deleted successfully" });
+//   } catch (err) {
+//     res.status(500).json({ error: "Failed to delete courses" });
+//   }
+// });
+
+
 router.get("/categories", async (req, res) => {
   try {
     const courses = await Course.find({});

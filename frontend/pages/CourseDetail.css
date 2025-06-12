@@ -46,3 +46,47 @@
   border-radius: 20px;
   font-size: 0.9rem;
 }
+
+.course-actions{
+  
+  margin-top:10px;
+  padding:10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-btn,.cart-btn{
+  padding:10px 20px;
+  font-size:20px;
+  cursor:pointer;
+  border:1px solid rgb(255, 255, 255);
+  border-radius:15px;
+  background-color: #0077cc;
+  color:white;
+}
+
+
+
+.read-btn:hover{
+  border:2px solid black;
+}
+
+.cart-btn.add {
+  background-color: #0077cc; /* blue */
+  color: white;
+}
+
+.cart-btn.remove {
+  background-color: #dc3545; /* red */
+  color: white;
+}
+
+.read-btn.add {
+  background-color: #0077cc; /* blue */
+  color: white;
+}
+
+.read-btn.remove {
+  background-color: #dc3545; /* red */
+  color: white;
+}

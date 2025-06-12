@@ -19,7 +19,7 @@ const CourseLoader = () => {
 const AllCourses = () => {
   const { setSearchInput } = useSearch();
   const {courses,setCourses}=useCourseData();
-  
+  const [course,setCourse]=useState();
   const [filteredCourses, setFilteredCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchKeyword, setSearchKeyword] = useState("");
@@ -33,12 +33,13 @@ const AllCourses = () => {
       const res = await fetch("http://localhost:5000/api/courses");
       const data = await res.json();
       setCourses(data.courses);
-      setLoading(false);
+      
     } catch (err) {
       console.error("Error fetching courses:", err);
-      setLoading(false);
+      
     }
   }
+  setLoading(false);
   };
 
   useEffect(() => {

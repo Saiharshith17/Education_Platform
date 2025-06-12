@@ -8,6 +8,9 @@ const connectDb= require("./utils/db")
 const courseRoute = require("./router/course-router")
 const courseRoutes = require("./router/course-routes");
 const errorMiddleware=require("./middlewares/error-middleware");
+const cartRoutes = require("./router/cartRoutes");
+
+
 const corsOptions={
     origin:"http://localhost:5173",
     methods:"GET,POST,PUT,DELETE,PATCH,HEAD",
@@ -23,6 +26,7 @@ app.use("/api/courses", courseRoute);
 
 app.use("/api", courseRoutes);
 
+app.use("/api/cart", cartRoutes);
 
 // app.get("/",(req,res)=>{
 //     res.status(200).send("mg");

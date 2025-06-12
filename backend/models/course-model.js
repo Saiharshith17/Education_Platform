@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const courseSchema = new mongoose.Schema({
-  _id: Number, // Custom ID if needed, else remove this line
+   // Custom ID if needed, else remove this line
   title: { type: String, required: true },
   description: { type: String, required: true },
   

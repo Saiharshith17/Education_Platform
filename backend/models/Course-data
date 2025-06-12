@@ -1,0 +1,5720 @@
+[
+    {
+        "tags": {
+            "1": [
+                "css",
+                "styling",
+                "frontend",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "bootstrap",
+                "web design",
+                "ui",
+                "coding",
+                "programming",
+                "js",
+                "react",
+                "backend",
+                "html",
+                "typescript",
+                "testing"
+            ],
+            "3": [
+                "beginners",
+                "programming fundamentals",
+                "computer fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops",
+                "maths",
+                "python"
+            ]
+        },
+        
+        "title": "CSS Fundamentals",
+        "description": "Learn how to style web pages using CSS, covering selectors, box model, positioning, and more.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "UI/UX",
+            "Styling",
+            "Web Design",
+            "Web Technologies",
+            "Beginners",
+            "CSS"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to CSS",
+                "videoUrl": "https://videos.edu/css_fundamentals_intro.mp4",
+                "pdfPath": "/uploads/css_fundamentals.pdf",
+                "_id": "683af0155f5241af944e3fc1"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-css.png",
+        "createdBy": "user123",
+        "date": "2024-07-02T04:30:00.000Z",
+        "enrolledCount": 290,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "javascript",
+                "es6",
+                "frontend",
+                "js",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "promises",
+                "async",
+                "await",
+                "closures",
+                "react",
+                "programming",
+                "backend",
+                "coding",
+                "html",
+                "css"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals",
+                "beginners"
+            ]
+        },
+        
+        "title": "Advanced JavaScript & ES6+ Features",
+        "description": "Master JavaScript’s advanced concepts including ES6+ syntax, closures, promises, async/await, and more.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "Advanced Programming",
+            "JavaScript",
+            "Software Development",
+            "ES6",
+            "Modern JavaScript",
+            "Asynchronous Programming"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Advanced Functions and Closures",
+                "videoUrl": "https://videos.edu/advanced_js_intro.mp4",
+                "pdfPath": "/uploads/advanced_js_es6.pdf",
+                "_id": "683af0155f5241af944e3fc3"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-js-advanced.png",
+        "createdBy": "user123",
+        "date": "2024-07-03T04:30:00.000Z",
+        "enrolledCount": 410,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "responsive",
+                "web",
+                "frontend",
+                "css",
+                "html",
+                "full stack"
+            ],
+            "2": [
+                "styling",
+                "ui",
+                "bootstrap",
+                "media queries",
+                "flexbox",
+                "grid",
+                "js",
+                "react",
+                "programming",
+                "coding"
+            ],
+            "3": [
+                "beginners",
+                "programming fundamentals",
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals"
+            ]
+        },
+        
+        "title": "Responsive Web Design",
+        "description": "Learn to build web pages that adapt across devices using flexible layouts, media queries, and responsive techniques.",
+        "category": [
+            "Frontend Development",
+            "Web Design",
+            "Web Development",
+            "CSS",
+            "UI/UX",
+            "Responsive Design",
+            "Cross-Platform",
+            "Mobile Design"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Intro to Responsive Design",
+                "videoUrl": "https://videos.edu/responsive_web_intro.mp4",
+                "pdfPath": "/uploads/responsive_design.pdf",
+                "_id": "683af0155f5241af944e3fc4"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-responsive.png",
+        "createdBy": "user123",
+        "date": "2024-07-04T04:30:00.000Z",
+        "enrolledCount": 390,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "react",
+                "frontend",
+                "js",
+                "javascript",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "components",
+                "hooks",
+                "state",
+                "props",
+                "coding",
+                "programming",
+                "backend",
+                "html",
+                "css",
+                "bootstrap"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals",
+                "beginners"
+            ]
+        },
+        
+        "title": "React.js Essentials",
+        "description": "Understand React fundamentals including components, props, state, hooks, and building dynamic UIs.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "JavaScript Frameworks",
+            "React",
+            "UI/UX",
+            "Software Development",
+            "Single Page Applications"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: React Basics",
+                "videoUrl": "https://videos.edu/react_essentials_intro.mp4",
+                "pdfPath": "/uploads/react_essentials.pdf",
+                "_id": "683af0155f5241af944e3fc5"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-react.png",
+        "createdBy": "user123",
+        "date": "2024-07-05T04:30:00.000Z",
+        "enrolledCount": 460,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "state",
+                "redux",
+                "context",
+                "react",
+                "frontend",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "programming",
+                "coding",
+                "js",
+                "javascript",
+                "backend",
+                "html",
+                "css",
+                "ui",
+                "hooks",
+                "components"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals",
+                "beginners"
+            ]
+        },
+       
+        "title": "State Management in React",
+        "description": "Dive into managing application state using React Context, Redux, and other state handling libraries.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "React",
+            "State Management",
+            "JavaScript Frameworks",
+            "Software Architecture"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: React Context API",
+                "videoUrl": "https://videos.edu/react_state_intro.mp4",
+                "pdfPath": "/uploads/state_management_react.pdf",
+                "_id": "683af0155f5241af944e3fc6"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-state-react.png",
+        "createdBy": "user123",
+        "date": "2024-07-06T04:30:00.000Z",
+        "enrolledCount": 430,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "performance",
+                "optimization",
+                "frontend",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "lazy loading",
+                "caching",
+                "seo",
+                "coding",
+                "programming",
+                "html",
+                "css",
+                "js",
+                "react",
+                "testing"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals"
+            ]
+        },
+       
+        "title": "Performance Optimization",
+        "description": "Improve web performance through efficient loading, caching, lazy loading, and other best practices.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "Performance Optimization",
+            "Software Development",
+            "Web Performance",
+            "Best Practices",
+            "SEO"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Web Performance Basics",
+                "videoUrl": "https://videos.edu/performance_intro.mp4",
+                "pdfPath": "/uploads/performance_optimization.pdf",
+                "_id": "683af0155f5241af944e3fca"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-performance.png",
+        "createdBy": "user123",
+        "date": "2024-07-07T04:30:00.000Z",
+        "enrolledCount": 270,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "bootstrap",
+                "css",
+                "styling",
+                "frontend",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "ui",
+                "responsive",
+                "html",
+                "js",
+                "programming",
+                "coding",
+                "react",
+                "backend"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals"
+            ]
+        },
+        
+        "title": "Bootstrap Framework Basics",
+        "description": "Learn how to quickly design responsive and visually appealing websites using Bootstrap.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "UI/UX",
+            "Frameworks",
+            "CSS Frameworks",
+            "Responsive Design",
+            "Styling",
+            "Bootstrap"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Getting Started with Bootstrap",
+                "videoUrl": "https://videos.edu/bootstrap_intro.mp4",
+                "pdfPath": "/uploads/bootstrap_basics.pdf",
+                "_id": "683af0155f5241af944e3fcb"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-bootstrap.png",
+        "createdBy": "user123",
+        "date": "2024-07-08T04:30:00.000Z",
+        "enrolledCount": 310,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "build tools",
+                "vite",
+                "webpack",
+                "frontend",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "babel",
+                "npm",
+                "js",
+                "typescript",
+                "coding",
+                "programming",
+                "react",
+                "backend",
+                "html",
+                "css"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals"
+            ]
+        },
+        
+        "title": "Frontend Build Tools & Workflow",
+        "description": "Understand how to use tools like Vite, Webpack, Babel, and npm to optimize your frontend workflow.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "Build Tools",
+            "Software Development",
+            "JavaScript",
+            "Automation",
+            "Developer Tools",
+            "Vite",
+            "Webpack",
+            "Babel"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Intro to Build Tools",
+                "videoUrl": "https://videos.edu/build_tools_intro.mp4",
+                "pdfPath": "/uploads/build_tools.pdf",
+                "_id": "683af0155f5241af944e3fc7"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-build-tools.png",
+        "createdBy": "user123",
+        "date": "2024-07-04T04:30:00.000Z",
+        "enrolledCount": 320,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "typescript",
+                "javascript",
+                "frontend",
+                "web",
+                "full stack",
+                "js"
+            ],
+            "2": [
+                "programming",
+                "coding",
+                "react",
+                "backend",
+                "html",
+                "css",
+                "build tools",
+                "babel",
+                "webpack"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals"
+            ]
+        },
+        
+        "title": "TypeScript for Frontend Developers",
+        "description": "Learn TypeScript and how it enhances JavaScript by adding static types for more reliable code.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "Type Systems",
+            "Software Development",
+            "TypeScript",
+            "Programming",
+            "JavaScript",
+            "Modern Frontend"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: TypeScript Basics",
+                "videoUrl": "https://videos.edu/typescript_intro.mp4",
+                "pdfPath": "/uploads/typescript.pdf",
+                "_id": "683af0155f5241af944e3fc8"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-typescript.png",
+        "createdBy": "user123",
+        "date": "2024-07-05T04:30:00.000Z",
+        "enrolledCount": 300,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "testing",
+                "unit testing",
+                "e2e testing",
+                "frontend",
+                "web",
+                "full stack",
+                "react"
+            ],
+            "2": [
+                "coding",
+                "programming",
+                "js",
+                "html",
+                "css",
+                "typescript",
+                "automation",
+                "qa"
+            ],
+            "3": [
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals",
+                "programming fundamentals"
+            ]
+        },
+        
+        "title": "Testing Frontend Applications",
+        "description": "Learn to write unit, integration, and end-to-end tests for React and other frontend applications.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "Testing",
+            "Software Development",
+            "Quality Assurance",
+            "Unit Testing",
+            "E2E Testing",
+            "React"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Testing",
+                "videoUrl": "https://videos.edu/frontend_testing_intro.mp4",
+                "pdfPath": "/uploads/frontend_testing.pdf",
+                "_id": "683af0155f5241af944e3fc9"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-testing.png",
+        "createdBy": "user123",
+        "date": "2024-07-06T04:30:00.000Z",
+        "enrolledCount": 290,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "javascript",
+                "frontend",
+                "web",
+                "full stack",
+                "js",
+                "responsive"
+            ],
+            "2": [
+                "programming",
+                "coding",
+                "react",
+                "backend",
+                "html",
+                "css",
+                "bootstrap",
+                "ui",
+                "styling"
+            ],
+            "3": [
+                "beginners",
+                "programming fundamentals",
+                "oops",
+                "maths",
+                "python",
+                "cn",
+                "os",
+                "se",
+                "computer fundamentals"
+            ]
+        },
+        
+        "title": "JavaScript for Beginners",
+        "description": "Start your journey with JavaScript by learning its syntax, variables, data types, and control structures.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "Programming",
+            "Scripting Languages",
+            "JavaScript",
+            "Software Development",
+            "Beginners",
+            "Interactive Web"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: JavaScript Basics",
+                "videoUrl": "https://videos.edu/js_beginners_intro.mp4",
+                "pdfPath": "/uploads/js_beginners.pdf",
+                "_id": "683af0155f5241af944e3fc2"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-js-beginners.png",
+        "createdBy": "user123",
+        "date": "2024-07-02T04:30:00.000Z",
+        "enrolledCount": 480,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "html",
+                "markup",
+                "frontend",
+                "web",
+                "full stack"
+            ],
+            "2": [
+                "styling",
+                "bootstrap",
+                "web design",
+                "ui",
+                "coding",
+                "programming",
+                "js",
+                "react",
+                "backend"
+            ],
+            "3": [
+                "beginners",
+                "programming fundamentals",
+                "computer fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops",
+                "maths",
+                "python"
+            ]
+        },
+       
+        "title": "HTML Fundamentals",
+        "description": "Learn the basics of HTML for building web page structures and content.",
+        "category": [
+            "Frontend Development",
+            "Web Development",
+            "UI/UX",
+            "Markup Languages",
+            "Web Design",
+            "Web Technologies",
+            "Beginners",
+            "HTML"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to HTML",
+                "videoUrl": "https://videos.edu/html_fundamentals_intro.mp4",
+                "pdfPath": "/uploads/html_fundamentals.pdf",
+                "_id": "683af0155f5241af944e3fc0"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-html.png",
+        "createdBy": "user123",
+        "date": "2024-07-01T04:30:00.000Z",
+        "enrolledCount": 350,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "firebase",
+                "realtime",
+                "auth",
+                "cloud functions",
+                "backend",
+                "mern",
+                "rest api"
+            ],
+            "2": [
+                "node",
+                "express",
+                "jwt",
+                "mongodb",
+                "sql",
+                "deployment",
+                "docker"
+            ],
+            "3": [
+                "system design",
+                "security",
+                "serverless",
+                "cloud",
+                "testing"
+            ]
+        },
+        
+        "title": "Backend with Firebase",
+        "description": "Use Firebase for real-time databases, authentication, and backend cloud functions.",
+        "category": [
+            "Backend Development",
+            "Firebase",
+            "Cloud",
+            "Realtime Systems"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Firebase Realtime DB",
+                "videoUrl": "https://videos.edu/firebase_intro.mp4",
+                "pdfPath": "/uploads/firebase_backend.pdf",
+                "_id": "683af4ca5f5241af944e3fd4"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-firebase.png",
+        "createdBy": "user123",
+        "date": "2024-07-08T04:30:00.000Z",
+        "enrolledCount": 195,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "rest api",
+                "spring boot",
+                "controllers",
+                "json",
+                "http",
+                "backend"
+            ],
+            "2": [
+                "spring framework",
+                "jpa",
+                "hibernate",
+                "authentication",
+                "validation",
+                "deployment"
+            ],
+            "3": [
+                "system design",
+                "programming fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops"
+            ]
+        },
+    
+        "title": "REST APIs with Spring Boot",
+        "description": "Build RESTful APIs using Spring Boot, handling controllers, requests, responses, and JSON data.",
+        "category": [
+            "Backend Development",
+            "API Development",
+            "Spring Boot"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Building REST APIs with Spring Boot",
+                "videoUrl": "https://videos.edu/rest_api_spring_boot.mp4",
+                "pdfPath": "/uploads/rest_api_spring_boot.pdf",
+                "_id": "683af4ca5f5241af944e3fdb"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-restapi.png",
+        "createdBy": "user123",
+        "date": "2024-07-15T04:30:00.000Z",
+        "enrolledCount": 290,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "spring boot",
+                "mysql",
+                "postgresql",
+                "jpa",
+                "hibernate",
+                "crud",
+                "backend"
+            ],
+            "2": [
+                "rest api",
+                "spring framework",
+                "authentication",
+                "validation",
+                "deployment",
+                "docker"
+            ],
+            "3": [
+                "system design",
+                "programming fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops"
+            ]
+        },
+       
+        "title": "Spring Boot with MySQL/PostgreSQL",
+        "description": "Integrate Spring Boot applications with MySQL or PostgreSQL using JPA and Hibernate for CRUD operations.",
+        "category": [
+            "Backend Development",
+            "Databases",
+            "Spring Boot"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Connecting Spring Boot with Databases",
+                "videoUrl": "https://videos.edu/spring_boot_databases.mp4",
+                "pdfPath": "/uploads/spring_boot_databases.pdf",
+                "_id": "683af4ca5f5241af944e3fdc"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-database.png",
+        "createdBy": "user123",
+        "date": "2024-07-16T04:30:00.000Z",
+        "enrolledCount": 260,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "node",
+                "event loop",
+                "async",
+                "fs",
+                "modules",
+                "node basics",
+                "backend",
+                "api"
+            ],
+            "2": [
+                "express",
+                "mongodb",
+                "mern",
+                "jwt",
+                "auth",
+                "docker",
+                "rest api",
+                "firebase backend"
+            ],
+            "3": [
+                "js",
+                "programming fundamentals",
+                "oops",
+                "cn",
+                "system design"
+            ]
+        },
+        
+        "title": "Node.js Fundamentals",
+        "description": "Master the Node.js runtime, including the event loop, file system operations, modules, and asynchronous programming.",
+        "category": [
+            "Backend Development",
+            "Node.js",
+            "JavaScript",
+            "Async Programming"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Node.js",
+                "videoUrl": "https://videos.edu/node_intro.mp4",
+                "pdfPath": "/uploads/node_fundamentals.pdf",
+                "_id": "683af4ca5f5241af944e3fce"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-node.png",
+        "createdBy": "user123",
+        "date": "2024-07-02T04:30:00.000Z",
+        "enrolledCount": 180,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "rest api",
+                "status codes",
+                "versioning",
+                "error handling",
+                "http",
+                "backend",
+                "express",
+                "node"
+            ],
+            "2": [
+                "auth",
+                "sql",
+                "mongodb",
+                "firebase",
+                "spring boot",
+                "api gateway",
+                "rate limiting"
+            ],
+            "3": [
+                "system design",
+                "logging",
+                "se",
+                "cn",
+                "oops",
+                "testing"
+            ]
+        },
+        
+        "title": "RESTful API Design Principles",
+        "description": "Learn best practices for REST API design, including status codes, versioning, naming, and error handling techniques.",
+        "category": [
+            "Backend Development",
+            "API Design",
+            "Web Development"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: REST API Basics",
+                "videoUrl": "https://videos.edu/rest_principles.mp4",
+                "pdfPath": "/uploads/rest_api_design.pdf",
+                "_id": "683af4ca5f5241af944e3fd3"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-restapi.png",
+        "createdBy": "user123",
+        "date": "2024-07-07T04:30:00.000Z",
+        "enrolledCount": 210,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "error handling",
+                "logging",
+                "winston",
+                "middleware",
+                "backend",
+                "express",
+                "node"
+            ],
+            "2": [
+                "rest api",
+                "auth",
+                "firebase",
+                "sql",
+                "system design",
+                "spring boot"
+            ],
+            "3": [
+                "centralized logging",
+                "debugging",
+                "exceptions",
+                "testing",
+                "cn",
+                "se"
+            ]
+        },
+        
+        "title": "Error Handling & Logging in Backend",
+        "description": "Learn structured error handling and logging using Winston and custom middleware in your backend apps.",
+        "category": [
+            "Backend Development",
+            "Debugging",
+            "Logging",
+            "Error Handling"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Logging Basics",
+                "videoUrl": "https://videos.edu/logging_intro.mp4",
+                "pdfPath": "/uploads/backend_logging.pdf",
+                "_id": "683af4ca5f5241af944e3fd5"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-logging.png",
+        "createdBy": "user123",
+        "date": "2024-07-09T04:30:00.000Z",
+        "enrolledCount": 175,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "mern",
+                "full stack",
+                "react",
+                "node",
+                "express",
+                "mongodb",
+                "integration",
+                "backend"
+            ],
+            "2": [
+                "auth",
+                "rest api",
+                "deployment",
+                "firebase",
+                "sql",
+                "capstone",
+                "frontend"
+            ],
+            "3": [
+                "system design",
+                "project",
+                "cloud",
+                "cn",
+                "testing",
+                "docker"
+            ]
+        },
+        
+        "title": "Building a Full-Stack App with MERN",
+        "description": "Build a complete application using MongoDB, Express, React, and Node.js with full integration.",
+        "category": [
+            "Full Stack Development",
+            "MERN Stack",
+            "Web Development"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: MERN Setup & Planning",
+                "videoUrl": "https://videos.edu/mern_intro.mp4",
+                "pdfPath": "/uploads/mern_stack_full.pdf",
+                "_id": "683af4ca5f5241af944e3fd7"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-mern.png",
+        "createdBy": "user123",
+        "date": "2024-07-11T04:30:00.000Z",
+        "enrolledCount": 260,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "java",
+                "oop",
+                "programming",
+                "collections",
+                "exception handling",
+                "backend",
+                "spring boot",
+                "spring framework"
+            ],
+            "2": [
+                "node.js",
+                "express",
+                "sql",
+                "mongodb",
+                "authentication",
+                "rest api"
+            ],
+            "3": [
+                "programming fundamentals",
+                "computer fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops",
+                "maths",
+                "python"
+            ]
+        },
+       
+        "title": "Java Basics for Backend",
+        "description": "Master core Java concepts like OOP, collections, and exception handling to build a strong foundation for Spring development.",
+        "category": [
+            "Backend Development",
+            "Java",
+            "Programming Fundamentals"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Java for Backend",
+                "videoUrl": "https://videos.edu/java_backend_intro.mp4",
+                "pdfPath": "/uploads/java_basics_backend.pdf",
+                "_id": "683af4ca5f5241af944e3fd8"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-java.png",
+        "createdBy": "user123",
+        "date": "2024-07-12T04:30:00.000Z",
+        "enrolledCount": 300,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "spring",
+                "dependency injection",
+                "beans",
+                "annotations",
+                "java",
+                "backend"
+            ],
+            "2": [
+                "spring boot",
+                "rest api",
+                "hibernate",
+                "jpa",
+                "authentication",
+                "validation"
+            ],
+            "3": [
+                "system design",
+                "programming fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops"
+            ]
+        },
+       
+        "title": "Spring Framework Fundamentals",
+        "description": "Learn the core concepts of the Spring Framework, including dependency injection, beans, and annotations.",
+        "category": [
+            "Backend Development",
+            "Spring Framework",
+            "Java"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Spring Framework",
+                "videoUrl": "https://videos.edu/spring_framework_intro.mp4",
+                "pdfPath": "/uploads/spring_framework_fundamentals.pdf",
+                "_id": "683af4ca5f5241af944e3fd9"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-spring.png",
+        "createdBy": "user123",
+        "date": "2024-07-13T04:30:00.000Z",
+        "enrolledCount": 250,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "spring boot",
+                "project structure",
+                "starters",
+                "auto-configuration",
+                "java",
+                "backend"
+            ],
+            "2": [
+                "spring framework",
+                "rest api",
+                "jpa",
+                "hibernate",
+                "deployment",
+                "docker"
+            ],
+            "3": [
+                "system design",
+                "programming fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops"
+            ]
+        },
+        
+        "title": "Spring Boot Essentials",
+        "description": "Understand the essentials of Spring Boot, including project structure, starters, and auto-configuration.",
+        "category": [
+            "Backend Development",
+            "Spring Boot",
+            "Java"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Getting Started with Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_essentials.mp4",
+                "pdfPath": "/uploads/spring_boot_essentials.pdf",
+                "_id": "683af4ca5f5241af944e3fda"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-springboot.png",
+        "createdBy": "user123",
+        "date": "2024-07-14T04:30:00.000Z",
+        "enrolledCount": 270,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "testing",
+                "spring boot",
+                "junit",
+                "mockmvc",
+                "unit tests",
+                "integration tests"
+            ],
+            "2": [
+                "validation",
+                "exception handling",
+                "rest api",
+                "java",
+                "spring framework"
+            ],
+            "3": [
+                "system design",
+                "programming fundamentals",
+                "cn",
+                "se",
+                "oops"
+            ]
+        },
+       
+        "title": "Testing Spring Boot Apps",
+        "description": "Learn to write unit and integration tests for Spring Boot applications using JUnit and MockMVC.",
+        "category": [
+            "Backend Development",
+            "Testing",
+            "Spring Boot"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af4ca5f5241af944e3fe0"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-testing.png",
+        "createdBy": "user123",
+        "date": "2024-07-20T04:30:00.000Z",
+        "enrolledCount": 200,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "mongodb",
+                "mongoose",
+                "nosql",
+                "crud",
+                "schema",
+                "express",
+                "node",
+                "mern"
+            ],
+            "2": [
+                "sql",
+                "api",
+                "rest api",
+                "auth",
+                "jwt",
+                "firebase",
+                "backend"
+            ],
+            "3": [
+                "database strategies",
+                "system design",
+                "cn",
+                "oops",
+                "json",
+                "error handling"
+            ]
+        },
+       
+        "title": "MongoDB and Mongoose",
+        "description": "Get started with NoSQL databases using MongoDB and Mongoose for schema design, queries, and integration with Node.js.",
+        "category": [
+            "Backend Development",
+            "Databases",
+            "MongoDB",
+            "Mongoose",
+            "NoSQL"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Intro to MongoDB",
+                "videoUrl": "https://videos.edu/mongodb_intro.mp4",
+                "pdfPath": "/uploads/mongodb_mongoose.pdf",
+                "_id": "683af4ca5f5241af944e3fd0"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-mongodb.png",
+        "createdBy": "user123",
+        "date": "2024-07-04T04:30:00.000Z",
+        "enrolledCount": 190,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "sql",
+                "mysql",
+                "postgresql",
+                "joins",
+                "normalization",
+                "crud",
+                "backend",
+                "auth",
+                "express"
+            ],
+            "2": [
+                "mongodb",
+                "mongoose",
+                "rest api",
+                "node",
+                "deployment",
+                "firebase",
+                "spring boot"
+            ],
+            "3": [
+                "database strategies",
+                "system design",
+                "oops",
+                "se",
+                "cn",
+                "data models"
+            ]
+        },
+        
+        "title": "SQL and Relational Databases",
+        "description": "Master PostgreSQL or MySQL including CRUD operations, joins, normalization, and relational schema design.",
+        "category": [
+            "Backend Development",
+            "Databases",
+            "SQL",
+            "Relational Databases"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Intro to SQL",
+                "videoUrl": "https://videos.edu/sql_intro.mp4",
+                "pdfPath": "/uploads/sql_relational.pdf",
+                "_id": "683af4ca5f5241af944e3fd1"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-sql.png",
+        "createdBy": "user123",
+        "date": "2024-07-05T04:30:00.000Z",
+        "enrolledCount": 180,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "deployment",
+                "hosting",
+                "render",
+                "railway",
+                "vercel",
+                "docker",
+                "backend"
+            ],
+            "2": [
+                "node",
+                "express",
+                "auth",
+                "firebase",
+                "mern",
+                "spring boot",
+                "kubernetes"
+            ],
+            "3": [
+                "devops tools",
+                "docker basics",
+                "system design",
+                "cloud",
+                "capstone"
+            ]
+        },
+        
+        "title": "Deployment & Hosting of Backend Apps",
+        "description": "Deploy backend projects using Render, Railway, Vercel, and Docker basics for containerization.",
+        "category": [
+            "Backend Development",
+            "DevOps",
+            "Deployment",
+            "Cloud Hosting"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Deployment Overview",
+                "videoUrl": "https://videos.edu/backend_deploy.mp4",
+                "pdfPath": "/uploads/backend_hosting.pdf",
+                "_id": "683af4ca5f5241af944e3fd6"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-deploy.png",
+        "createdBy": "user123",
+        "date": "2024-07-10T04:30:00.000Z",
+        "enrolledCount": 200,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "spring security",
+                "jwt",
+                "authentication",
+                "authorization",
+                "spring boot",
+                "backend"
+            ],
+            "2": [
+                "rest api",
+                "spring framework",
+                "validation",
+                "deployment",
+                "docker",
+                "system design"
+            ],
+            "3": [
+                "programming fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops"
+            ]
+        },
+        
+        "title": "Spring Security & JWT Authentication",
+        "description": "Implement authentication and authorization in Spring Boot applications using Spring Security and JWT.",
+        "category": [
+            "Backend Development",
+            "Security",
+            "Spring Boot"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Securing Spring Boot Applications",
+                "videoUrl": "https://videos.edu/spring_security_jwt.mp4",
+                "pdfPath": "/uploads/spring_security_jwt.pdf",
+                "_id": "683af4ca5f5241af944e3fdd"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-security.png",
+        "createdBy": "user123",
+        "date": "2024-07-17T04:30:00.000Z",
+        "enrolledCount": 240,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "validation",
+                "exception handling",
+                "spring boot",
+                "backend",
+                "annotations",
+                "error handling"
+            ],
+            "2": [
+                "spring framework",
+                "rest api",
+                "spring security",
+                "deployment",
+                "docker",
+                "system design"
+            ],
+            "3": [
+                "programming fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops"
+            ]
+        },
+        
+        "title": "Validation and Exception Handling",
+        "description": "Learn to handle input validation and exceptions in Spring Boot applications using annotations and best practices.",
+        "category": [
+            "Backend Development",
+            "Spring Boot",
+            "Error Handling"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Handling Validation and Exceptions",
+                "videoUrl": "https://videos.edu/validation_exception_handling.mp4",
+                "pdfPath": "/uploads/validation_exception_handling.pdf",
+                "_id": "683af4ca5f5241af944e3fde"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-validation.png",
+        "createdBy": "user123",
+        "date": "2024-07-18T04:30:00.000Z",
+        "enrolledCount": 230,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "backend",
+                "api",
+                "server",
+                "database",
+                "full stack",
+                "client-server"
+            ],
+            "2": [
+                "node",
+                "express",
+                "mongodb",
+                "sql",
+                "auth",
+                "firebase"
+            ],
+            "3": [
+                "basics",
+                "cn",
+                "os",
+                "http",
+                "programming fundamentals",
+                "oops",
+                "jwt"
+            ]
+        },
+       
+        "title": "Introduction to Backend Development",
+        "description": "Basics of servers, APIs, databases, and client-server architecture.",
+        "category": [
+            "Backend Development",
+            "Full Stack",
+            "API Development",
+            "Web Development",
+            "Databases",
+            "Networking"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Backend",
+                "videoUrl": "https://videos.edu/backend_intro.mp4",
+                "pdfPath": "/uploads/backend_intro.pdf",
+                "_id": "683af4ca5f5241af944e3fcd"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-backend-intro.png",
+        "createdBy": "user123",
+        "date": "2024-07-05T04:30:00.000Z",
+        "enrolledCount": 420,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "express",
+                "node",
+                "api",
+                "rest api",
+                "middleware",
+                "routing",
+                "backend"
+            ],
+            "2": [
+                "mongodb",
+                "mern",
+                "auth",
+                "jwt",
+                "deployment",
+                "docker",
+                "firebase",
+                "sql"
+            ],
+            "3": [
+                "system design",
+                "http",
+                "se",
+                "cn",
+                "error handling",
+                "oop"
+            ]
+        },
+        
+        "title": "Express.js for Building APIs",
+        "description": "Learn how to create RESTful APIs with Express.js, including routing, middleware, and error handling.",
+        "category": [
+            "Backend Development",
+            "Node.js",
+            "Web APIs",
+            "JavaScript Frameworks"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Express Introduction",
+                "videoUrl": "https://videos.edu/express_intro.mp4",
+                "pdfPath": "/uploads/express_api.pdf",
+                "_id": "683af4ca5f5241af944e3fcf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-express.png",
+        "createdBy": "user123",
+        "date": "2024-07-03T04:30:00.000Z",
+        "enrolledCount": 170,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "auth",
+                "jwt",
+                "oauth",
+                "sessions",
+                "user roles",
+                "security",
+                "backend",
+                "express",
+                "node"
+            ],
+            "2": [
+                "rest api",
+                "firebase",
+                "sql",
+                "mongodb",
+                "mern",
+                "spring security"
+            ],
+            "3": [
+                "system design",
+                "http",
+                "api gateway",
+                "rate limiting",
+                "middleware"
+            ]
+        },
+        
+        "title": "Authentication & Authorization",
+        "description": "Understand authentication systems using JWT, OAuth, session-based auth, and implementing user roles and permissions.",
+        "category": [
+            "Backend Development",
+            "Security",
+            "Web Development"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Authentication Basics",
+                "videoUrl": "https://videos.edu/auth_intro.mp4",
+                "pdfPath": "/uploads/auth_authorization.pdf",
+                "_id": "683af4ca5f5241af944e3fd2"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-auth.png",
+        "createdBy": "user123",
+        "date": "2024-07-06T04:30:00.000Z",
+        "enrolledCount": 220,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "spring boot",
+                "thymeleaf",
+                "templates",
+                "server-side rendering",
+                "backend",
+                "web development"
+            ],
+            "2": [
+                "spring framework",
+                "rest api",
+                "validation",
+                "deployment",
+                "docker",
+                "system design"
+            ],
+            "3": [
+                "programming fundamentals",
+                "cn",
+                "se",
+                "os",
+                "oops"
+            ]
+        },
+        
+        "title": "Spring Boot + Thymeleaf",
+        "description": "Build server-rendered web pages using Spring Boot and Thymeleaf templates.",
+        "category": [
+            "Backend Development",
+            "Web Development",
+            "Spring Boot"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Integrating Thymeleaf with Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_thymeleaf.mp4",
+                "pdfPath": "/uploads/spring_boot_thymeleaf.pdf",
+                "_id": "683af4ca5f5241af944e3fdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-thymeleaf.png",
+        "createdBy": "user123",
+        "date": "2024-07-19T04:30:00.000Z",
+        "enrolledCount": 220,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "aws",
+                "codepipeline",
+                "codebuild",
+                "codedeploy",
+                "ec2"
+            ],
+            "2": [
+                "cloud",
+                "ci/cd",
+                "devops",
+                "infra",
+                "terraform",
+                "docker",
+                "kubernetes"
+            ],
+            "3": [
+                "monitoring",
+                "github actions",
+                "nodejs",
+                "springboot",
+                "redis",
+                "kafka",
+                "html",
+                "js"
+            ]
+        },
+        
+        "title": "AWS DevOps Tools",
+        "description": "Explore AWS DevOps services like CodePipeline, CodeBuild, CodeDeploy, and EC2.",
+        "category": [
+            "DevOps",
+            "AWS",
+            "Cloud",
+            "Deployment",
+            "CI/CD",
+            "Infrastructure",
+            "Tools",
+            "Automation"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fea"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-aws-devops.png",
+        "createdBy": "user123",
+        "date": "2024-07-18T07:30:00.000Z",
+        "enrolledCount": 480,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "devops",
+                "ci/cd",
+                "deployment",
+                "lifecycle",
+                "tools"
+            ],
+            "2": [
+                "docker",
+                "kubernetes",
+                "github",
+                "git",
+                "aws",
+                "infra",
+                "cloud"
+            ],
+            "3": [
+                "microservices",
+                "system design",
+                "nodejs",
+                "springboot",
+                "terraform",
+                "monitoring",
+                "git actions",
+                "cloud backend",
+                "kafka",
+                "redis"
+            ]
+        },
+        
+        "title": "Introduction to DevOps",
+        "description": "Understand the core concepts of DevOps, its lifecycle, culture, and tools overview.",
+        "category": [
+            "DevOps",
+            "Software Development",
+            "System Design",
+            "Engineering Culture",
+            "Agile",
+            "SDLC",
+            "Tools",
+            "CI/CD",
+            "Deployment",
+            "Cloud"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe2"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-devops-intro.png",
+        "createdBy": "user123",
+        "date": "2024-07-10T03:30:00.000Z",
+        "enrolledCount": 430,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "git",
+                "github",
+                "version control",
+                "branching",
+                "pull request"
+            ],
+            "2": [
+                "devops",
+                "ci/cd",
+                "workflow",
+                "repo",
+                "codebase",
+                "collab"
+            ],
+            "3": [
+                "html",
+                "css",
+                "js",
+                "react",
+                "nodejs",
+                "springboot",
+                "terraform",
+                "monitoring",
+                "docker",
+                "kubernetes"
+            ]
+        },
+        
+        "title": "Version Control with Git & GitHub",
+        "description": "Learn Git basics, branching, pull requests, tags, and GitHub workflows.",
+        "category": [
+            "DevOps",
+            "Version Control",
+            "Git",
+            "GitHub",
+            "Collaboration",
+            "Workflow",
+            "Software Engineering",
+            "Agile",
+            "Code Management"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe3"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-git.png",
+        "createdBy": "user123",
+        "date": "2024-07-11T05:00:00.000Z",
+        "enrolledCount": 510,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "ci/cd",
+                "pipeline",
+                "deployment",
+                "automation",
+                "workflow"
+            ],
+            "2": [
+                "github actions",
+                "docker",
+                "kubernetes",
+                "terraform",
+                "monitoring",
+                "infra"
+            ],
+            "3": [
+                "html",
+                "css",
+                "js",
+                "react",
+                "nodejs",
+                "springboot",
+                "kafka",
+                "redis",
+                "cloud"
+            ]
+        },
+        
+        "title": "Continuous Integration & Deployment (CI/CD)",
+        "description": "Explore CI/CD pipelines, automation, testing, and deployment workflows.",
+        "category": [
+            "DevOps",
+            "CI/CD",
+            "Automation",
+            "Deployment",
+            "Software Delivery",
+            "Build Tools",
+            "Pipeline",
+            "Workflow"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe4"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-cicd.png",
+        "createdBy": "user123",
+        "date": "2024-07-12T05:30:00.000Z",
+        "enrolledCount": 475,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "github actions",
+                "ci/cd",
+                "pipeline",
+                "workflow",
+                "automation"
+            ],
+            "2": [
+                "git",
+                "github",
+                "devops",
+                "infra",
+                "deployment",
+                "cloud"
+            ],
+            "3": [
+                "docker",
+                "kubernetes",
+                "terraform",
+                "monitoring",
+                "html",
+                "js",
+                "springboot",
+                "nodejs",
+                "redis"
+            ]
+        },
+       
+        "title": "CI/CD with GitHub Actions",
+        "description": "Implement CI/CD pipelines using GitHub Actions, environment secrets, and workflows.",
+        "category": [
+            "DevOps",
+            "CI/CD",
+            "GitHub Actions",
+            "Deployment",
+            "Automation",
+            "Workflows",
+            "Secrets Management",
+            "Infrastructure"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe5"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-github-actions.png",
+        "createdBy": "user123",
+        "date": "2024-07-13T07:45:00.000Z",
+        "enrolledCount": 400,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "security",
+                "iam",
+                "secrets",
+                "access control",
+                "env vars"
+            ],
+            "2": [
+                "aws",
+                "devops",
+                "infra",
+                "terraform",
+                "ci/cd",
+                "cloud"
+            ],
+            "3": [
+                "monitoring",
+                "docker",
+                "kubernetes",
+                "nodejs",
+                "springboot",
+                "html",
+                "js",
+                "github actions"
+            ]
+        },
+        
+        "title": "Security & Secrets Management",
+        "description": "Learn to manage secrets, IAM roles, and environment security in DevOps workflows.",
+        "category": [
+            "DevOps",
+            "Security",
+            "IAM",
+            "Secrets Management",
+            "Cloud",
+            "Access Control",
+            "Configuration",
+            "DevSecOps"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3feb"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-security.png",
+        "createdBy": "user123",
+        "date": "2024-07-19T08:45:00.000Z",
+        "enrolledCount": 420,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "kubernetes",
+                "pods",
+                "deployments",
+                "services",
+                "helm"
+            ],
+            "2": [
+                "docker",
+                "infra",
+                "cloud",
+                "ci/cd",
+                "devops",
+                "monitoring"
+            ],
+            "3": [
+                "terraform",
+                "nodejs",
+                "springboot",
+                "redis",
+                "kafka",
+                "html",
+                "js",
+                "github actions"
+            ]
+        },
+        
+        "title": "Kubernetes Fundamentals",
+        "description": "Learn the basics of Kubernetes including pods, deployments, services, and Helm.",
+        "category": [
+            "DevOps",
+            "Kubernetes",
+            "Containers",
+            "Deployment",
+            "Cloud",
+            "Infrastructure",
+            "Orchestration",
+            "CI/CD"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe7"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-k8s.png",
+        "createdBy": "user123",
+        "date": "2024-07-15T04:30:00.000Z",
+        "enrolledCount": 460,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "monitoring",
+                "logging",
+                "elk",
+                "grafana",
+                "prometheus"
+            ],
+            "2": [
+                "docker",
+                "kubernetes",
+                "infra",
+                "cloud",
+                "devops",
+                "ci/cd"
+            ],
+            "3": [
+                "terraform",
+                "nodejs",
+                "springboot",
+                "redis",
+                "kafka",
+                "html",
+                "js",
+                "github actions"
+            ]
+        },
+       
+        "title": "Monitoring and Logging",
+        "description": "Track performance and errors using ELK Stack, Prometheus, and Grafana.",
+        "category": [
+            "DevOps",
+            "Monitoring",
+            "Logging",
+            "Observability",
+            "Performance",
+            "ELK Stack",
+            "Grafana",
+            "Prometheus"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe9"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-monitoring.png",
+        "createdBy": "user123",
+        "date": "2024-07-17T06:30:00.000Z",
+        "enrolledCount": 415,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "docker",
+                "containers",
+                "images",
+                "dockerfile",
+                "volumes"
+            ],
+            "2": [
+                "kubernetes",
+                "infra",
+                "cloud",
+                "ci/cd",
+                "devops",
+                "microservices"
+            ],
+            "3": [
+                "nodejs",
+                "springboot",
+                "redis",
+                "kafka",
+                "terraform",
+                "monitoring",
+                "html",
+                "css",
+                "js"
+            ]
+        },
+       
+        "title": "Docker for Beginners",
+        "description": "Learn containerization using Docker, images, containers, Dockerfiles, and volumes.",
+        "category": [
+            "DevOps",
+            "Containerization",
+            "Docker",
+            "Cloud Computing",
+            "Virtualization",
+            "Deployment",
+            "Infrastructure",
+            "Software Packaging"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe6"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-docker.png",
+        "createdBy": "user123",
+        "date": "2024-07-14T09:30:00.000Z",
+        "enrolledCount": 490,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "terraform",
+                "iac",
+                "aws",
+                "infrastructure",
+                "provisioning"
+            ],
+            "2": [
+                "docker",
+                "kubernetes",
+                "ci/cd",
+                "cloud",
+                "devops",
+                "infra"
+            ],
+            "3": [
+                "monitoring",
+                "nodejs",
+                "springboot",
+                "redis",
+                "kafka",
+                "html",
+                "js",
+                "github actions"
+            ]
+        },
+        
+        "title": "Infrastructure as Code with Terraform",
+        "description": "Automate infrastructure provisioning on AWS using Terraform.",
+        "category": [
+            "DevOps",
+            "Infrastructure",
+            "Automation",
+            "Cloud",
+            "Terraform",
+            "Provisioning",
+            "IaC",
+            "AWS"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Testing Basics in Spring Boot",
+                "videoUrl": "https://videos.edu/spring_boot_testing_intro.mp4",
+                "pdfPath": "/uploads/testing_springboot.pdf",
+                "_id": "683af5ae5f5241af944e3fe8"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-terraform.png",
+        "createdBy": "user123",
+        "date": "2024-07-16T06:00:00.000Z",
+        "enrolledCount": 435,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "dsa",
+                "arrays",
+                "strings",
+                "sliding window",
+                "java",
+                "python",
+                "mern"
+            ],
+            "2": [
+                "programming",
+                "problem solving",
+                "system design",
+                "spring boot",
+                "js"
+            ],
+            "3": [
+                "recursion",
+                "pointers",
+                "coding",
+                "html",
+                "react"
+            ]
+        },
+       
+        "title": "Arrays & Strings",
+        "description": "Learn about array manipulation, string algorithms, two-pointer techniques, and sliding window problems.",
+        "category": [
+            "DSA",
+            "Arrays",
+            "Strings",
+            "Coding Practice"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Array Basics",
+                "videoUrl": "https://videos.edu/arrays_basics.mp4",
+                "pdfPath": "/uploads/arrays_strings.pdf",
+                "_id": "683af6315f5241af944e3fee"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-arrays.png",
+        "createdBy": "user123",
+        "date": "2024-07-21T06:30:00.000Z",
+        "enrolledCount": 250,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "linked list",
+                "dsa",
+                "java",
+                "python",
+                "mern",
+                "html"
+            ],
+            "2": [
+                "recursion",
+                "spring boot",
+                "system design",
+                "oops",
+                "rest api"
+            ],
+            "3": [
+                "memory",
+                "pointers",
+                "problem solving",
+                "backend"
+            ]
+        },
+        
+        "title": "Linked Lists",
+        "description": "Master singly and doubly linked lists, operations like insert, delete, reverse, and detect cycles.",
+        "category": [
+            "DSA",
+            "Data Structures"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Linked Lists",
+                "videoUrl": "https://videos.edu/linked_lists_intro.mp4",
+                "pdfPath": "/uploads/linked_lists.pdf",
+                "_id": "683af6315f5241af944e3ff0"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-linkedlist.png",
+        "createdBy": "user123",
+        "date": "2024-07-21T10:30:00.000Z",
+        "enrolledCount": 240,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "dsa",
+                "programming",
+                "algorithms",
+                "data structures",
+                "python",
+                "java",
+                "html",
+                "spring boot"
+            ],
+            "2": [
+                "cn",
+                "se",
+                "oops",
+                "system design",
+                "js",
+                "rest api",
+                "mern"
+            ],
+            "3": [
+                "beginners",
+                "logic building",
+                "problem solving",
+                "competitive programming"
+            ]
+        },
+        
+        "title": "Introduction to DSA",
+        "description": "Overview of data structures and algorithms, why they matter, and how to approach problem solving.",
+        "category": [
+            "DSA",
+            "Programming Fundamentals",
+            "Computer Science"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: What is DSA?",
+                "videoUrl": "https://videos.edu/intro_to_dsa.mp4",
+                "pdfPath": "/uploads/intro_dsa.pdf",
+                "_id": "683af6315f5241af944e3fed"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-dsa-intro.png",
+        "createdBy": "user123",
+        "date": "2024-07-21T04:30:00.000Z",
+        "enrolledCount": 280,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "dsa",
+                "recursion",
+                "backtracking",
+                "java",
+                "nodejs",
+                "mern"
+            ],
+            "2": [
+                "algorithms",
+                "problem solving",
+                "system design",
+                "spring boot"
+            ],
+            "3": [
+                "dynamic programming",
+                "oops",
+                "firebase",
+                "react"
+            ]
+        },
+        
+        "title": "Recursion & Backtracking",
+        "description": "Understand recursive problem solving and explore backtracking through puzzles and path finding.",
+        "category": [
+            "DSA",
+            "Recursion",
+            "Algorithms"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Recursive Basics",
+                "videoUrl": "https://videos.edu/recursion_intro.mp4",
+                "pdfPath": "/uploads/recursion_backtracking.pdf",
+                "_id": "683af6315f5241af944e3fef"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-recursion.png",
+        "createdBy": "user123",
+        "date": "2024-07-21T08:30:00.000Z",
+        "enrolledCount": 230,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "sorting",
+                "searching",
+                "binary search",
+                "dsa",
+                "java",
+                "python",
+                "mern"
+            ],
+            "2": [
+                "recursion",
+                "system design",
+                "spring boot",
+                "backend"
+            ],
+            "3": [
+                "problem solving",
+                "logic building",
+                "rest api"
+            ]
+        },
+        
+        "title": "Searching & Sorting",
+        "description": "Master essential algorithms like binary search, quick sort, merge sort, and their time complexities.",
+        "category": [
+            "DSA",
+            "Algorithms"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Binary Search",
+                "videoUrl": "https://videos.edu/searching_sorting.mp4",
+                "pdfPath": "/uploads/searching_sorting.pdf",
+                "_id": "683af6315f5241af944e3ff3"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-searching.png",
+        "createdBy": "user123",
+        "date": "2024-07-22T06:30:00.000Z",
+        "enrolledCount": 220,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "heaps",
+                "priority queue",
+                "dsa",
+                "java",
+                "spring boot",
+                "mern"
+            ],
+            "2": [
+                "hashmap",
+                "searching",
+                "system design",
+                "backend"
+            ],
+            "3": [
+                "graph",
+                "problem solving",
+                "firebase"
+            ]
+        },
+        
+        "title": "Heaps & Priority Queues",
+        "description": "Learn about heaps, priority queues, heap sort and applications like Dijkstra's algorithm.",
+        "category": [
+            "DSA",
+            "Data Structures"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Understanding Heaps",
+                "videoUrl": "https://videos.edu/heaps_intro.mp4",
+                "pdfPath": "/uploads/heaps.pdf",
+                "_id": "683af6315f5241af944e3ff5"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-heaps.png",
+        "createdBy": "user123",
+        "date": "2024-07-22T10:30:00.000Z",
+        "enrolledCount": 205,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "stacks",
+                "queues",
+                "dsa",
+                "java",
+                "nodejs",
+                "mern"
+            ],
+            "2": [
+                "recursion",
+                "linked list",
+                "system design",
+                "spring boot"
+            ],
+            "3": [
+                "problem solving",
+                "coding",
+                "backend",
+                "firebase"
+            ]
+        },
+        
+        "title": "Stacks & Queues",
+        "description": "Understand the implementation and application of stacks and queues using arrays and linked lists.",
+        "category": [
+            "DSA",
+            "Data Structures"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Stack Basics",
+                "videoUrl": "https://videos.edu/stacks_queues_intro.mp4",
+                "pdfPath": "/uploads/stacks_queues.pdf",
+                "_id": "683af6315f5241af944e3ff1"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-stacks.png",
+        "createdBy": "user123",
+        "date": "2024-07-21T12:30:00.000Z",
+        "enrolledCount": 225,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "bst",
+                "binary tree",
+                "trees",
+                "dsa",
+                "java",
+                "spring boot",
+                "mern"
+            ],
+            "2": [
+                "linked list",
+                "recursion",
+                "system design",
+                "rest api"
+            ],
+            "3": [
+                "problem solving",
+                "dfs",
+                "bfs",
+                "firebase"
+            ]
+        },
+        
+        "title": "Binary Search Trees (BST)",
+        "description": "Dive into tree data structures, understand binary trees and implement BST operations.",
+        "category": [
+            "DSA",
+            "Trees"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Understanding BST",
+                "videoUrl": "https://videos.edu/bst_intro.mp4",
+                "pdfPath": "/uploads/bst.pdf",
+                "_id": "683af6315f5241af944e3ff2"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-bst.png",
+        "createdBy": "user123",
+        "date": "2024-07-22T04:30:00.000Z",
+        "enrolledCount": 215,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "hashing",
+                "hashmap",
+                "dsa",
+                "java",
+                "nodejs",
+                "mern"
+            ],
+            "2": [
+                "spring boot",
+                "problem solving",
+                "system design",
+                "backend"
+            ],
+            "3": [
+                "arrays",
+                "coding",
+                "firebase"
+            ]
+        },
+        
+        "title": "Hashing & HashMaps",
+        "description": "Understand how hashing works, implement hash maps, and solve problems using them.",
+        "category": [
+            "DSA",
+            "Data Structures"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Hashing",
+                "videoUrl": "https://videos.edu/hashing_intro.mp4",
+                "pdfPath": "/uploads/hashing.pdf",
+                "_id": "683af6315f5241af944e3ff4"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-hashing.png",
+        "createdBy": "user123",
+        "date": "2024-07-22T08:30:00.000Z",
+        "enrolledCount": 210,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "graphs",
+                "dfs",
+                "bfs",
+                "dsa",
+                "mern",
+                "java",
+                "spring boot"
+            ],
+            "2": [
+                "heaps",
+                "system design",
+                "rest api",
+                "backend"
+            ],
+            "3": [
+                "firebase",
+                "dynamic programming",
+                "problem solving"
+            ]
+        },
+        
+        "title": "Graphs and Graph Traversal",
+        "description": "Explore graph representations and traversal algorithms like BFS and DFS with real-world applications.",
+        "category": [
+            "DSA",
+            "Algorithms"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Graph Basics",
+                "videoUrl": "https://videos.edu/graphs_intro.mp4",
+                "pdfPath": "/uploads/graphs.pdf",
+                "_id": "683af6315f5241af944e3ff6"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-graphs.png",
+        "createdBy": "user123",
+        "date": "2024-07-22T12:30:00.000Z",
+        "enrolledCount": 215,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "dp",
+                "dynamic programming",
+                "dsa",
+                "java",
+                "spring boot",
+                "mern"
+            ],
+            "2": [
+                "recursion",
+                "graphs",
+                "problem solving",
+                "system design"
+            ],
+            "3": [
+                "coding",
+                "firebase",
+                "react"
+            ]
+        },
+        
+        "title": "Dynamic Programming (DP)",
+        "description": "Understand dynamic programming with top-down and bottom-up approaches, memoization, and tabulation.",
+        "category": [
+            "DSA",
+            "Algorithms"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Intro to DP",
+                "videoUrl": "https://videos.edu/dp_intro.mp4",
+                "pdfPath": "/uploads/dp.pdf",
+                "_id": "683af6315f5241af944e3ff7"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-dp.png",
+        "createdBy": "user123",
+        "date": "2024-07-23T04:30:00.000Z",
+        "enrolledCount": 230,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "kafka",
+                "event-driven",
+                "microservices",
+                "backend",
+                "full stack"
+            ],
+            "2": [
+                "topics",
+                "brokers",
+                "producers",
+                "consumers",
+                "stream processing",
+                "springboot",
+                "nodejs"
+            ],
+            "3": [
+                "docker",
+                "kubernetes",
+                "ci/cd",
+                "aws",
+                "monitoring",
+                "redis"
+            ]
+        },
+        
+        "title": "Event-Driven Architecture with Kafka",
+        "description": "Understand Kafka topics, brokers, producers, and consumers to build event-driven microservices.",
+        "category": [
+            "Microservices",
+            "Event-Driven Architecture",
+            "Data Streaming",
+            "Backend Development",
+            "Cloud"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Kafka Basics and Architecture",
+                "videoUrl": "https://videos.edu/event_driven_kafka.mp4",
+                "pdfPath": "/uploads/event_driven_kafka.pdf",
+                "_id": "683af6835f5241af944e3ffd"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-kafka.png",
+        "createdBy": "user123",
+        "date": "2024-07-22T04:30:00.000Z",
+        "enrolledCount": 110,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "redis",
+                "caching",
+                "microservices",
+                "backend",
+                "full stack"
+            ],
+            "2": [
+                "ttl",
+                "pub-sub",
+                "session caching",
+                "performance",
+                "nodejs",
+                "springboot",
+                "docker"
+            ],
+            "3": [
+                "kubernetes",
+                "aws",
+                "ci/cd",
+                "monitoring",
+                "kafka"
+            ]
+        },
+        
+        "title": "Caching with Redis",
+        "description": "Learn session caching, TTL, and pub-sub messaging with Redis for high-performance microservices.",
+        "category": [
+            "Microservices",
+            "Caching",
+            "Backend Development",
+            "Cloud",
+            "Performance Optimization"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Redis Caching",
+                "videoUrl": "https://videos.edu/redis_caching.mp4",
+                "pdfPath": "/uploads/redis_caching.pdf",
+                "_id": "683af6835f5241af944e3ffe"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-redis.png",
+        "createdBy": "user123",
+        "date": "2024-07-24T04:30:00.000Z",
+        "enrolledCount": 115,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "databases",
+                "microservices",
+                "backend",
+                "full stack",
+                "database strategies"
+            ],
+            "2": [
+                "eventual consistency",
+                "transactions",
+                "sql",
+                "nosql",
+                "springboot",
+                "nodejs",
+                "docker"
+            ],
+            "3": [
+                "kubernetes",
+                "aws",
+                "ci/cd",
+                "monitoring",
+                "redis",
+                "kafka"
+            ]
+        },
+        
+        "title": "Database Strategies in Microservices",
+        "description": "Explore database per service, eventual consistency, and transaction patterns in microservices architecture.",
+        "category": [
+            "Microservices",
+            "Databases",
+            "Backend Development",
+            "Cloud Architecture",
+            "Software Design"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Database per Service Concept",
+                "videoUrl": "https://videos.edu/database_strategies_microservices.mp4",
+                "pdfPath": "/uploads/database_strategies_microservices.pdf",
+                "_id": "683af6835f5241af944e3fff"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-db_microservices.png",
+        "createdBy": "user123",
+        "date": "2024-07-26T04:30:00.000Z",
+        "enrolledCount": 100,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "system design",
+                "microservices",
+                "backend",
+                "cloud",
+                "software architecture",
+                "full stack"
+            ],
+            "2": [
+                "scalability",
+                "service design",
+                "nodejs",
+                "springboot",
+                "devops",
+                "docker",
+                "kubernetes"
+            ],
+            "3": [
+                "api design",
+                "event driven",
+                "kafka",
+                "redis",
+                "rate limiting",
+                "monitoring",
+                "terraform"
+            ]
+        },
+        
+        "title": "Intro to System Design & Microservices",
+        "description": "Understand system design principles and the fundamentals of microservices architecture.",
+        "category": [
+            "System Design",
+            "Microservices",
+            "Software Architecture",
+            "Backend Development",
+            "Cloud Computing",
+            "Scalability"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Fundamentals of System Design & Microservices",
+                "videoUrl": "https://videos.edu/intro_system_design_microservices.mp4",
+                "pdfPath": "/uploads/intro_system_design_microservices.pdf",
+                "_id": "683af6835f5241af944e3ff9"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-system_design.png",
+        "createdBy": "user123",
+        "date": "2024-07-15T04:30:00.000Z",
+        "enrolledCount": 180,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "microservices",
+                "nodejs",
+                "springboot",
+                "backend",
+                "software architecture",
+                "full stack"
+            ],
+            "2": [
+                "service design",
+                "scalability",
+                "rest api",
+                "docker",
+                "kubernetes",
+                "devops",
+                "cloud"
+            ],
+            "3": [
+                "event driven",
+                "kafka",
+                "redis",
+                "ci/cd",
+                "monitoring",
+                "terraform",
+                "aws"
+            ]
+        },
+        
+        "title": "Designing Microservices with Node.js / Spring Boot",
+        "description": "Learn how to build scalable and independent microservices using Node.js and Spring Boot frameworks.",
+        "category": [
+            "Microservices",
+            "Backend Development",
+            "Node.js",
+            "Spring Boot",
+            "Cloud Computing",
+            "Software Architecture"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Microservices Design with Node.js and Spring Boot",
+                "videoUrl": "https://videos.edu/design_microservices_node_spring.mp4",
+                "pdfPath": "/uploads/design_microservices_node_spring.pdf",
+                "_id": "683af6835f5241af944e3ffa"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-microservices_design.png",
+        "createdBy": "user123",
+        "date": "2024-07-16T04:30:00.000Z",
+        "enrolledCount": 160,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "rest api",
+                "api design",
+                "backend",
+                "microservices",
+                "web services",
+                "full stack"
+            ],
+            "2": [
+                "versioning",
+                "status codes",
+                "security",
+                "swagger",
+                "postman",
+                "nodejs",
+                "springboot"
+            ],
+            "3": [
+                "ci/cd",
+                "docker",
+                "kubernetes",
+                "monitoring",
+                "aws",
+                "terraform",
+                "redis"
+            ]
+        },
+        
+        "title": "REST API Design Best Practices",
+        "description": "Master RESTful API design with consistent endpoints, versioning, status codes, and security.",
+        "category": [
+            "API Development",
+            "Backend Development",
+            "Microservices",
+            "Web Services",
+            "Software Architecture"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: REST API Design Principles",
+                "videoUrl": "https://videos.edu/rest_api_design_best_practices.mp4",
+                "pdfPath": "/uploads/rest_api_design_best_practices.pdf",
+                "_id": "683af6835f5241af944e3ffb"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-rest_api_design.png",
+        "createdBy": "user123",
+        "date": "2024-07-18T04:30:00.000Z",
+        "enrolledCount": 140,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "api gateway",
+                "rate limiting",
+                "microservices",
+                "backend",
+                "full stack"
+            ],
+            "2": [
+                "kong",
+                "nginx",
+                "security",
+                "load balancing",
+                "nodejs",
+                "springboot",
+                "docker"
+            ],
+            "3": [
+                "kubernetes",
+                "aws",
+                "ci/cd",
+                "monitoring",
+                "redis",
+                "kafka"
+            ]
+        },
+        
+        "title": "Rate Limiting & API Gateways",
+        "description": "Implement rate limiting and API gateway services like Kong and Nginx for secure and scalable microservices.",
+        "category": [
+            "Microservices",
+            "API Management",
+            "Backend Development",
+            "Security",
+            "Cloud Infrastructure"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to API Gateways",
+                "videoUrl": "https://videos.edu/rate_limiting_api_gateways.mp4",
+                "pdfPath": "/uploads/rate_limiting_api_gateways.pdf",
+                "_id": "683af6835f5241af944e4000"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-api_gateway.png",
+        "createdBy": "user123",
+        "date": "2024-07-28T04:30:00.000Z",
+        "enrolledCount": 95,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "kubernetes",
+                "microservices",
+                "deployment",
+                "backend",
+                "full stack"
+            ],
+            "2": [
+                "pods",
+                "ingress",
+                "scaling",
+                "docker",
+                "ci/cd",
+                "aws",
+                "monitoring"
+            ],
+            "3": [
+                "redis",
+                "kafka",
+                "terraform",
+                "security",
+                "nodejs",
+                "springboot"
+            ]
+        },
+        
+        "title": "Deploying Microservices on Kubernetes",
+        "description": "Deploy microservice pods, manage ingress controllers, and scale services efficiently on Kubernetes.",
+        "category": [
+            "Microservices",
+            "Kubernetes",
+            "Cloud Deployment",
+            "DevOps",
+            "Backend Development"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Kubernetes Basics for Microservices",
+                "videoUrl": "https://videos.edu/deploying_microservices_k8s.mp4",
+                "pdfPath": "/uploads/deploying_microservices_k8s.pdf",
+                "_id": "683af6835f5241af944e4001"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-k8s_microservices.png",
+        "createdBy": "user123",
+        "date": "2024-07-30T04:30:00.000Z",
+        "enrolledCount": 105,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "full stack",
+                "microservices",
+                "capstone",
+                "devops",
+                "cloud"
+            ],
+            "2": [
+                "mern",
+                "springboot",
+                "kafka",
+                "redis",
+                "docker",
+                "kubernetes",
+                "ci/cd"
+            ],
+            "3": [
+                "aws",
+                "terraform",
+                "monitoring",
+                "security",
+                "nodejs",
+                "react"
+            ]
+        },
+        
+        "title": "Building a Scalable Full Stack System (Capstone)",
+        "description": "Build a complete MERN or Spring Boot microservices project integrating Kafka, Redis, CI/CD, Docker, and Kubernetes.",
+        "category": [
+            "Full Stack Development",
+            "Microservices",
+            "DevOps",
+            "Cloud Deployment",
+            "Project-Based Learning"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Project Setup and Architecture",
+                "videoUrl": "https://videos.edu/scalable_fullstack_capstone.mp4",
+                "pdfPath": "/uploads/scalable_fullstack_capstone.pdf",
+                "_id": "683af6835f5241af944e4002"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-capstone.png",
+        "createdBy": "user123",
+        "date": "2024-08-01T04:30:00.000Z",
+        "enrolledCount": 90,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "service discovery",
+                "load balancing",
+                "microservices",
+                "backend",
+                "full stack"
+            ],
+            "2": [
+                "eureka",
+                "consul",
+                "nginx",
+                "kubernetes",
+                "docker",
+                "nodejs",
+                "springboot"
+            ],
+            "3": [
+                "aws",
+                "terraform",
+                "monitoring",
+                "ci/cd",
+                "redis",
+                "kafka"
+            ]
+        },
+        
+        "title": "Service Discovery & Load Balancing",
+        "description": "Learn tools like Eureka, Consul, and Nginx for service registration, discovery, and load balancing in microservices.",
+        "category": [
+            "Microservices",
+            "Backend Development",
+            "Cloud Infrastructure",
+            "DevOps",
+            "Networking"
+        ],
+        "content": [
+            {
+                "title": "Lecture 1: Introduction to Service Discovery",
+                "videoUrl": "https://videos.edu/service_discovery_load_balancing.mp4",
+                "pdfPath": "/uploads/service_discovery_load_balancing.pdf",
+                "_id": "683af6835f5241af944e3ffc"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-service_discovery.png",
+        "createdBy": "user123",
+        "date": "2024-07-20T04:30:00.000Z",
+        "enrolledCount": 125,
+        "__v": 0
+    },
+    {
+        "tags": {
+            "1": [
+                "ml tools",
+                "jupyter",
+                "git",
+                "github",
+                "vs code",
+                "cli",
+                "terminal"
+            ],
+            "2": [
+                "ide",
+                "notebooks",
+                "extensions",
+                "repositories",
+                "markdown"
+            ],
+            "3": [
+                "version control",
+                "branching",
+                "merge",
+                "push",
+                "pull",
+                "coding"
+            ]
+        },
+        
+        "title": "Tools for AI/ML: Jupyter Notebook, Git/GitHub, VS Code",
+        "description": "Master essential tools used in AI/ML development. Learn how to use Jupyter Notebooks for interactive coding, Git & GitHub for version control, and VS Code as a powerful IDE for writing and debugging code.",
+        "category": [
+            "Tools for AI/ML: Jupyter Notebook, Git/GitHub, VS Code",
+            "Tools for AI/ML",
+            "Development Tools",
+            "Version Control",
+            "IDE",
+            "Productivity",
+            "AI/ML Workflow",
+            "Software Tools",
+            "Jupyter Notebook",
+            "Git/GitHub",
+            "VS Code"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3214",
+                "title": "Lecture 1: Introduction to Tools",
+                "videoUrl": "https://videos.edu/jupyter_notebooks_intro.mp4",
+                "pdfPath": "/uploads/jupyter_notebooks_guide.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-tools.png",
+        "createdBy": "user123",
+        "date": "2024-09-27T06:30:00.000Z",
+        "enrolledCount": 520
+    },
+    {
+        "tags": {
+            "1": [
+                "beginners",
+                "logic building",
+                "problem solving",
+                "fundamentals",
+                "maths",
+                "ml basics",
+                "python",
+                "coding",
+                "programming"
+            ],
+            "2": [
+                "variables",
+                "loops",
+                "functions",
+                "datatypes",
+                "modules",
+                "IDE"
+            ],
+            "3": [
+                "scripting"
+            ]
+        },
+        
+        "title": "Python Fundamentals",
+        "description": "Master the basics of Python programming for machine learning and data science.",
+        "category": [
+            "Python Fundamentals",
+            "Programming",
+            "Python",
+            "Software Development",
+            "Beginners",
+            "Scripting",
+            "Backend Development",
+            "Machine Learning"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3215",
+                "title": "Lecture 1: Introduction to Python",
+                "videoUrl": "https://videos.edu/python_intro.mp4",
+                "pdfPath": "/uploads/python_fundamentals.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-python.png",
+        "createdBy": "user123",
+        "date": "2024-07-05T04:30:00.000Z",
+        "enrolledCount": 420
+    },
+    {
+        "tags": {
+            "1": [
+                "python",
+                "data structures",
+                "computing",
+                "numerics",
+                "ml basics",
+                "numpy",
+                "arrays"
+            ],
+            "2": [
+                "ndarray",
+                "broadcasting",
+                "indexing",
+                "slicing"
+            ],
+            "3": [
+                "matrix",
+                "linear algebra",
+                "math"
+            ]
+        },
+        
+        "title": "NumPy Essentials",
+        "description": "Learn how to use NumPy for numerical computing and data manipulation in Python.",
+        "category": [
+            "NumPy Essentials",
+            "Numpy",
+            "Python Libraries",
+            "Data Science",
+            "Machine Learning",
+            "Numerical Computing",
+            "Beginners"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3216",
+                "title": "Lecture 1: Introduction to NumPy Arrays",
+                "videoUrl": "https://videos.edu/numpy_intro.mp4",
+                "pdfPath": "/uploads/numpy_essentials.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-numpy.png",
+        "createdBy": "user123",
+        "date": "2024-07-12T03:15:00.000Z",
+        "enrolledCount": 300
+    },
+    {
+        "tags": {
+            "1": [
+                "eda",
+                "ml basics",
+                "pandas",
+                "dataframes",
+                "series",
+                "data",
+                "csv"
+            ],
+            "2": [
+                "groupby",
+                "merge",
+                "filter",
+                "cleaning",
+                "exploration"
+            ],
+            "3": [
+                "python",
+                "analysis",
+                "libraries"
+            ]
+        },
+        
+        "title": "Pandas for Data Analysis",
+        "description": "Explore data manipulation and analysis using the Pandas library in Python.",
+        "category": [
+            "Pandas for Data Analysis",
+            "Pandas",
+            "Data Analysis",
+            "Python Libraries",
+            "Data Science",
+            "Machine Learning",
+            "Data Analysis",
+            "Beginners"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3217",
+                "title": "Lecture 1: Getting Started with Pandas",
+                "videoUrl": "https://videos.edu/pandas_intro.mp4",
+                "pdfPath": "/uploads/pandas_analysis.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-pandas.png",
+        "createdBy": "user123",
+        "date": "2024-07-15T05:30:00.000Z",
+        "enrolledCount": 390
+    },
+    {
+        "tags": {
+            "1": [
+                "deep learning",
+                "ann",
+                "neural networks",
+                "ai",
+                "ml",
+                "classification",
+                "regression",
+                "supervised learning"
+            ],
+            "2": [
+                "tensorflow",
+                "keras",
+                "activation",
+                "loss",
+                "optimizer",
+                "layers"
+            ],
+            "3": [
+                "python",
+                "classification",
+                "regression",
+                "supervised learning"
+            ]
+        },
+        
+        "title": "Deep Learning with ANN",
+        "description": "Learn how to build and train Artificial Neural Networks (ANNs) using Python and TensorFlow.",
+        "category": [
+            "Deep Learning with ANN",
+            "ANN",
+            "Artificial Neural Network",
+            "Deep Learning",
+            "Neural Networks",
+            "AI",
+            "Machine Learning",
+            "Beginners"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3218",
+                "title": "Lecture 1: Introduction to Neural Networks",
+                "videoUrl": "https://videos.edu/ann_intro.mp4",
+                "pdfPath": "/uploads/ann_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-ann.png",
+        "createdBy": "user123",
+        "date": "2024-07-20T04:30:00.000Z",
+        "enrolledCount": 410
+    },
+    {
+        "tags": {
+            "1": [
+                "pytorch",
+                "neural networks",
+                "autograd",
+                "deep learning"
+            ],
+            "2": [
+                "tensors",
+                "forward pass",
+                "backpropagation",
+                "model training"
+            ],
+            "3": [
+                "vision",
+                "nlp",
+                "torchvision",
+                "models",
+                "custom layers"
+            ]
+        },
+        
+        "title": "PyTorch for Deep Learning",
+        "description": "Learn to build, train, and deploy neural networks using PyTorch.",
+        "category": [
+            "PyTorch for Deep Learning",
+            "Deep Learning",
+            "PyTorch",
+            "AI",
+            "ML",
+            "Programming"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3219",
+                "title": "Lecture 1: Introduction to PyTorch Tensors",
+                "videoUrl": "https://videos.edu/pytorch_intro.mp4",
+                "pdfPath": "/uploads/pytorch_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-pytorch.png",
+        "createdBy": "user123",
+        "date": "2024-07-28T06:30:00.000Z",
+        "enrolledCount": 360
+    },
+    {
+        "tags": {
+            "1": [
+                "eda",
+                "data exploration",
+                "statistics",
+                "pandas",
+                "visualization"
+            ],
+            "2": [
+                "outliers",
+                "distribution",
+                "correlation",
+                "insights"
+            ],
+            "3": [
+                "matplotlib",
+                "seaborn",
+                "profiling",
+                "plots"
+            ]
+        },
+        
+        "title": "Exploratory Data Analysis (EDA)",
+        "description": "Master data exploration using statistical summaries and visual techniques.",
+        "category": [
+            "EDA",
+            "Exploratory Data Analysis (EDA)",
+            "Data Science",
+            "Analytics",
+            "ML",
+            "Python"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e321a",
+                "title": "Lecture 1: Introduction to EDA",
+                "videoUrl": "https://videos.edu/eda_intro.mp4",
+                "pdfPath": "/uploads/eda_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-eda.png",
+        "createdBy": "user123",
+        "date": "2024-08-03T03:30:00.000Z",
+        "enrolledCount": 380
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "mathematics",
+                "linear algebra",
+                "calculus",
+                "probability",
+                "statistics"
+            ],
+            "2": [
+                "vectors",
+                "matrices",
+                "derivatives",
+                "distributions"
+            ],
+            "3": [
+                "machine learning",
+                "algorithms",
+                "foundations"
+            ]
+        },
+       
+        "title": "Mathematics for Machine Learning",
+        "description": "Build a strong mathematical foundation essential for understanding machine learning algorithms.",
+        "category": [
+            "Mathematics",
+            "Mathematics for Machine Learning",
+            "Machine Learning",
+            "Linear Algebra",
+            "Probability"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e321b",
+                "title": "Lecture 1: Linear Algebra Basics",
+                "videoUrl": "https://videos.edu/math_ml_intro.mp4",
+                "pdfPath": "/uploads/math_ml_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-mathml.png",
+        "createdBy": "user123",
+        "date": "2024-08-21T11:30:00.000Z",
+        "enrolledCount": 300
+    },
+    {
+        "tags": {
+            "1": [
+                "ml tools",
+                "ci/cd",
+                "git",
+                "github actions",
+                "devops",
+                "testing"
+            ],
+            "2": [
+                "docker",
+                "kubernetes",
+                "jenkins",
+                "mlflow",
+                "pipeline automation"
+            ],
+            "3": [
+                "deployment",
+                "mlops engineering",
+                "airflow",
+                "cloud"
+            ]
+        },
+        
+        "title": "CI/CD Pipeline in MLOps",
+        "description": "Implement Continuous Integration and Continuous Deployment pipelines for machine learning workflows using modern DevOps tools.",
+        "category": [
+            "MLOps",
+            "CI/CD Pipeline in MLOps",
+            "CI/CD",
+            "Automation",
+            "Model Deployment"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e321c",
+                "title": "Lecture 1: Building CI/CD Pipelines for ML",
+                "videoUrl": "https://videos.edu/mlops_cicd_intro.mp4",
+                "pdfPath": "/uploads/mlops_cicd_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-mlops-cicd.png",
+        "createdBy": "user123",
+        "date": "2024-09-11T09:00:00.000Z",
+        "enrolledCount": 350
+    },
+    {
+        "tags": {
+            "1": [
+                "ml tools",
+                "mlops",
+                "end-to-end ml",
+                "ci/cd",
+                "monitoring",
+                "deployment"
+            ],
+            "2": [
+                "airflow",
+                "mlflow",
+                "docker",
+                "kubernetes",
+                "cloud"
+            ],
+            "3": [
+                "feature store",
+                "experiment tracking",
+                "model registry",
+                "orchestration"
+            ]
+        },
+        
+        "title": "Complete MLOps: End-to-End",
+        "description": "Build an entire end-to-end MLOps pipeline from data ingestion to monitoring using state-of-the-art tools and practices.",
+        "category": [
+            "MLOps",
+            "Complete MLOps: End-to-End",
+            "AI Engineering",
+            "End-to-End Systems",
+            "DevOps"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e321d",
+                "title": "Lecture 1: Building a Full MLOps System",
+                "videoUrl": "https://videos.edu/mlops_end2end_intro.mp4",
+                "pdfPath": "/uploads/mlops_end2end_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-mlops-end2end.png",
+        "createdBy": "user123",
+        "date": "2024-09-14T05:00:00.000Z",
+        "enrolledCount": 420
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "recommendation",
+                "collaborative filtering",
+                "content-based",
+                "hybrid models"
+            ],
+            "2": [
+                "user-item matrix",
+                "cosine similarity",
+                "matrix factorization"
+            ],
+            "3": [
+                "surprise",
+                "lightfm",
+                "tensorflow",
+                "pytorch"
+            ]
+        },
+        
+        "title": "Recommendation Systems",
+        "description": "Understand collaborative and content-based filtering, hybrid models, and build intelligent recommendation engines for real-world applications.",
+        "category": [
+            "Machine Learning",
+            "Recommendation Systems",
+            "AI",
+            "Personalization",
+            "Recommender Systems"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e321e",
+                "title": "Lecture 1: Basics of Recommendation Systems",
+                "videoUrl": "https://videos.edu/recommendation_intro.mp4",
+                "pdfPath": "/uploads/recommendation_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-recommender.png",
+        "createdBy": "user123",
+        "date": "2024-09-15T07:30:00.000Z",
+        "enrolledCount": 380
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "ethics",
+                "fairness",
+                "bias",
+                "ai governance",
+                "transparency"
+            ],
+            "2": [
+                "explainability",
+                "privacy",
+                "regulations",
+                "responsible ai"
+            ],
+            "3": [
+                "accountability",
+                "inclusive ai",
+                "human-centered design"
+            ]
+        },
+        
+        "title": "Ethics & Fairness in AI",
+        "description": "Understand the ethical implications of AI systems and how to design algorithms that are fair, transparent, and accountable.",
+        "category": [
+            "Ethics",
+            "Responsible AI",
+            "AI Governance",
+            "Policy"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e321f",
+                "title": "Lecture 1: Foundations of AI Ethics",
+                "videoUrl": "https://videos.edu/ai_ethics_intro.mp4",
+                "pdfPath": "/uploads/ethics_fairness_ai.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-ethics-ai.png",
+        "createdBy": "user123",
+        "date": "2024-09-26T11:30:00.000Z",
+        "enrolledCount": 390
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "scikit-learn",
+                "machine learning",
+                "ml",
+                "data",
+                "ai",
+                "python"
+            ],
+            "2": [
+                "supervised",
+                "unsupervised",
+                "regression",
+                "classification"
+            ],
+            "3": [
+                "algorithms",
+                "training",
+                "testing",
+                "data preprocessing"
+            ]
+        },
+        
+        "title": "Machine Learning Basics",
+        "description": "Understand the fundamentals of Machine Learning, models, and applications.",
+        "category": [
+            "Machine Learning Basics",
+            "AI & ML",
+            "Data Science",
+            "Machine Learning",
+            "Beginners",
+            "Modeling",
+            "Python",
+            "scikit-learn"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3220",
+                "title": "Lecture 1: What is Machine Learning?",
+                "videoUrl": "https://videos.edu/ml_intro.mp4",
+                "pdfPath": "/uploads/ml_basics.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-ml.png",
+        "createdBy": "user123",
+        "date": "2024-07-10T04:00:00.000Z",
+        "enrolledCount": 500
+    },
+    {
+        "tags": {
+            "1": [
+                "cnn",
+                "Computer vision",
+                "convolutional",
+                "vision",
+                "images",
+                "deep learning"
+            ],
+            "2": [
+                "tensorflow",
+                "keras",
+                "image data",
+                "filters",
+                "pooling"
+            ],
+            "3": [
+                "classification",
+                "digit recognition",
+                "object detection"
+            ]
+        },
+        
+        "title": "Deep Learning with CNN",
+        "description": "Build and train Convolutional Neural Networks (CNNs) for image classification and object detection.",
+        "category": [
+            "Deep Learning",
+            "Deep Learning with CNN",
+            "Computer Vision",
+            "CNN",
+            "AI",
+            "ML"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3221",
+                "title": "Lecture 1: CNN Architecture Explained",
+                "videoUrl": "https://videos.edu/cnn_intro.mp4",
+                "pdfPath": "/uploads/cnn_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-cnn.png",
+        "createdBy": "user123",
+        "date": "2024-07-24T04:00:00.000Z",
+        "enrolledCount": 370
+    },
+    {
+        "tags": {
+            "1": [
+                "deep learning",
+                "transformers",
+                "attention",
+                "nlp",
+                "bert",
+                "gpt"
+            ],
+            "2": [
+                "huggingface",
+                "self-attention",
+                "contextual embeddings"
+            ],
+            "3": [
+                "language modeling",
+                "sequence modeling",
+                "text classification"
+            ]
+        },
+        
+        "title": "Transformers and Attention Mechanisms",
+        "description": "Master transformer architectures and attention mechanisms behind modern NLP models.",
+        "category": [
+            "Deep Learning",
+            "Transformers and Attention Mechanisms",
+            "NLP",
+            "Transformers",
+            "LLMs",
+            "AI"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3222",
+                "title": "Lecture 1: Self-Attention and Transformer Basics",
+                "videoUrl": "https://videos.edu/transformers_intro.mp4",
+                "pdfPath": "/uploads/transformers_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-transformers.png",
+        "createdBy": "user123",
+        "date": "2024-07-26T08:30:00.000Z",
+        "enrolledCount": 390
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "scikit-learn",
+                "ml",
+                "models",
+                "python"
+            ],
+            "2": [
+                "classification",
+                "regression",
+                "metrics",
+                "pipelines"
+            ],
+            "3": [
+                "data preprocessing",
+                "model evaluation",
+                "cross validation"
+            ]
+        },
+        
+        "title": "Machine Learning with scikit-learn",
+        "description": "Build and evaluate ML models using the scikit-learn library.",
+        "category": [
+            "Machine Learning",
+            "Machine Learning with scikit-learn",
+            "scikit-learn",
+            "Data Science",
+            "AI",
+            "Python"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3223",
+                "title": "Lecture 1: Getting Started with scikit-learn",
+                "videoUrl": "https://videos.edu/sklearn_intro.mp4",
+                "pdfPath": "/uploads/sklearn_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-sklearn.png",
+        "createdBy": "user123",
+        "date": "2024-07-30T09:30:00.000Z",
+        "enrolledCount": 410
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "EDA",
+                "data cleaning",
+                "feature engineering",
+                "normalization",
+                "encoding"
+            ],
+            "2": [
+                "missing values",
+                "outliers",
+                "scaling",
+                "transformation"
+            ],
+            "3": [
+                "EDA",
+                "ml pipeline",
+                "data quality"
+            ]
+        },
+        
+        "title": "Data Preprocessing in ML",
+        "description": "Learn techniques to clean, transform, and prepare your data for ML models.",
+        "category": [
+            "Data Science",
+            "EDA",
+            "Data Preprocessing in ML",
+            "Machine Learning",
+            "Python"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3224",
+                "title": "Lecture 1: Data Cleaning Essentials",
+                "videoUrl": "https://videos.edu/preprocessing_intro.mp4",
+                "pdfPath": "/uploads/data_preprocessing.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-preprocessing.png",
+        "createdBy": "user123",
+        "date": "2024-08-01T05:00:00.000Z",
+        "enrolledCount": 400
+    },
+    {
+        "tags": {
+            "1": [
+                "cnn",
+                "computer vision",
+                "image processing",
+                "object detection",
+                "cnn"
+            ],
+            "2": [
+                "opencv",
+                "tensorflow",
+                "keras",
+                "image classification"
+            ],
+            "3": [
+                "face recognition",
+                "image segmentation",
+                "feature extraction"
+            ]
+        },
+       
+        "title": "Computer Vision",
+        "description": "Learn how to process and analyze visual data using computer vision techniques.",
+        "category": [
+            "Computer Vision",
+            "Deep Learning",
+            "AI",
+            "Image Processing"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3225",
+                "title": "Lecture 1: Introduction to Computer Vision",
+                "videoUrl": "https://videos.edu/cv_intro.mp4",
+                "pdfPath": "/uploads/cv_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-cv.png",
+        "createdBy": "user123",
+        "date": "2024-08-09T05:30:00.000Z",
+        "enrolledCount": 420
+    },
+    {
+        "tags": {
+            "1": [
+                "generative ai",
+                "gpt",
+                "vae",
+                "gan",
+                "text generation",
+                "nlp"
+            ],
+            "2": [
+                "stable diffusion",
+                "image synthesis",
+                "language models"
+            ],
+            "3": [
+                "content creation",
+                "deep learning",
+                "unsupervised learning"
+            ]
+        },
+        
+        "title": "Generative AI",
+        "description": "Understand the principles and models behind Generative AI for content creation.",
+        "category": [
+            "Generative AI",
+            "Deep Learning",
+            "AI",
+            "Content Generation"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3226",
+                "title": "Lecture 1: Introduction to Generative AI",
+                "videoUrl": "https://videos.edu/genai_intro.mp4",
+                "pdfPath": "/uploads/genai_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-genai.png",
+        "createdBy": "user123",
+        "date": "2024-08-11T06:30:00.000Z",
+        "enrolledCount": 400
+    },
+    {
+        "tags": {
+            "1": [
+                "langgraph",
+                "agents",
+                "workflow",
+                "llm",
+                "graph",
+                "nlp"
+            ],
+            "2": [
+                "state management",
+                "multi-agent",
+                "orchestration"
+            ],
+            "3": [
+                "python",
+                "langchain",
+                "automation",
+                "applications"
+            ]
+        },
+        
+        "title": "LangGraph",
+        "description": "Build advanced AI agents and workflows using the LangGraph framework.",
+        "category": [
+            "LangGraph",
+            "AI",
+            "Agentic AI",
+            "Workflow Automation"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3227",
+                "title": "Lecture 1: Introduction to LangGraph",
+                "videoUrl": "https://videos.edu/langgraph_intro.mp4",
+                "pdfPath": "/uploads/langgraph_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-langgraph.png",
+        "createdBy": "user123",
+        "date": "2024-08-15T08:30:00.000Z",
+        "enrolledCount": 360
+    },
+    {
+        "tags": {
+            "1": [
+                "mlops",
+                "ml tools",
+                "deployment",
+                "model lifecycle",
+                "ml pipeline"
+            ],
+            "2": [
+                "cloud",
+                "docker",
+                "kubernetes",
+                "ci/cd"
+            ],
+            "3": [
+                "production",
+                "monitoring",
+                "data drift",
+                "scalability"
+            ]
+        },
+        
+        "title": "Introduction to MLOps",
+        "description": "Get introduced to MLOps and learn the foundational practices for deploying, monitoring, and maintaining ML models in production.",
+        "category": [
+            "Introduction to MLOps",
+            "MLOps",
+            "DevOps",
+            "Machine Learning",
+            "Deployment"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3228",
+                "title": "Lecture 1: Overview of MLOps",
+                "videoUrl": "https://videos.edu/mlops_intro.mp4",
+                "pdfPath": "/uploads/mlops_intro_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-mlops.png",
+        "createdBy": "user123",
+        "date": "2024-09-10T06:30:00.000Z",
+        "enrolledCount": 400
+    },
+    {
+        "tags": {
+            "1": [
+                "ml tools",
+                "airflow",
+                "prefect",
+                "metaflow",
+                "orchestration",
+                "ml workflows"
+            ],
+            "2": [
+                "data engineering",
+                "dag",
+                "pipeline",
+                "automation"
+            ],
+            "3": [
+                "python",
+                "scheduling",
+                "etl",
+                "ci/cd"
+            ]
+        },
+        
+        "title": "Orchestration Tools (Airflow, Metaflow)",
+        "description": "Learn to automate and orchestrate data and ML workflows using industry-standard tools like Airflow, Prefect, and Metaflow.",
+        "category": [
+            "Orchestration Tools (Airflow, Metaflow, Prefect)",
+            "Airflow",
+            "MLFlow",
+            "MLOps",
+            "Workflow Orchestration",
+            "Automation",
+            "Data Pipelines"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3229",
+                "title": "Lecture 1: Workflow Automation with Orchestration Tools",
+                "videoUrl": "https://videos.edu/orchestration_intro.mp4",
+                "pdfPath": "/uploads/orchestration_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-orchestration.png",
+        "createdBy": "user123",
+        "date": "2024-09-12T10:30:00.000Z",
+        "enrolledCount": 290
+    },
+    {
+        "tags": {
+            "1": [
+                "backened",
+                "sql",
+                "nosql",
+                "mysql",
+                "mongodb",
+                "postgres"
+            ],
+            "2": [
+                "queries",
+                "data modeling",
+                "indexes",
+                "joins",
+                "aggregation"
+            ],
+            "3": [
+                "data storage",
+                "json",
+                "collections",
+                "tables",
+                "transactions"
+            ]
+        },
+        
+        "title": "SQL  ,NoSQL, vector Databases for Data Science",
+        "description": "Learn how to use both SQL and NoSQL databases for querying, storing, and managing structured and unstructured data in data science workflows.",
+        "category": [
+            "Data Science",
+            "SQL  ,NoSQL, vector Databases for Data Science",
+            "Generative AI",
+            "Gen AI",
+            "Databases",
+            "SQL",
+            "NoSQL",
+            "Backend"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e322a",
+                "title": "Lecture 1: SQL vs NoSQL – Overview and Use Cases",
+                "videoUrl": "https://videos.edu/sql_nosql_intro.mp4",
+                "pdfPath": "/uploads/sql_nosql_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-sql-nosql.png",
+        "createdBy": "user123",
+        "date": "2024-09-20T04:30:00.000Z",
+        "enrolledCount": 420
+    },
+    {
+        "tags": {
+            "1": [
+                "eda",
+                "ml tools",
+                "bi",
+                "tableau",
+                "powerbi",
+                "dashboards",
+                "reporting"
+            ],
+            "2": [
+                "looker",
+                "kpi",
+                "metrics",
+                "data storytelling",
+                "visualization"
+            ],
+            "3": [
+                "interactive charts",
+                "data sources",
+                "etl integration"
+            ]
+        },
+        
+        "title": "Business Intelligence Tools",
+        "description": "Learn how to use leading BI tools like Tableau, Power BI, and Looker to create dashboards, reports, and data visualizations.",
+        "category": [
+            "Business Intelligence",
+            "Business Intelligence Tools",
+            "Analytics",
+            "Data Visualization"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e322b",
+                "title": "Lecture 1: BI Tools Overview & Use Cases",
+                "videoUrl": "https://videos.edu/bi_tools_intro.mp4",
+                "pdfPath": "/uploads/bi_tools_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-bi.png",
+        "createdBy": "user123",
+        "date": "2024-09-24T09:30:00.000Z",
+        "enrolledCount": 410
+    },
+    {
+        "tags": {
+            "1": [
+                "backened",
+                "sql",
+                "business intelligence",
+                "metrics",
+                "aggregation",
+                "joins"
+            ],
+            "2": [
+                "cte",
+                "window functions",
+                "reporting",
+                "group by",
+                "kpi"
+            ],
+            "3": [
+                "data extraction",
+                "databases",
+                "dashboards",
+                "queries"
+            ]
+        },
+        
+        "title": "SQL for BI",
+        "description": "Use SQL to derive insights for business intelligence, generate reports, and work with KPIs and business metrics.",
+        "category": [
+            "SQL",
+            "SQL for BI",
+            "BI",
+            "Analytics",
+            "Data Querying"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e322c",
+                "title": "Lecture 1: Writing SQL for Business Metrics",
+                "videoUrl": "https://videos.edu/sql_bi_intro.mp4",
+                "pdfPath": "/uploads/sql_for_bi_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-sql-bi.png",
+        "createdBy": "user123",
+        "date": "2024-09-25T11:00:00.000Z",
+        "enrolledCount": 430
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "matplotlib",
+                "charts",
+                "plots",
+                "graphs",
+                "visuals"
+            ],
+            "2": [
+                "line",
+                "bar",
+                "scatter",
+                "histogram",
+                "labels",
+                "grid"
+            ],
+            "3": [
+                "python",
+                "data science",
+                "visual storytelling"
+            ]
+        },
+        
+        "title": "Data Visualization with Matplotlib",
+        "description": "Visualize data using Python's powerful Matplotlib library.",
+        "category": [
+            "Data Visualization with Matplotlib",
+            "Matplotlib",
+            "Data Visualization",
+            "Python Libraries",
+            "Machine Learning",
+            "Analytics",
+            "Beginners"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e322d",
+                "title": "Lecture 1: Introduction to Matplotlib",
+                "videoUrl": "https://videos.edu/matplotlib_intro.mp4",
+                "pdfPath": "/uploads/matplotlib_visuals.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-matplotlib.png",
+        "createdBy": "user123",
+        "date": "2024-07-18T07:30:00.000Z",
+        "enrolledCount": 280
+    },
+    {
+        "tags": {
+            "1": [
+                "lstm",
+                "rnn",
+                "sequence",
+                "deep learning",
+                "nlp"
+            ],
+            "2": [
+                "keras",
+                "tensorflow",
+                "timesteps",
+                "memory",
+                "forecasting"
+            ],
+            "3": [
+                "text data",
+                "time series",
+                "stock prediction",
+                "sentiment analysis"
+            ]
+        },
+        
+        "title": "Deep Learning with LSTM",
+        "description": "Understand Long Short-Term Memory networks for sequence modeling in deep learning.",
+        "category": [
+            "Deep Learning",
+            "Deep Learning with LSTM",
+            "LSTM",
+            "Long short term meory ",
+            "Sequence Modeling",
+            "RNN",
+            "Time Series",
+            "AI"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e322e",
+                "title": "Lecture 1: LSTM Network Basics",
+                "videoUrl": "https://videos.edu/lstm_intro.mp4",
+                "pdfPath": "/uploads/lstm_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-lstm.png",
+        "createdBy": "user123",
+        "date": "2024-07-22T05:30:00.000Z",
+        "enrolledCount": 330
+    },
+    {
+        "tags": {
+            "1": [
+                "langchain",
+                "llm",
+                "framework",
+                "agents",
+                "chains",
+                "nlp"
+            ],
+            "2": [
+                "prompt engineering",
+                "memory",
+                "retrieval",
+                "tools"
+            ],
+            "3": [
+                "python",
+                "openai",
+                "integration",
+                "applications"
+            ]
+        },
+        
+        "title": "LangChain",
+        "description": "Learn to build applications powered by language models using the LangChain framework.",
+        "category": [
+            "LangChain",
+            "AI",
+            "Frameworks",
+            "LLM Applications"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e322f",
+                "title": "Lecture 1: Getting Started with LangChain",
+                "videoUrl": "https://videos.edu/langchain_intro.mp4",
+                "pdfPath": "/uploads/langchain_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-langchain.png",
+        "createdBy": "user123",
+        "date": "2024-08-13T07:30:00.000Z",
+        "enrolledCount": 380
+    },
+    {
+        "tags": {
+            "1": [
+                "agentic ai",
+                "autonomous agents",
+                "multi-agent",
+                "decision making",
+                "nlp",
+                "gen ai"
+            ],
+            "2": [
+                "reinforcement learning",
+                "planning",
+                "memory",
+                "reasoning"
+            ],
+            "3": [
+                "python",
+                "llm",
+                "frameworks",
+                "applications"
+            ]
+        },
+        
+        "title": "Agentic AI",
+        "description": "Explore the design and implementation of autonomous, goal-driven AI agents.",
+        "category": [
+            "Agentic AI",
+            "AI",
+            "Autonomous Systems",
+            "Multi-Agent Systems"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3230",
+                "title": "Lecture 1: Fundamentals of Agentic AI",
+                "videoUrl": "https://videos.edu/agentic_ai_intro.mp4",
+                "pdfPath": "/uploads/agentic_ai_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-agenticai.png",
+        "createdBy": "user123",
+        "date": "2024-08-17T09:30:00.000Z",
+        "enrolledCount": 340
+    },
+    {
+        "tags": {
+            "1": [
+                "nlp",
+                "prompt engineering",
+                "llm",
+                "prompt design",
+                "instruction tuning"
+            ],
+            "2": [
+                "chatgpt",
+                "gpt",
+                "few-shot",
+                "zero-shot"
+            ],
+            "3": [
+                "applications",
+                "best practices",
+                "techniques"
+            ]
+        },
+        
+        "title": "Prompt Engineering",
+        "description": "Master the art of crafting effective prompts to guide language models.",
+        "category": [
+            "Prompt Engineering",
+            "Prompting",
+            "Prompt",
+            "AI",
+            "NLP",
+            "LLM Applications"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3231",
+                "title": "Lecture 1: Introduction to Prompt Engineering",
+                "videoUrl": "https://videos.edu/prompt_engineering_intro.mp4",
+                "pdfPath": "/uploads/prompt_engineering_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-promptengineering.png",
+        "createdBy": "user123",
+        "date": "2024-08-19T10:30:00.000Z",
+        "enrolledCount": 320
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "rl",
+                "reinforcement learning",
+                "agents",
+                "q-learning",
+                "policy learning",
+                "environment"
+            ],
+            "2": [
+                "markov decision process",
+                "reward",
+                "exploration vs exploitation",
+                "value function"
+            ],
+            "3": [
+                "rl algorithms",
+                "deep q-networks",
+                "actor-critic",
+                "gym",
+                "python"
+            ]
+        },
+        
+        "title": "Reinforcement Learning",
+        "description": "Understand how agents learn optimal actions through trial-and-error interactions with dynamic environments.",
+        "category": [
+            "Reinforcement Learning",
+            "AI",
+            "Machine Learning",
+            "Decision Making"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3232",
+                "title": "Lecture 1: Fundamentals of Reinforcement Learning",
+                "videoUrl": "https://videos.edu/rl_intro.mp4",
+                "pdfPath": "/uploads/rl_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-rl.png",
+        "createdBy": "user123",
+        "date": "2024-08-25T05:30:00.000Z",
+        "enrolledCount": 320
+    },
+    {
+        "tags": {
+            "1": [
+                "ml basics",
+                "unsupervised learning",
+                "clustering",
+                "dimensionality reduction",
+                "unlabeled data"
+            ],
+            "2": [
+                "k-means",
+                "hierarchical clustering",
+                "pca",
+                "tsne",
+                "association rules"
+            ],
+            "3": [
+                "pattern discovery",
+                "anomaly detection",
+                "data visualization"
+            ]
+        },
+        
+        "title": "Unsupervised Learning",
+        "description": "Learn how to extract patterns, groupings, and structures from unlabeled datasets.",
+        "category": [
+            "Machine Learning",
+            "Unsupervised Learning",
+            "AI",
+            "Data Clustering"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3233",
+                "title": "Lecture 1: Introduction to Unsupervised Learning",
+                "videoUrl": "https://videos.edu/unsupervised_intro.mp4",
+                "pdfPath": "/uploads/unsupervised_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-unsupervised.png",
+        "createdBy": "user123",
+        "date": "2024-08-27T08:30:00.000Z",
+        "enrolledCount": 300
+    },
+    {
+        "tags": {
+            "1": [
+                "ml tools",
+                "model evaluation",
+                "cross-validation",
+                "metrics",
+                "hyperparameter tuning"
+            ],
+            "2": [
+                "grid search",
+                "random search",
+                "roc curve",
+                "f1 score",
+                "confusion matrix"
+            ],
+            "3": [
+                "bias-variance",
+                "overfitting",
+                "underfitting",
+                "parameter optimization"
+            ]
+        },
+        
+        "title": "Model Evaluation & Hyperparameter Tuning",
+        "description": "Master the techniques to assess model performance and optimize hyperparameters for better generalization.",
+        "category": [
+            "Model Evaluation & Hyperparameter Tuning",
+            "Machine Learning",
+            "Model Evaluation",
+            "Optimization",
+            "Data Science"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3234",
+                "title": "Lecture 1: Introduction to Model Evaluation",
+                "videoUrl": "https://videos.edu/model_eval_intro.mp4",
+                "pdfPath": "/uploads/model_evaluation_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-evaluation.png",
+        "createdBy": "user123",
+        "date": "2024-08-29T10:30:00.000Z",
+        "enrolledCount": 310
+    },
+    {
+        "tags": {
+            "1": [
+                "cnn",
+                "video analytics",
+                "action recognition",
+                "cv",
+                "temporal networks"
+            ],
+            "2": [
+                "3d cnn",
+                "lstm",
+                "video classification",
+                "pose estimation"
+            ],
+            "3": [
+                "opencv",
+                "pytorch",
+                "tensorflow",
+                "yolo",
+                "resnet"
+            ]
+        },
+        
+        "title": "Video Analytics & Action Recognition",
+        "description": "Learn how to analyze video data and detect human actions and object movements using deep learning and computer vision techniques.",
+        "category": [
+            "Video Analytics & Action Recognition",
+            "Computer Vision",
+            "Video Analytics",
+            "Action Recognition",
+            "AI"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3235",
+                "title": "Lecture 1: Introduction to Action Recognition in Videos",
+                "videoUrl": "https://videos.edu/video_analytics_intro.mp4",
+                "pdfPath": "/uploads/video_analytics_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-video-analytics.png",
+        "createdBy": "user123",
+        "date": "2024-09-09T06:00:00.000Z",
+        "enrolledCount": 310
+    },
+    {
+        "tags": {
+            "1": [
+                "ml tools",
+                "model monitoring",
+                "data drift",
+                "concept drift",
+                "performance"
+            ],
+            "2": [
+                "evidently ai",
+                "prometheus",
+                "grafana",
+                "alerts"
+            ],
+            "3": [
+                "cloudwatch",
+                "mlops tools",
+                "mlflow",
+                "real-time monitoring"
+            ]
+        },
+        
+        "title": "ML Model Monitoring",
+        "description": "Monitor your deployed ML models for performance, data drift, and anomalies in production environments.",
+        "category": [
+            "MLOps",
+            "ML Model Monitoring",
+            "ML tools",
+            "Monitoring",
+            "Production ML",
+            "Model Management"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3236",
+                "title": "Lecture 1: Introduction to Model Monitoring",
+                "videoUrl": "https://videos.edu/model_monitoring_intro.mp4",
+                "pdfPath": "/uploads/model_monitoring_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-model-monitoring.png",
+        "createdBy": "user123",
+        "date": "2024-09-13T11:30:00.000Z",
+        "enrolledCount": 310
+    },
+    {
+        "tags": {
+            "1": [
+                "Eda",
+                "big data",
+                "hadoop",
+                "spark",
+                "kafka",
+                "distributed computing"
+            ],
+            "2": [
+                "mapreduce",
+                "hdfs",
+                "etl",
+                "real-time data",
+                "streaming"
+            ],
+            "3": [
+                "data pipeline",
+                "cloudera",
+                "data lakes",
+                "batch processing"
+            ]
+        },
+        
+        "title": "Big Data Tools",
+        "description": "Explore modern tools and technologies like Hadoop, Spark, and Kafka for handling, processing, and analyzing large-scale data.",
+        "category": [
+            "Big Data",
+            "Big Data Tools",
+            "Data Engineering",
+            "Analytics",
+            "Data Science"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3237",
+                "title": "Lecture 1: Introduction to Big Data and Apache Hadoop",
+                "videoUrl": "https://videos.edu/bigdata_tools_intro.mp4",
+                "pdfPath": "/uploads/big_data_tools.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-bigdata.png",
+        "createdBy": "user123",
+        "date": "2024-09-21T06:00:00.000Z",
+        "enrolledCount": 370
+    },
+    {
+        "tags": {
+            "1": [
+                "etl",
+                "eda",
+                "data wrangling",
+                "data cleaning",
+                "transformation"
+            ],
+            "2": [
+                "pandas",
+                "python",
+                "airflow",
+                "data pipelines"
+            ],
+            "3": [
+                "unstructured data",
+                "ingestion",
+                "parsing",
+                "aggregation"
+            ]
+        },
+        
+        "title": "ETL & Data Wrangling",
+        "description": "Understand how to extract, transform, and load (ETL) data efficiently, and perform data wrangling for real-world analytics.",
+        "category": [
+            "Data Engineering",
+            "ETL & Data Wrangling",
+            "Data Cleaning",
+            "Data Science"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3238",
+                "title": "Lecture 1: Introduction to ETL and Data Wrangling",
+                "videoUrl": "https://videos.edu/etl_wrangle_intro.mp4",
+                "pdfPath": "/uploads/etl_data_wrangling.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-etl.png",
+        "createdBy": "user123",
+        "date": "2024-09-23T09:00:00.000Z",
+        "enrolledCount": 390
+    },
+    {
+        "tags": {
+            "1": [
+                "tensorflow",
+                "keras",
+                "deep learning",
+                "nn",
+                "python"
+            ],
+            "2": [
+                "model building",
+                "training",
+                "callbacks",
+                "layers"
+            ],
+            "3": [
+                "cnn",
+                "rnn",
+                "ann",
+                "framework"
+            ]
+        },
+       
+        "title": "TensorFlow Deep Learning",
+        "description": "Implement neural networks and deep learning models using TensorFlow and Keras.",
+        "category": [
+            "TensorFlow Deep Learning",
+            "Deep Learning",
+            "TensorFlow",
+            "AI",
+            "ML",
+            "Python"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3239",
+                "title": "Lecture 1: TensorFlow Basics and Setup",
+                "videoUrl": "https://videos.edu/tensorflow_intro.mp4",
+                "pdfPath": "/uploads/tensorflow_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-tensorflow.png",
+        "createdBy": "user123",
+        "date": "2024-08-05T09:00:00.000Z",
+        "enrolledCount": 420
+    },
+    {
+        "tags": {
+            "1": [
+                "nlp",
+                "text",
+                "language",
+                "tokenization",
+                "embedding"
+            ],
+            "2": [
+                "spacy",
+                "nltk",
+                "transformers",
+                "bert",
+                "gpt"
+            ],
+            "3": [
+                "sentiment analysis",
+                "text classification",
+                "named entity recognition"
+            ]
+        },
+        
+        "title": "Natural Language Processing (NLP)",
+        "description": "Explore techniques and models for processing and understanding human language using NLP.",
+        "category": [
+            "NLP",
+            "Natural Language Processing (NLP)",
+            "Machine Learning",
+            "AI",
+            "Text Processing"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e323a",
+                "title": "Lecture 1: Introduction to NLP",
+                "videoUrl": "https://videos.edu/nlp_intro.mp4",
+                "pdfPath": "/uploads/nlp_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-nlp.png",
+        "createdBy": "user123",
+        "date": "2024-08-07T04:30:00.000Z",
+        "enrolledCount": 450
+    },
+    {
+        "tags": {
+            "1": [
+                "supervised learning",
+                "classification",
+                "regression",
+                "labeled data"
+            ],
+            "2": [
+                "decision trees",
+                "svm",
+                "knn",
+                "logistic regression"
+            ],
+            "3": [
+                "model training",
+                "evaluation",
+                "metrics"
+            ]
+        },
+        
+        "title": "Supervised Learning",
+        "description": "Learn how to train models using labeled data for classification and regression tasks.",
+        "category": [
+            "Machine Learning",
+            "Supervised Learning",
+            "AI",
+            "Data Science"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e323b",
+                "title": "Lecture 1: Introduction to Supervised Learning",
+                "videoUrl": "https://videos.edu/supervised_learning_intro.mp4",
+                "pdfPath": "/uploads/supervised_learning_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-supervised.png",
+        "createdBy": "user123",
+        "date": "2024-08-23T12:30:00.000Z",
+        "enrolledCount": 280
+    },
+    {
+        "tags": {
+            "1": [
+                "rl",
+                "robotics",
+                "autonomous systems",
+                "rl",
+                "robot navigation"
+            ],
+            "2": [
+                "path planning",
+                "manipulation",
+                "control systems",
+                "robot learning"
+            ],
+            "3": [
+                "gym",
+                "ros",
+                "pytorch",
+                "deep rl",
+                "drl"
+            ]
+        },
+        
+        "title": "RL in Robotics & Autonomous Systems",
+        "description": "Apply Reinforcement Learning to robotics and autonomous systems to teach machines to perceive, decide, and act in real-world environments.",
+        "category": [
+            "RL in Robotics & Autonomous Systems",
+            "Reinforcement Learning",
+            "Robotics",
+            "Autonomous Systems",
+            "AI"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e323c",
+                "title": "Lecture 1: Fundamentals of RL in Robotics",
+                "videoUrl": "https://videos.edu/rl_robotics_intro.mp4",
+                "pdfPath": "/uploads/rl_robotics_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-rl-robotics.png",
+        "createdBy": "user123",
+        "date": "2024-09-08T04:30:00.000Z",
+        "enrolledCount": 280
+    },
+    {
+        "tags": {
+            "1": [
+                "eda",
+                "excel",
+                "pivot tables",
+                "charts",
+                "dashboards",
+                "analytics"
+            ],
+            "2": [
+                "formulas",
+                "vlookup",
+                "data cleaning",
+                "macros",
+                "statistics"
+            ],
+            "3": [
+                "regression",
+                "descriptive analytics",
+                "excel modeling"
+            ]
+        },
+        
+        "title": "Excel & Advanced Analytics",
+        "description": "Master data analysis using Excel's advanced features including pivot tables, dashboards, and statistical functions.",
+        "category": [
+            "Analytics",
+            "Business Intelligence",
+            "Excel & Advanced Analytics",
+            "Excel",
+            "Data Analysis"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e323d",
+                "title": "Lecture 1: Excel Fundamentals for Data Analysis",
+                "videoUrl": "https://videos.edu/excel_analytics_intro.mp4",
+                "pdfPath": "/uploads/excel_analytics_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-excel.png",
+        "createdBy": "user123",
+        "date": "2024-09-22T07:30:00.000Z",
+        "enrolledCount": 450
+    },
+    {
+        "tags": {
+            "1": [
+                "networks",
+                "cloud",
+                "fundamentals of computers",
+                "distributed"
+            ],
+            "2": [
+                "rpc",
+                "concurrency",
+                "clock synchronization",
+                "message passing"
+            ],
+            "3": [
+                "replication",
+                "consistency",
+                "fault tolerance",
+                "nodes"
+            ]
+        },
+        
+        "title": "Distributed Systems",
+        "description": "Learn how distributed systems work including concepts like replication, consensus, fault tolerance, and consistency models.",
+        "category": [
+            "System Design",
+            "Distributed Systems",
+            "DS",
+            "Cloud Computing",
+            "CS Theory"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e323e",
+                "title": "Lecture 1: Basics of Distributed Computing",
+                "videoUrl": "https://videos.edu/distributed_intro.mp4",
+                "pdfPath": "/uploads/distributed_systems.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-distributed.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T07:30:00.000Z",
+        "enrolledCount": 360
+    },
+    {
+        "tags": {
+            "1": [
+                "dbms",
+                "sql",
+                "fundamentals of computers",
+                "data modeling",
+                "data storage"
+            ],
+            "2": [
+                "indexes",
+                "relational",
+                "queries",
+                "schema",
+                "er diagram"
+            ],
+            "3": [
+                "normalization",
+                "acid",
+                "transactions"
+            ]
+        },
+        
+        "title": "Database Management Systems",
+        "description": "Understand how databases work, including relational models, SQL, normalization, transactions, and indexing.",
+        "category": [
+            "Database",
+            "Backend",
+            "Information Systems"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e323f",
+                "title": "Lecture 1: Introduction to DBMS",
+                "videoUrl": "https://videos.edu/dbms_intro.mp4",
+                "pdfPath": "/uploads/dbms_fundamentals.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-dbms.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T08:30:00.000Z",
+        "enrolledCount": 420
+    },
+    {
+        "tags": {
+            "1": [
+                "fundamentals of computers",
+                "automata",
+                "formal languages"
+            ],
+            "2": [
+                "syntax tree",
+                "tokenization",
+                "semantic analysis",
+                "optimization"
+            ],
+            "3": [
+                "compiler",
+                "lexer",
+                "parser",
+                "interpreter",
+                "code generation"
+            ]
+        },
+        
+        "title": "Compiler Design",
+        "description": "Learn the phases of compiler construction including lexical analysis, parsing, semantic analysis, and code generation.",
+        "category": [
+            "Compiler Design",
+            "CD",
+            "Compiler",
+            "Theoretical CS",
+            "Software Design",
+            "Programming Languages"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3240",
+                "title": "Lecture 1: Compiler Structure and Phases",
+                "videoUrl": "https://videos.edu/compiler_intro.mp4",
+                "pdfPath": "/uploads/compiler_design.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-compiler.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T09:30:00.000Z",
+        "enrolledCount": 340
+    },
+    {
+        "tags": {
+            "1": [
+                "fundamentals of computers",
+                "programming concepts",
+                "design"
+            ],
+            "2": [
+                "encapsulation",
+                "polymorphism",
+                "java",
+                "c++",
+                "python"
+            ],
+            "3": [
+                "oops",
+                "class",
+                "object",
+                "inheritance",
+                "abstraction"
+            ]
+        },
+        
+        "title": "Object-Oriented Programming (OOPs)",
+        "description": "Understand core OOP principles including encapsulation, inheritance, polymorphism, and abstraction with practical examples.",
+        "category": [
+            "Object-Oriented Programming (OOPs)",
+            "OOPS",
+            "Object-Oriented",
+            "Programming",
+            "Software Engineering",
+            "OOP"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3241",
+                "title": "Lecture 1: Principles of Object-Oriented Programming",
+                "videoUrl": "https://videos.edu/oops_intro.mp4",
+                "pdfPath": "/uploads/oops_fundamentals.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-oops.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T11:30:00.000Z",
+        "enrolledCount": 430
+    },
+    {
+        "tags": {
+            "1": [
+                "fundamentals of computers",
+                "electronics",
+                "digital systems",
+                "microprocessor",
+                "microcontroller"
+            ],
+            "2": [
+                "registers",
+                "interrupts",
+                "timers",
+                "i/o interfacing",
+                "memory map"
+            ],
+            "3": [
+                "8085",
+                "8051",
+                "instructions"
+            ]
+        },
+        
+        "title": "Microprocessors and Microcontrollers",
+        "description": "Learn about the architecture and working of microprocessors and microcontrollers, including instruction sets and interfacing.",
+        "category": [
+            "Embedded Systems",
+            "Microprocessors and Microcontrollers",
+            "MPMC",
+            "Microprocessors",
+            "Microcontrollers",
+            "Hardware",
+            "Electronics"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3242",
+                "title": "Lecture 1: Introduction to Microprocessors",
+                "videoUrl": "https://videos.edu/micro_intro.mp4",
+                "pdfPath": "/uploads/microprocessors_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-micro.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T13:30:00.000Z",
+        "enrolledCount": 390
+    },
+    {
+        "tags": {
+            "1": [
+                "fundamentals of computers",
+                "computer architecture",
+                "os",
+                "operating system"
+            ],
+            "2": [
+                "scheduling",
+                "deadlock",
+                "cpu",
+                "paging",
+                "virtual memory"
+            ],
+            "3": [
+                "memory",
+                "process",
+                "threads",
+                "programming"
+            ]
+        },
+        
+        "title": "Operating System Fundamentals",
+        "description": "Understand the core principles of operating systems including process management, memory management, scheduling, and file systems.",
+        "category": [
+            "Operating System Fundamentals",
+            "Computer Science",
+            "Systems Programming",
+            "OS"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3243",
+                "title": "Lecture 1: Introduction to Operating Systems",
+                "videoUrl": "https://videos.edu/os_intro.mp4",
+                "pdfPath": "/uploads/os_fundamentals.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-os.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T04:30:00.000Z",
+        "enrolledCount": 400
+    },
+    {
+        "tags": {
+            "1": [
+                "fundamentals of computers",
+                "network security",
+                "web"
+            ],
+            "2": [
+                "ip",
+                "udp",
+                "firewalls",
+                "ethernet",
+                "switching",
+                "packets"
+            ],
+            "3": [
+                "networks",
+                "tcp/ip",
+                "osi",
+                "http",
+                "dns",
+                "routing"
+            ]
+        },
+        
+        "title": "Computer Networks",
+        "description": "Explore the foundations of computer networks, including TCP/IP stack, protocols, routing, switching, and network security.",
+        "category": [
+            "Computer Networks",
+            "Networks",
+            "CN",
+            "Networking",
+            "Systems",
+            "Infrastructure"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3244",
+                "title": "Lecture 1: Introduction to Networking",
+                "videoUrl": "https://videos.edu/networks_intro.mp4",
+                "pdfPath": "/uploads/computer_networks.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-networks.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T10:30:00.000Z",
+        "enrolledCount": 410
+    },
+    {
+        "tags": {
+            "1": [
+                "coa",
+                "architecture",
+                "fundamentals of computers",
+                "computer architecture",
+                "pipelining",
+                "cache",
+                "memory"
+            ],
+            "2": [
+                "alu",
+                "cpu",
+                "control unit",
+                "instruction set",
+                "registers"
+            ],
+            "3": [
+                "digital electronics",
+                "logic"
+            ]
+        },
+        
+        "title": "Computer Organization and Architecture",
+        "description": "Explore the internal structure of computers, instruction sets, memory hierarchy, pipelining, and I/O systems.",
+        "category": [
+            "Computer Organization and Architecture",
+            "COA",
+            "Computer Organization",
+            "Organization and Architecture",
+            "Computer Science",
+            "Hardware",
+            "Systems Design"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3245",
+                "title": "Lecture 1: Introduction to Computer Architecture",
+                "videoUrl": "https://videos.edu/coa_intro.mp4",
+                "pdfPath": "/uploads/coa_fundamentals.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-coa.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T05:30:00.000Z",
+        "enrolledCount": 380
+    },
+    {
+        "tags": {
+            "1": [
+                "fundamentals of computers",
+                "formal methods",
+                "state machines"
+            ],
+            "2": [
+                "regex",
+                "language theory",
+                "compilers",
+                "finite state machine"
+            ],
+            "3": [
+                "automata",
+                "dfa",
+                "nfa",
+                "turing machine",
+                "grammar"
+            ]
+        },
+        
+        "title": "Formal Language and Automata Theory",
+        "description": "Dive into the mathematical foundations of computation, covering automata, regular expressions, grammars, and Turing machines.",
+        "category": [
+            "Formal Language and Automata Theory",
+            "FLAT",
+            "Theoretical CS",
+            "Formal Language",
+            "Automata Theory",
+            "Automata",
+            "Mathematics"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3246",
+                "title": "Lecture 1: Introduction to Automata Theory",
+                "videoUrl": "https://videos.edu/automata_intro.mp4",
+                "pdfPath": "/uploads/automata_fundamentals.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-automata.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T06:30:00.000Z",
+        "enrolledCount": 350
+    },
+    {
+        "tags": {
+            "1": [
+                "fundamentals of computers",
+                "low-level programming",
+                "syntax"
+            ],
+            "2": [
+                "memory",
+                "data types",
+                "structures",
+                "input/output",
+                "files"
+            ],
+            "3": [
+                "c language",
+                "functions",
+                "arrays",
+                "pointers",
+                "loops"
+            ]
+        },
+        
+        "title": "C Programming Language",
+        "description": "Learn the C programming language including syntax, pointers, memory management, structures, and functions.",
+        "category": [
+            "c language",
+            "C",
+            "Programming",
+            "Systems",
+            "C Language"
+        ],
+        "content": [
+            {
+                "_id": "684aab0590b9f2ba873e3247",
+                "title": "Lecture 1: Basics of C Programming",
+                "videoUrl": "https://videos.edu/c_programming_intro.mp4",
+                "pdfPath": "/uploads/c_programming_course.pdf"
+            }
+        ],
+        "thumbnail": "/uploads/thumb-c.png",
+        "createdBy": "user123",
+        "date": "2024-09-28T12:30:00.000Z",
+        "enrolledCount": 450
+    }
+]

@@ -11,7 +11,6 @@ const storetokenInLS=(serverToken)=>{
     return localStorage.setItem("token",serverToken);
 };
 
-
 let isLoggedIn=!!token;
 console.log("isLoggedIn",isLoggedIn);
 const LogoutUser=()=>{
@@ -50,7 +49,7 @@ useEffect(()=>{
 
 
 
-    return (<AuthContext.Provider value={{isLoggedIn,storetokenInLS, LogoutUser,user}}>
+    return (<AuthContext.Provider value={{isLoggedIn,storetokenInLS, LogoutUser,user,token}}>
         {children}
         </AuthContext.Provider>);
 
