@@ -4,8 +4,6 @@ const {home,register,login,user}=require("../controllers/auth-controller");
 const validate=require("../middlewares/validate-middleware");
 const signupSchema=require("../validators/auth-validator");
 const authmiddleware=require("../middlewares/auth-middleware");
-// router.get("/",(req,res)=>{
-//     res
 
 
 
