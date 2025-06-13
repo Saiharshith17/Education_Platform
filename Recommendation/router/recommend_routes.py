@@ -7,17 +7,18 @@ router = APIRouter()
 
 class RecommendationRequest(BaseModel):
     course_ids: List[str]
+    tags:List[str]
 
 @router.post("/recommend")
 async def get_recommendations(request: RecommendationRequest):
     try:
-        if not request.course_ids:
-            raise HTTPException(status_code=400, detail="course_ids cannot be empty")
+        if not request.tags:
+            raise HTTPException(status_code=400, detail="tags cannot be empty")
         all_courses = fetch_all_courses()
         
         if not all_courses:
             raise HTTPException(status_code=404, detail="No courses found")
-        recommendations = recommend_courses(request.course_ids, all_courses)
+        recommendations = recommend_courses(request.course_ids, all_courses,request.tags)
         
         return {"recommendations": recommendations}
         

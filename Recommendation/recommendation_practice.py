@@ -1,14 +1,37 @@
-import random
-from .database import get_collection
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+
+uri = "mongodb+srv://tejatanush47:tejatanush@cluster0.7fqzuov.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+client = MongoClient(uri, server_api=ServerApi('1'))
+
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
+
+db=client["edu_platform"]
+collection=db["courses"]
+
+def fetch_all_courses(collection):
+    return list(collection.find())
+
 from bson import ObjectId
-def fetch_all_courses():
-    collection = get_collection()
-    courses = list(collection.find())
-    for course in courses:
-        course["_id"] = str(course["_id"])
-    return courses
+
+import random
 
 def recommend_courses(course_list, all_courses,tags):
+    """
+    Simple course recommendation based on tag matching with ranking priority.
+    
+    Args:
+        course_list: List of course IDs that user has enrolled/completed
+        all_courses: List of all available courses
+    
+    Returns:
+        List of recommended course titles
+    """
     shuffled_courses = all_courses.copy()
     random.shuffle(shuffled_courses)
     purchased_course_ids = set(course_list)
@@ -16,22 +39,16 @@ def recommend_courses(course_list, all_courses,tags):
     rec_from_tags_ids=set()
     rec_from_tags_list=[]
     if len(course_list)>0:
-        course_list = [str(cid) for cid in course_list]
+
+        course_list = [ObjectId(cid) if isinstance(cid, str) else cid for cid in course_list]
         if len(course_list) <= 3:
             recs_per_course = 5
         elif len(course_list) <= 8:
             recs_per_course = 4
         else:
             recs_per_course = 3
-        
-        
-        # Create course dictionary for quick lookup
         course_dict = {course["_id"]: course for course in shuffled_courses}
-        #print(course_dict)
-        # Track purchased and recommended courses
         recommended_courses = []
-        
-        # For each course in user's list, find recommendations
         for course_id in course_list:
             if course_id not in course_dict:
                 continue
@@ -39,22 +56,17 @@ def recommend_courses(course_list, all_courses,tags):
             source_course = course_dict[course_id]
             course_recommendations = []
             
-            # Try each rank level (1, 2, 3) in priority order
             for rank in ["1", "2", "3"]:
                 if len(course_recommendations) >= recs_per_course:
                     break
                     
-                # Get tags for current rank from source course
                 source_tags = set(source_course.get("tags", {}).get(rank, []))
                 if not source_tags:
                     continue
                 
-                # Find courses with matching tags
                 for course in shuffled_courses:
                     if len(course_recommendations) >= recs_per_course:
                         break
-                        
-                    # Skip if course is purchased, already recommended, or same course
                     if (course["_id"] in purchased_course_ids or 
                         course["_id"] in recommended_ids or
                         course["_id"] == course_id):
@@ -70,7 +82,7 @@ def recommend_courses(course_list, all_courses,tags):
             
             recommended_courses.extend(course_recommendations)
     if len(tags)>0:
-        if len(tags)<=2:
+        if tags<=2:
             rec_from_tags=4
         else:
             rec_from_tags=2
@@ -81,14 +93,16 @@ def recommend_courses(course_list, all_courses,tags):
                     break
                 if (course2["_id"] in purchased_course_ids or 
                             course2["_id"] in recommended_ids or 
-                            course2["_id"] in rec_from_tags_ids):
+                            rec_from_tags_ids):
                             continue
-                course_tags = set()
-                for r in ["1", "2", "3"]:
-                    course_tags.update(course2.get("tags", {}).get(r, []))
-
-                if tag in course_tags:
-                    rec_from_tags_list.append(course["title"])
+                target_tags2 = set(course2.get("tags", {}).get(rank, []))
+                if tag in target_tags2:
+                    rec_from_tags_list.append(course2["title"])
                     rec_from_tags_ids.add(course["_id"])
-    final_recommendations=list(recommended_ids|rec_from_tags_ids)
-    return final_recommendations
+    return recommended_ids,rec_from_tags_ids
+
+course_list=["684ab367e51ae7d6195a94be"]
+tags=["AI","Frontened"]
+courses=fetch_all_courses(collection)
+recommendations=recommend_courses(course_list,courses,tags)
+print(recommendations)
