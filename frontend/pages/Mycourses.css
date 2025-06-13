@@ -1,0 +1,39 @@
+.courses-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.courses-half {
+  flex: 1;
+  min-width: 300px;
+}
+
+.courses-list {
+  display: grid;
+  gap: 10px;
+}
+
+.course-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  background: #e9f1ff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}
+
+.course-card h4 {
+  margin: 0 0 8px;
+}
+
+.course-card p {
+  margin: 0;
+  color: #555;
+}

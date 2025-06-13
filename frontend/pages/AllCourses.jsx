@@ -23,7 +23,7 @@ const AllCourses = () => {
   const [filteredCourses, setFilteredCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchKeyword, setSearchKeyword] = useState("");
-  
+  console.log(courses);
   const location = useLocation();
   const navigate = useNavigate();
    console.log(courses);

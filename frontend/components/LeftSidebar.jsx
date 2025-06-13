@@ -31,7 +31,7 @@ const LeftSidebar = () => {
 
       <div className="nav-links">
         <a href="/dashboard">Dashboard</a>
-        <a href="/my-courses">My Courses</a>
+        <a href="/mycourses">My Courses</a>
         <a href="/settings">Settings</a>
       </div>
     </div>

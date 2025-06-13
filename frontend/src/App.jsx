@@ -42,16 +42,21 @@ import React, { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../layouts/Layouts";
 import Contact from "../pages/Contact";
-
+import {useAuth} from "./store/auth";
+import {useCourseData} from "./store/CourseContext"
+import Loading from "../components/Loading";
+import Mycourses from "../pages/Mycourses";
+const UserDashboard = lazy(()=>import("../pages/Dashboard"));
 const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/Signup"));
 const Home = lazy(() => import("../pages/Home"));
 const AllCourses=lazy(()=>import("../pages/AllCourses"));
 const CourseDetail=lazy(()=>import("../pages/CourseDetail"));
 const App = () => {
+  const {user} =useAuth();
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Loading/>}>
         <Routes>
           {/* Pages with layout */}
           <Route
@@ -78,7 +83,24 @@ const App = () => {
               </Layout>
             } 
           />
+          <Route
+             path="/dashboard" 
+             element={
+              <Layout>
+                <UserDashboard user={user} />
+              </Layout>
+            } 
+          />
+          <Route
+             path="/mycourses" 
+             element={
+              <Layout>
+                <Mycourses user={user} useCourseData={useCourseData} />
+              </Layout>
+            } 
+          />
           <Route path="/contactus" element={<Contact/>}/>
+          <Route path="/load" element={<Loading/>}/>
           
           {/* Login and Signup without layout */}
           <Route path="/login" element={<Login />} />

@@ -1,0 +1,77 @@
+/* UserDashboard.css */
+
+.dashboard-container {
+  padding: 2rem;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Top Section */
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.user-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.preferences {
+  flex: 1;
+  min-width: 250px;
+}
+
+.preferences .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  background-color: #e0f0ff;
+  color: #0077cc;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+/* Grid Section */
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.grid-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.grid-card:hover {
+  transform: translateY(-5px);
+}
+
+.grid-card h3 {
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.grid-card ul {
+  list-style: none;
+  padding-left: 1rem;
+  color: #555;
+}
+
+.grid-card li::before {
+  content: "📘 ";
+  margin-right: 4px;
+}
