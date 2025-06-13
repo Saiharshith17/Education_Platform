@@ -46,6 +46,7 @@ import {useAuth} from "./store/auth";
 import {useCourseData} from "./store/CourseContext"
 import Loading from "../components/Loading";
 import Mycourses from "../pages/Mycourses";
+import { HeroGeometric } from "../pages/start/HeroGeometric";
 const UserDashboard = lazy(()=>import("../pages/Dashboard"));
 const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/Signup"));
@@ -59,6 +60,12 @@ const App = () => {
       <Suspense fallback={<Loading/>}>
         <Routes>
           {/* Pages with layout */}
+          <Route
+            path="/"
+            element={
+              <HeroGeometric/>
+            }
+          />
           <Route
             path="/Home"
             element={
