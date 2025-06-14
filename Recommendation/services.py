@@ -88,7 +88,7 @@ def recommend_courses(course_list, all_courses,tags):
                     course_tags.update(course2.get("tags", {}).get(r, []))
 
                 if tag in course_tags:
-                    rec_from_tags_list.append(course["title"])
-                    rec_from_tags_ids.add(course["_id"])
-    final_recommendations=list(recommended_ids|rec_from_tags_ids)
+                    rec_from_tags_list.append(course2["title"])
+                    rec_from_tags_ids.add(course2["_id"])
+    final_recommendations=rec_from_tags_ids|recommended_ids
     return final_recommendations
