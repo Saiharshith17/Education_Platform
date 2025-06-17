@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "./Preferences.css";
 
 const PREFERENCE_OPTIONS = [
-  "Programming", "Mathematics", "Science", "History", "Art", "Business", "Language", "Technology"
+  "Programming","Data Structures", "AI", "Frontend Development","Backend Development","Full Stack Development","DevOps", "Machine Learning","Computer Science"
 ];
 
-const PreferencesModal = ({ isOpen, onClose, onSave }) => {
+const Preferences = ({ isOpen, onClose, onSave }) => {
   const [selected, setSelected] = useState([]);
 
   const handleSelect = (option) => {
@@ -51,4 +51,4 @@ const PreferencesModal = ({ isOpen, onClose, onSave }) => {
   );
 };
 
-export default PreferencesModal;
+export default Preferences;

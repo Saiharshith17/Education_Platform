@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 
 router.post("/toggle-cart/:courseId", authMiddleware, async (req, res) => {
   try {
+    console.log(`toggle ${req}`);
     const userId = req.userID;
     const courseIdParam = req.params.courseId;
 
