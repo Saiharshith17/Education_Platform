@@ -25,36 +25,38 @@ const {storetokenInLS}=useAuth();
       [name]: value,
     });
   };
+// ...existing code...
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  try {
+    const response = await fetch(URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(user),
+    });
+    if (response.ok) {
+      const res_data = await response.json();
+      storetokenInLS(res_data.token);
 
-  // handle form on submit
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    console.log(user);
-    try{
-      const response= await fetch(URL,{
-        method:"POST",
-        headers:{
-          "Content-Type":"application/json",
+      // Auto-login: navigate to login with credentials
+      Navigate("/login", {
+        state: {
+          guest: {
+            email: user.email,
+            password: user.password,
+          },
         },
-        body:JSON.stringify(user),
       });
-      if(response.ok){
-        const res_data=await response.json();
-        console.log("res from server", res_data);
 
-        storetokenInLS(res_data.token);
-
-       setUser( {username: "",email: "",phone: "",password: "",});
-    Navigate("/login");
-      }
-      console.log(response);
-    }catch(error){
-      console.log(error);
+      setUser({ username: "", email: "", phone: "", password: "" });
     }
-   
+  } catch (error) {
+    console.log(error);
+  }
+};
 
-     
-  };
   return (
     <>
     <section>

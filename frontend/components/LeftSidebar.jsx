@@ -1,12 +1,16 @@
 // LeftBar.jsx
-import React from "react";
+import React,{useEffect} from "react";
 import "./LeftSidebar.css";
 import { useAuth } from "../src/store/auth";
 
 
 const LeftSidebar = () => {
   
-   const {user}=useAuth();
+   const {user,userAuthentication}=useAuth();
+   useEffect(() => {
+    userAuthentication(); // Fetch latest user data on mount
+  }, []);
+
    if(user){
    console.log(user);
    }else{
