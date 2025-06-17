@@ -19,6 +19,7 @@ router.post('/preferences', authMiddleware, async (req, res) => {
     user.preferences = preferences;
     await user.save();
     res.status(200).json({ message: "Preferences saved successfully" });
+    console.log("Preferences saved:", preferences);
 
   } catch (err) {
     console.log("Error saving preferences:", err);

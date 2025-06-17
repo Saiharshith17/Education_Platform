@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Preferences.css";
 
 const PREFERENCE_OPTIONS = [
@@ -8,6 +8,9 @@ const PREFERENCE_OPTIONS = [
 const Preferences = ({ isOpen, onClose, onSave }) => {
   const [selected, setSelected] = useState([]);
 
+  useEffect(() => {
+    if (isOpen) setSelected([]);
+  }, [isOpen]);
   const handleSelect = (option) => {
     if (selected.includes(option)) {
       setSelected(selected.filter((o) => o !== option));
