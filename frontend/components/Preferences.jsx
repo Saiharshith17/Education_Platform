@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Preferences.css";
 
 const PREFERENCE_OPTIONS = [
   "Programming", "Mathematics", "Science", "History", "Art", "Business", "Language", "Technology"
