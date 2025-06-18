@@ -2,21 +2,54 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Preferences from "../components/Preferences";
+import {useCourseData} from "../src/store/CourseContext";
 
-
-// You should get user and setUser from context or props
-// For demo, you can replace with your actual user management
 import { useAuth } from "../src/store/auth"; // Example import
 
 const Home = () => {
   const { user, setUser,token } = useAuth(); // Replace with your actual user context/hook
   const [showPrefModal, setShowPrefModal] = useState(false);
-
+  const [recommendations,setRecommendations]=useState([]);
+  const {courses,setCourses} = useCourseData();
   useEffect(() => {
     if (user && (!user.preferences || user.preferences.length < 3)) {
       setShowPrefModal(true);
     }
   }, [user]);
+  
+  useEffect(()=>{
+    const fetchRecommendations=async()=>{
+      const course_ids=[
+        ...(user.coursesRead || []),
+        ...(user.coursesAdded || []),
+      ];
+      const tags=user.preferences||[];
+      try{
+        const res=await fetch("http://127.0.0.1:8000/recommend",{
+          method:"POST",
+          headers:{
+            "Content-Type":"application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body:JSON.stringify({course_ids,tags}),
+        });
+        if(!res.ok) return setRecommendations([]);
+        if(res.ok){
+          const data=await res.json();
+          const recommendedIds=data.recommendations||[];
+          const recommendedCourses=courses.filter(course=>{
+            recommendedIds.includes(course._id);
+          });
+          setRecommendations(recommendedIds||[]);
+        }
+      }catch(error){
+        console.log("Error fetching recommendations:", error);
+        setRecommendations([]);
+      }
+    };
+    fetchRecommendations();
+  },[user,token,courses]);
+
 
   const handleSavePreferences = async (prefs) => {
     try {
@@ -57,12 +90,18 @@ const Home = () => {
       <section className="recommended">
         <h3>Recommended for You</h3>
         <div className="recommend-grid">
-          <RecommendedCard title="Intro to DSA" />
-          <RecommendedCard title="Mastering JavaScript" />
-          <RecommendedCard title="Top 10 Coding Books" />
-          <RecommendedCard title="Intro to DSA" />
-          <RecommendedCard title="Mastering JavaScript" />
-          <RecommendedCard title="Top 10 Coding Books" />
+          {recommendations.length > 0 ? (
+            recommendations.map((rec) => (
+              <RecommendedCard
+                key={rec._id}
+                title={rec.title}
+                description={rec.description}
+                // Add more fields as needed
+              />
+            ))
+          ) : (
+            <p>No recommendations yet. Add courses or set preferences!</p>
+          )}
         </div>
       </section>
 
