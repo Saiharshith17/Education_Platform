@@ -30,19 +30,27 @@ const UserDashboard = ({ user, setUser,token }) => {
     const handleSavePreferences = async (prefs) => {
       try {
         const res = await fetch("http://localhost:5000/api/users/preferences", {
-          method: "POST",
+          method: "PUT",
           headers: { "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,
           },
           body: JSON.stringify({ userId: user._id, preferences: prefs }),
         });
-        if (res.ok) {
-          setUser({ ...user, preferences: prefs });
-          setShowPrefModal(false);
-        }
-      } catch (err) {
-        alert("Failed to save preferences.");
-      }
+
+        const data = await res.json(); // ✅ Parse the response
+
+    if (res.ok) {
+      console.log("Success:", data.message); // Optional log
+      setUser({ ...user, preferences: prefs });
+      setShowPrefModal(false);
+      alert("Preferences Saved Successfully");
+    } else {
+      alert(data.message || "Error saving preferences");
+    }
+  } catch (err) {
+    console.error("Error:", err);
+    alert("Failed to save preferences.");
+  }
     };
 
   return (

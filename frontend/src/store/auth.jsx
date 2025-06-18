@@ -49,7 +49,7 @@ useEffect(()=>{
 
 
 
-    return (<AuthContext.Provider value={{isLoggedIn,storetokenInLS, LogoutUser,user,token,userAuthentication}}>
+    return (<AuthContext.Provider value={{isLoggedIn,storetokenInLS, LogoutUser,user,setUser,token,userAuthentication}}>
         {children}
         </AuthContext.Provider>);
 
