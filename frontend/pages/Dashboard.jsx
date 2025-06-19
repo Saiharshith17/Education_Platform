@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
 import "./Dashboard.css";
+import Preferences from "../components/Preferences";
 
-const UserDashboard = ({ user }) => {
-   
+
+const UserDashboard = ({ user, setUser,token }) => {
   const {
     username,
     email,
@@ -13,10 +14,54 @@ const UserDashboard = ({ user }) => {
     coursesAdded = [],
     booksRead = [],
     booksAdded = [],
+   
   } = user || {};
+
+  
+   // Replace with your actual user context/hook
+    const [showPrefModal, setShowPrefModal] = useState(false);
+  
+    useEffect(() => {
+      if (user && (!user.preferences || user.preferences.length < 3)) {
+        setShowPrefModal(true);
+      }
+    }, [user]);
+  
+    const handleSavePreferences = async (prefs) => {
+      try {
+        const res = await fetch("http://localhost:5000/api/users/preferences", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ userId: user._id, preferences: prefs }),
+        });
+
+        const data = await res.json(); // ✅ Parse the response
+
+    if (res.ok) {
+      console.log("Success:", data.message); // Optional log
+      setUser({ ...user, preferences: prefs });
+      setShowPrefModal(false);
+      alert("Preferences Saved Successfully");
+    } else {
+      alert(data.message || "Error saving preferences");
+    }
+  } catch (err) {
+    console.error("Error:", err);
+    alert("Failed to save preferences.");
+  }
+    };
 
   return (
     <div className="dashboard-container">
+      {/* Preferences Modal */}
+      <Preferences
+        isOpen={showPrefModal}
+        onClose={() => setShowPrefModal(false)}
+        onSave={handleSavePreferences}
+      />
+
       {/* Top Section */}
       <div className="top-section">
         <div className="user-info">
@@ -28,6 +73,14 @@ const UserDashboard = ({ user }) => {
         <div className="preferences">
           <h3>Preferences:</h3>
           <div className="tags">
+            <div
+              className="edit"
+              onClick={() => setShowPrefModal(true)}
+              tabIndex={0}
+              role="button"
+            >
+              Edit
+            </div>
             {preferences.map((pref, idx) => (
               <span key={idx} className="tag">
                 {pref}

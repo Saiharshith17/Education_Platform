@@ -54,7 +54,7 @@ const Home = lazy(() => import("../pages/Home"));
 const AllCourses=lazy(()=>import("../pages/AllCourses"));
 const CourseDetail=lazy(()=>import("../pages/CourseDetail"));
 const App = () => {
-  const {user} =useAuth();
+  const {user,setUser,token} =useAuth();
   return (
     <BrowserRouter>
       <Suspense fallback={<Loading/>}>
@@ -94,7 +94,7 @@ const App = () => {
              path="/dashboard" 
              element={
               <Layout>
-                <UserDashboard user={user} />
+                <UserDashboard user={user} setUser={setUser} token={token} />
               </Layout>
             } 
           />

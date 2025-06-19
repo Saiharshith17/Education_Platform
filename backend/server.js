@@ -9,14 +9,16 @@ const courseRoute = require("./router/course-router")
 const courseRoutes = require("./router/course-routes");
 const errorMiddleware=require("./middlewares/error-middleware");
 const cartRoutes = require("./router/cartRoutes");
+const preferenceRoutes= require("./router/preference-router");
 
+const corsOptions = {
+    origin: "http://localhost:5173",
+    methods: "GET,POST,PUT,DELETE,PATCH,HEAD,OPTIONS",
+    credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization"]
+};
 
-const corsOptions={
-    origin:"http://localhost:5173",
-    methods:"GET,POST,PUT,DELETE,PATCH,HEAD",
-    credentials:true,
-}
-app.use(cors(corsOptions));
+app.use(require("cors")(corsOptions));
 app.use(express.json());
 app.use("/api/auth",authRoute);
 app.use("/api/form",contactRoute);
@@ -28,6 +30,7 @@ app.use("/api", courseRoutes);
 
 app.use("/api/cart", cartRoutes);
 
+app.use("/api/users", preferenceRoutes);
 // app.get("/",(req,res)=>{
 //     res.status(200).send("mg");
 // });
