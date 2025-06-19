@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware  
-from Recommendation.router.recommend_routes import router
+from fastapi.middleware.cors import CORSMiddleware
+from chatbot.routes import chat
 import uvicorn
 app = FastAPI()
 
@@ -17,12 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(router)
-
-@app.get("/")
-async def root():
-    return {"message": "Course Recommendation API"}
+app.include_router(chat.chat_router)
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("chatbot.main:app", host="127.0.0.1", port=8001, reload=True)
