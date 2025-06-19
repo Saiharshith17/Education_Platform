@@ -24,23 +24,28 @@ const Home = () => {
         ...(user.coursesAdded || []),
       ];
       const tags=user.preferences||[];
+      console.log("Request body:", { course_ids, tags });
       try{
         const res=await fetch("http://127.0.0.1:8000/recommend",{
           method:"POST",
           headers:{
             "Content-Type":"application/json",
-            Authorization: `Bearer ${token}`,
+            
           },
           body:JSON.stringify({course_ids,tags}),
+          
         });
         if(!res.ok) return setRecommendations([]);
         if(res.ok){
           const data=await res.json();
           const recommendedIds=data.recommendations||[];
-          const recommendedCourses=courses.filter(course=>{
-            recommendedIds.includes(course._id);
-          });
-          setRecommendations(recommendedIds||[]);
+          console.log("Recommended IDs:", recommendedIds);
+          console.log("Available courses:", courses);
+          const recommendedCourses=courses.filter(course=>
+            recommendedIds.includes(course._id)
+          );
+          setRecommendations(recommendedCourses);
+          console.log("Recommendations fetched:", recommendedCourses);
         }
       }catch(error){
         console.log("Error fetching recommendations:", error);
@@ -50,6 +55,13 @@ const Home = () => {
     fetchRecommendations();
   },[user,token,courses]);
 
+
+const [startIdx, setStartIdx] = useState(0);
+const visibleCount = 4;
+const total = recommendations.length;
+
+const handlePrev = () => setStartIdx(idx => Math.max(0, idx - 1));
+const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx + 1));
 
   const handleSavePreferences = async (prefs) => {
     try {
@@ -88,21 +100,31 @@ const Home = () => {
 
       {/* Recommended Section */}
       <section className="recommended">
-        <h3>Recommended for You</h3>
-        <div className="recommend-grid">
-          {recommendations.length > 0 ? (
-            recommendations.map((rec) => (
-              <RecommendedCard
-                key={rec._id}
-                title={rec.title}
-                description={rec.description}
-                // Add more fields as needed
-              />
-            ))
-          ) : (
-            <p>No recommendations yet. Add courses or set preferences!</p>
-          )}
-        </div>
+        <div className="h3">Recommended Courses <span className="roll">for You</span></div>
+          <p className="recommend-info">
+    Recommendations are personalized based on your preferences and the courses you’ve added to your cart.
+  </p>
+        
+  <div className="recommend-carousel-controls">
+    <button onClick={handlePrev} disabled={startIdx === 0} className="carousel-btn">‹</button>
+    <div className="recommend-carousel-viewport">
+      <div
+        className="recommend-grid sliding"
+        style={{
+          transform: `translateX(-${startIdx * (270 + 12)}px)` // 270px card + 32px gap
+        }}
+      >
+        {recommendations.map((rec) => (
+          <RecommendedCard
+            key={rec._id}
+            title={rec.title}
+            description={rec.description}
+          />
+        ))}
+      </div>
+    </div>
+    <button onClick={handleNext} disabled={startIdx + visibleCount >= total} className="carousel-btn">›</button>
+  </div>
       </section>
 
       {/* Footer */}
@@ -122,8 +144,11 @@ const FeatureCard = ({ title, link }) => (
 
 const RecommendedCard = ({ title }) => (
   <div className="recommend-card">
+    <img src="/2606584_5920.jpg" alt={title} className="recommend-image" />
     <h5>{title}</h5>
-    <p>Explore this curated resource for better learning.</p>
+    <div className="arrow-shaft"></div>
+<div className="arrow-head"></div>
+    
   </div>
 );
 
