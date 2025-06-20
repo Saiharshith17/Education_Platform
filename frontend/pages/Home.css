@@ -13,21 +13,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 28px;
-  padding: 0px 12px 12px 12px;
+  gap: 1px;
+  padding: 0px 12px 24px 12px;
   background: rgba(255,255,255,0.85);
-  
+  border-bottom: 1px solid #ddd;
   box-shadow: 0 8px 32px rgba(60,120,200,0.10);
-  margin-bottom: 1px;
+  margin:auto;
 }
 
 /* Feature Card */
 .feature-card {
-  width: 240px;
+  width: 200px;
   text-align: center;
   padding: 20px 20px 20px 20px;
   background: rgba(234,241,251,0.95);
-  margin: 0 10px;
+  margin: 0 auto;
   border-radius: 18px;
   text-decoration: none;
   color: #ffffff;
@@ -69,9 +69,10 @@
 
 /* Recommended Section */
 .recommended {
-  padding: 24px 20px 24px 20px;
+  padding: 24px 20px 0px 20px;
   background: rgba(255,255,255,0.85);
-  margin: 0 0px 36px 0;
+  margin: 0 0px 0px 0;
+  border-bottom: 1px solid #ddd;
   max-width: 12000px;
   box-shadow: 0 4px 18px rgba(60,120,200,0.08);
 }
@@ -150,6 +151,21 @@
   box-shadow: 0 -2px 12px rgba(60,120,200,0.10);
 }
 
+.recommend-info {
+  text-align: center;
+  color: #2574a9;
+  background: rgba(234,241,251,0.7);
+  border-radius: 10px;
+  margin: -28px auto 24px auto;
+  padding: 10px 18px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(60,120,200,0.06);
+  letter-spacing: 0.2px;
+}
+/* Carousel Controls */
+
 /* Responsive Design */
 @media (max-width: 1100px) {
   .features, .recommended {
@@ -174,9 +190,18 @@
     max-width: 98vw;
     padding: 18px 8px;
   }
-  .recommended h3 {
+  .recommended .h3 {
     font-size: 1.3rem;
     margin-bottom: 24px;
+  }
+  .recommended .roll{
+    font-size:1.1rem;
+  }
+  .recommend-info {
+    font-size:0.65rem;
+  }
+  .carousel-btn{
+    width:50px;
   }
 }
 
@@ -184,20 +209,6 @@
 
 
 
-
-.recommend-info {
-  text-align: center;
-  color: #2574a9;
-  background: rgba(234,241,251,0.7);
-  border-radius: 10px;
-  margin: -28px auto 24px auto;
-  padding: 10px 18px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  max-width: 600px;
-  box-shadow: 0 2px 8px rgba(60,120,200,0.06);
-  letter-spacing: 0.2px;
-}
 /* Carousel Controls */
 
 
@@ -207,7 +218,7 @@
   align-items: center;
   justify-content: center;
   gap: 1px;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 }
 
 /* Carousel Buttons */
@@ -324,22 +335,34 @@
 }
 @media (max-width: 700px) {
   .recommend-carousel-viewport {
-    width: 98vw;
+    width: 100%;
   }
   .recommend-card {
-    width: 98vw;
-    max-width: 98vw;
+    width: 100px;
+    max-width:205px;
     padding: 18px 8px;
-    flex: 0 0 98vw;
+    
   }
   .recommend-grid,
   .recommend-grid.sliding {
     gap: 8px;
   }
+  .recommend-carousel-viewport {
+  width: calc(4 * 205px + 3 * 12px); /* 4 cards + 3 gaps */
+  max-width: 98vw;
+  overflow:hidden;
+  position: relative;
+  margin: 0 2px;
+  height:247.8px;
+}
+.carousel-btn{
+    width:60px;
+    height:30px;
+  }
 }
 .recommend-card .recommend-image {
   width: 100%;
-  height: 100px;
+  height: 80px;
   border-radius: 12px;
   object-fit: cover;
   margin-bottom: 12px;
@@ -402,4 +425,154 @@
 .recommend-card:hover .arrow-head {
   border-top: 3px solid #fff;
   border-right: 3px solid #fff;
+}
+@media (max-width: 1104px) {
+  .features{
+    gap:12px;
+    padding:12px;
+  }
+    .feature-card {
+        width: 180px;
+        padding: 10px;
+    }
+
+}
+
+
+.top-courses {
+  padding: 24px 20px 24px 20px;
+  background: rgba(255,255,255,0.85);
+  margin: 0 0px 0px 0;
+  max-width: 12000px;
+  box-shadow: 0 4px 18px rgba(60,120,200,0.08);
+  
+}
+
+.top-courses .h3 {
+  margin-bottom: 32px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  color: #2574a9;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #eaf1fb;
+}
+
+.top-courses-grid {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.top-course-card {
+  background: rgba(190, 215, 250, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(60,120,200,0.10);
+  padding: 18px 16px 14px 16px;
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.22s, transform 0.22s;
+  border: 1.5px solid #e3e8ee;
+  position: relative;
+  text-decoration: none;;
+}
+
+.top-course-card:hover {
+  box-shadow: 0 8px 32px rgba(60,120,200,0.18);
+  transform: scale(1);
+  border-color: #123d6c;
+}
+
+.top-course-image {
+  width: 100%;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(60,120,200,0.08);
+}
+
+.top-course-card h5 {
+  font-size: 1.08rem;
+  color: #2574a9;
+  margin-bottom: 8px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.enroll-count {
+  color: #103a58;
+  font-size: 0.98rem;
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+  opacity: 0.85;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .top-courses-grid {
+    gap: 1p0x;
+  }
+  .top-course-card {
+    width: 180px;
+    min-width: 180px;
+    max-width: 260px;
+  }
+}
+@media (max-width: 700px) {
+  .top-courses {
+    padding: 18px 2vw 12px 2vw;
+  }
+  .top-courses .h3 {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+  }
+  .top-courses-grid {
+    gap: 15px;
+  }
+  .top-course-card {
+    width: 220px;
+    height:auto;
+    padding: 10px 4px;
+  }
+  .top-course-image {
+    height: 80px;
+  }
+}
+.top-courses-card link {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.course-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.course-card-link:visited {
+  color: inherit;
+}
+
+.recommend-card,
+.top-course-card {
+  min-height: 220px;   /* or your preferred fixed height */
+  max-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* ...other styles... */
+}
+
+.recommend-image,
+.top-course-image {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 12px;
+  
 }

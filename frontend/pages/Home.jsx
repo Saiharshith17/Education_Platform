@@ -114,24 +114,67 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
           transform: `translateX(-${startIdx * (270 + 12)}px)` // 270px card + 32px gap
         }}
       >
-        {recommendations.map((rec) => (
-          <RecommendedCard
-            key={rec._id}
-            title={rec.title}
-            description={rec.description}
-          />
-        ))}
+        <div className="recommend-grid">
+  {recommendations.length > 0 ? (
+    recommendations.map((rec) => (
+      <Link
+        key={rec._id}
+        to={`/courses/${rec._id}`}
+        state={{ course: rec }}
+        className="course-card-link"
+      >
+        <RecommendedCard
+          title={rec.title}
+          description={rec.description}
+          // ...other props
+        />
+      </Link>
+    ))
+  ) : (
+    <p>No recommendations yet. Add courses or set preferences!</p>
+  )}
+</div>
       </div>
     </div>
     <button onClick={handleNext} disabled={startIdx + visibleCount >= total} className="carousel-btn">›</button>
   </div>
       </section>
 
+      <section className="top-courses">
+  <div className="h3">Top Enrolled Courses</div>
+  <div className="top-courses-grid">
+  {courses
+    .slice()
+    .sort((a, b) => (b.enrolledCount || 0) - (a.enrolledCount || 0))
+    .slice(0, 4)
+    .map((course) => (
+      <Link
+        key={course._id}
+        to={`/courses/${course._id}`}
+        state={{ course }}
+        className="course-card-link"
+      >
+        <div className="top-course-card">
+          <img src={course.image || "/2606584_5920.jpg"} alt={course.title} className="top-course-image" />
+          <h5>{course.title}</h5>
+          <p className="enroll-count">
+            <span role="img" aria-label="students">👥</span> {course.enrolledCount || 0} enrolled
+          </p>
+        </div>
+      </Link>
+    ))}
+</div>
+</section>
+
+    
       {/* Footer */}
       <footer className="footer">
         © {new Date().getFullYear()} EduPlatform. All rights reserved.
       </footer>
+      {/* Top Enrolled Courses Section */}
+
     </div>
+    
   );
 };
 
@@ -150,6 +193,8 @@ const RecommendedCard = ({ title }) => (
 <div className="arrow-head"></div>
     
   </div>
+  
+  
 );
 
 export default Home;

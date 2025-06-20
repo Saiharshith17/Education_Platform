@@ -27,3 +27,13 @@
   overflow-y: auto;
   box-sizing: border-box;
 }
+
+@media (max-width: 700px) {
+  .left-sidebar {
+    display: none;
+  }
+  .main-content {
+    width: 100%;
+    padding: 10px;
+  }
+}
