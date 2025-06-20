@@ -130,6 +130,8 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
         />
       </Link>
     ))
+
+    
   ) : (
     <p>No recommendations yet. Add courses or set preferences!</p>
   )}
