@@ -7,11 +7,11 @@
   align-items: center;
   padding: 15px 30px;
   border-bottom: 1px solid #ddd;
-  position:sticky;
+  position: sticky;
   top: 0;
   z-index: 1000;
+  flex-wrap: nowrap;
 }
-
 .navbar-left {
   display: flex;
   align-items: center;
@@ -22,6 +22,7 @@
   font-size: 24px;
   font-weight: bold;
   color: #0077cc;
+  white-space: nowrap;
 }
 
 .navbar-links {
@@ -34,23 +35,39 @@
 
 .navbar-links li {
   font-size: 16px;
+  font-weight:500;
+  
 }
 
 .navbar-links a {
   text-decoration: none;
   color: #333;
   transition: color 0.2s;
+  
 }
 
 .navbar-links a:hover {
   color: #0077cc;
+  border:1px solid rgb(255, 255, 255);
+  border-radius:20px;
+  padding:8px 18px;
+  background-color: rgb(241, 241, 241);
 }
+.navbar-links a.active {
+ color: rgb(24, 82, 144);
+  border:1px solid rgb(24, 82, 144);
+  border-radius:20px;
+  padding:8px 18px;
+  background-color: rgb(255, 255, 255);
+}
+
 
 .navbar-center {
   flex: 1;
   display: flex;
   justify-content: center;
-  margin:0px 200px;
+  margin: 0 100px 0 200px;
+  position: relative;
 }
 
 .search-input {
@@ -64,6 +81,7 @@
 .navbar-right {
   display: flex;
   align-items: center;
+  margin-left:10px;
 }
 
 .login-btn {
@@ -74,26 +92,27 @@
   text-decoration: none;
   font-size: 14px;
   transition: background-color 0.3s;
+  white-space: nowrap;
 }
 
 .login-btn:hover {
   background-color: #005fa3;
 }
+
 .search-suggestions {
   position: absolute;
   background: white;
   border: 1px solid #7c7c7c;
-  margin-top: 50px;
-  margin-left: 25%;
-  max-height: 300px;         /* LIMIT HEIGHT */
-  overflow-y: auto; 
-  width: 50%;
+  top: 38px;
+  left: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
   z-index: 999;
   list-style: none;
   padding: 0;
-  border-radius:5px;
-    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.8);
-
+  border-radius: 5px;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.08);
 }
 
 .search-suggestions li {
@@ -103,5 +122,175 @@
 
 .search-suggestions li:hover {
   background-color: #c6c6c6;
-  border-radius:5px;
+  border-radius: 5px;
+}
+
+/* Hamburger menu for mobile */
+.navbar-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.navbar-hamburger span {
+  height: 4px;
+  width: 100%;
+  background: #0077cc;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* Responsive Styles */
+@media (max-width: 1240px) {
+  .navbar-center {
+    margin: 0 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: row;
+    align-items: stretch;
+    padding: 10px 8px;
+    flex-wrap:nowrap;
+  }
+  .navbar-left {
+    width: 100%;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .navbar-center {
+    margin: 0px 10px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .search-input {
+    width: 100%;
+    min-width: 0;
+    font-size: 15px;
+  }
+  .navbar-right {
+    justify-content: flex-end;
+    margin-top: 8px;
+    flex-shrink:0;
+  }
+  .navbar-links {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: row;
+    padding: 8px 4vw;
+  }
+  .navbar-logo {
+    font-size: 20px;
+  }
+  .navbar-center {
+    
+    width: 100%;
+    margin: 0;
+    justify-content: flex-start;
+  }
+  .search-input {
+    width: 100%;
+    min-width: 0;
+    font-size: 15px;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    border-bottom:1px solid rgb(49, 44, 44);
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    box-shadow: 0 8px 32px rgba(60,120,200,0.10);
+    z-index: 1001;
+    padding: 18px 0 0 0;
+    gap: 0;
+  }
+  .navbar-links.open {
+    display: flex;
+  }
+  .navbar-links li {
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 18px;
+   border:2px solid rgb(49, 44, 44);
+   border-radius:5px;
+   margin:10px 20px;
+  }
+  .navbar-links li:hover {
+    background-color: #2b648b;
+    color:white;
+    
+    font-weight:500;
+  }
+  .navbar-hamburger {
+    display: flex;
+    width:32px;
+    height:36px;
+    font-weight:600;
+    border:2px solid rgb(27, 53, 85);
+    padding:1px 4px;
+    border-radius:5px;
+  }
+  .navbar-right {
+    order:3;
+    margin-top: 0;
+  }
+  .search-suggestions {
+    left: 0;
+    width: 100vw;
+    margin-left: 0;
+  }
+   .navbar-left {
+    order: 1;
+  }
+  .navbar-right {
+    order: 2;
+  }
+  .navbar-center {
+    order: 3;
+  }
+}
+
+.navbar-center {
+  flex: 1 1 0;
+  min-width: 0;
+  /* ...existing styles... */
+}
+.navbar-right {
+  flex-shrink: 0;
+}
+
+@media (max-width: 450px) {
+  .navbar-logo {
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    color: #0077cc;
+  }
+  .navbar-logo {
+    color: transparent !important;
+  }
+  .navbar-logo::after {
+    content: "Edu";
+    color: #0077cc;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-size: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
 }

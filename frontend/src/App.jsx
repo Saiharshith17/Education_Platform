@@ -47,6 +47,7 @@ import {useCourseData} from "./store/CourseContext"
 import Loading from "../components/Loading";
 import Mycourses from "../pages/Mycourses";
 import { HeroGeometric } from "../pages/start/HeroGeometric";
+import Chatbot from "../pages/Chatbot";
 const UserDashboard = lazy(()=>import("../pages/Dashboard"));
 const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/Signup"));
@@ -99,10 +100,26 @@ const App = () => {
             } 
           />
           <Route
+             path="/dashboard" 
+             element={
+              <Layout>
+                <UserDashboard user={user} setUser={setUser} token={token} />
+              </Layout>
+            } 
+          />
+          <Route
              path="/mycourses" 
              element={
               <Layout>
                 <Mycourses user={user} useCourseData={useCourseData} />
+              </Layout>
+            } 
+          />
+          <Route
+             path="/chatbot" 
+             element={
+              <Layout>
+                <Chatbot />
               </Layout>
             } 
           />

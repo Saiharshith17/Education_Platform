@@ -73,6 +73,12 @@ const UserDashboard = ({ user, setUser,token }) => {
         <div className="preferences">
           <h3>Preferences:</h3>
           <div className="tags">
+           
+            {preferences.map((pref, idx) => (
+              <span key={idx} className="tag">
+                {pref}
+              </span>
+            ))}
             <div
               className="edit"
               onClick={() => setShowPrefModal(true)}
@@ -81,11 +87,6 @@ const UserDashboard = ({ user, setUser,token }) => {
             >
               Edit
             </div>
-            {preferences.map((pref, idx) => (
-              <span key={idx} className="tag">
-                {pref}
-              </span>
-            ))}
           </div>
         </div>
       </div>
