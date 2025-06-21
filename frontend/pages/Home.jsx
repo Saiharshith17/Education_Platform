@@ -111,7 +111,7 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
       <div
         className="recommend-grid sliding"
         style={{
-          transform: `translateX(-${startIdx * (270 + 12)}px)` // 270px card + 32px gap
+          transform: `translateX(-${startIdx * (73.5)}vw)` // 270px card + 32px gap
         }}
       >
         <div className="recommend-grid">

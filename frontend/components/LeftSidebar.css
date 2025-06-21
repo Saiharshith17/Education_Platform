@@ -83,3 +83,9 @@
   background-color: #4fc3f7;
   color: #000;
 }
+
+@media (max-width: 900px) {
+  .leftbar {
+    width: 20%;
+  }
+}

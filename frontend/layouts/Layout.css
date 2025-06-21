@@ -28,6 +28,16 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 900px) {
+  .left-sidebar {
+    width:20%;
+  }
+  
+  .main-content {
+    width: 80%;
+    padding: 10px;
+  }
+}
 @media (max-width: 700px) {
   .left-sidebar {
     display: none;
