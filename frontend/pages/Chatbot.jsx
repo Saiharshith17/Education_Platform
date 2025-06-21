@@ -1,6 +1,21 @@
 import React, { useState, useRef, useEffect } from "react";
+import { marked } from "marked";
+import DOMPurify from "dompurify";
 import "./Chatbot.css";
 
+// Helper: Convert plain text to Markdown (basic heuristics)
+function autoFormatMarkdown(text) {
+  // Bold headings
+  text = text.replace(/^\*\*(.+?)\*\*/gm, '### $1');
+  // Numbered lists
+  text = text.replace(/^\d+\.\s/gm, match => `${match}`);
+  // Bullet lists
+  text = text.replace(/^\-\s/gm, match => `${match}`);
+  // Inline code
+  text = text.replace(/`([^`]+)`/g, '`$1`');
+  // Code blocks (optional, if you detect them)
+  return text;
+}
 const Chatbot = () => {
   const [input, setInput] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
@@ -29,9 +44,9 @@ const Chatbot = () => {
     // Add user message to chat
     const newHistory = [...chatHistory, { role: "user", text: input }];
     setChatHistory(newHistory);
-
+    console.log("Sending message:", input);
     try {
-      const res = await fetch("http://127.0.0.1:8000/chatbot", {
+      const res = await fetch("http://127.0.0.1:8001/chat/1", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
@@ -71,7 +86,18 @@ const Chatbot = () => {
             key={idx}
             className={`chatbot-bubble ${msg.role === "user" ? "user" : "ai"}`}
           >
-            {msg.text}
+            {msg.role === "ai" ? (
+              <div
+                className="chatbot-ai-markdown"
+                dangerouslySetInnerHTML={{
+                  __html: DOMPurify.sanitize(
+                    marked.parse(autoFormatMarkdown(msg.text))
+                  ),
+                }}
+              />
+            ) : (
+              msg.text
+            )}
           </div>
         ))}
         {loading && (

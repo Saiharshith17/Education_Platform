@@ -108,6 +108,14 @@ const App = () => {
             } 
           />
           <Route
+             path="/mycourses" 
+             element={
+              <Layout>
+                <Mycourses user={user} useCourseData={useCourseData} />
+              </Layout>
+            } 
+          />
+          <Route
              path="/chatbot" 
              element={
               <Layout>
