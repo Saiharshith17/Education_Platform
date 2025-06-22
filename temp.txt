@@ -1,0 +1,12 @@
+Frontened developer
+Backened developer
+Full stack developer
+Machine Learning
+Data Science
+Fundamentals of computers
+SQL
+Non-SQL
+Programming
+DSA
+DEVOps
+MLOps
