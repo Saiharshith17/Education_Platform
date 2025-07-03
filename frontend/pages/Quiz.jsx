@@ -140,6 +140,8 @@ const Quiz = () => {
     </div>
   );
 
+  
+
   if (showScore) {
     return (
       <div className="quiz-bg">
