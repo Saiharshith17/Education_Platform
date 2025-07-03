@@ -14,8 +14,6 @@
 }
 
 
-
-
 /* Heading */
 .courses-list h2 {
   color: #fafafa;
@@ -24,8 +22,6 @@
   letter-spacing: 1px;
   text-align: center;
 }
-
-
 
 
 
@@ -42,8 +38,6 @@
   justify-content: space-between;
   box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
-
-
 
 .clear-btn {
   background: #3a3f44;
