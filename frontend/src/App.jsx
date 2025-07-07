@@ -49,6 +49,7 @@ import Mycourses from "../pages/Mycourses";
 import { HeroGeometric } from "../pages/start/HeroGeometric";
 import Chatbot from "../pages/Chatbot";
 import Quiz from "../pages/Quiz";
+import BooksList from "../pages/AllBooks";
 const UserDashboard = lazy(()=>import("../pages/Dashboard"));
 const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/Signup"));
@@ -81,6 +82,14 @@ const App = () => {
             element={
               <Layout>
                 <AllCourses />
+              </Layout>
+            }
+          />
+          <Route
+            path="/books"
+            element={
+              <Layout>
+                <BooksList />
               </Layout>
             }
           />
