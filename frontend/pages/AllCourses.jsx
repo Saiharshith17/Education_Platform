@@ -19,7 +19,7 @@ const CourseLoader = () => {
 const AllCourses = () => {
   const { setSearchInput } = useSearch();
   const {courses,setCourses}=useCourseData();
-  const [course,setCourse]=useState();
+
   const [filteredCourses, setFilteredCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchKeyword, setSearchKeyword] = useState("");

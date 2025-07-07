@@ -10,7 +10,7 @@ const courseRoutes = require("./router/course-routes");
 const errorMiddleware=require("./middlewares/error-middleware");
 const cartRoutes = require("./router/cartRoutes");
 const preferenceRoutes= require("./router/preference-router");
-
+const bookRouter = require("./router/book-router");
 const corsOptions = {
     origin: "http://localhost:5173",
     methods: "GET,POST,PUT,DELETE,PATCH,HEAD,OPTIONS",
@@ -35,8 +35,10 @@ app.use("/api/users", preferenceRoutes);
 //     res.status(200).send("mg");
 // });
 
+// In your server.js or app.js
+app.use(express.json({ limit: '100mb' })); // or higher if needed
 
-
+app.use("/api/books", bookRouter);
 
 
 // app.get("/register",(req,res)=>{

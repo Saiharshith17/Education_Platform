@@ -13,6 +13,7 @@
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 
+
 /* Heading */
 .courses-list h2 {
   color: #fafafa;
@@ -21,6 +22,8 @@
   letter-spacing: 1px;
   text-align: center;
 }
+
+
 
 /* Search info */
 .search-info {

@@ -1,16 +1,27 @@
 const mongoose = require("mongoose");
 
 const bookSchema = new mongoose.Schema({
-  title: { type: String, required: true },
-  author: { type: String, required: true },
-  category: { type: String, required: true }, // e.g., "Database", "AI"
-  tags: [String], // e.g., ["mongodb", "sql", "nosql"]
-
-  pdfPath: { type: String },     // e.g., "/uploads/db-guide.pdf"
-  coverImage: { type: String },  // e.g., "/uploads/db-cover.png"
-
-  createdAt: { type: Date, default: Date.now },
-  enrollmentCount: { type: Number, default: 0 }
+  googleId: { type: String, required: true, unique: true }, // Google Books API ID
+  // MongoDB will automatically generate _id (ObjectId)
+  title: String,
+  authors: [String],
+  publisher: String,
+  publishedDate: String,
+  description: String,
+  pageCount: Number,
+  categories: [String],
+  thumbnail: String,
+  previewLink: String,
+  infoLink: String,
+  canonicalVolumeLink: String,
+  language: String,
+  saleability: String,
+  isEbook: Boolean,
+  buyLink: String,
+  webReaderLink: String,
+  pdfAvailable: Boolean,
+  epubAvailable: Boolean,
 });
 
-module.exports = mongoose.model("Book", bookSchema);
+const Book = mongoose.model("Book", bookSchema);
+module.exports = Book;

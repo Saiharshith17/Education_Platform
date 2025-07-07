@@ -11,6 +11,7 @@ const home=async(req,res)=>{
     }
 }
 
+
 const register=async(req,res)=>{
     try{
         console.log(req.body);

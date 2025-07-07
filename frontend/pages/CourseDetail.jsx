@@ -8,7 +8,7 @@ const CourseDetail = () => {
   const navigate = useNavigate();
   const course = state?.course;
 
-  const {isLoggedIn,storetokenInLS, LogoutUser,user,token} = useAuth();
+  const { LogoutUser,user,token} = useAuth();
   // console.log("Frontend token:", token);
   //  console.log(isLoggedIn);
   //  console.log(storetokenInLS);
