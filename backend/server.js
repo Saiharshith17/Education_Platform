@@ -35,7 +35,8 @@ app.use("/api/users", preferenceRoutes);
 //     res.status(200).send("mg");
 // });
 
-
+// In your server.js or app.js
+app.use(express.json({ limit: '100mb' })); // or higher if needed
 
 app.use("/api/books", bookRouter);
 
