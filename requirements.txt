@@ -1,9 +1,56 @@
-scikit-learn==1.6.1
-pymongo==4.13.0
+# Core backend
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
-groq
-langchain_groq
-langchain
-langchain_community
-redis
+pymongo==4.13.0
+redis==6.2.0
+
+# RAG-related
+langchain==0.3.25
+langchain-community==0.3.25
+langchain-core==0.3.65
+langchain-groq==0.3.2
+groq==0.28.0
+
+# AI/ML
+scikit-learn==1.6.1
+numpy==2.2.6
+pandas==2.3.0
+transformers==4.53.0
+torch==2.7.1
+torchvision==0.22.1
+
+# Unstructured document processing
+unstructured==0.18.2
+unstructured-inference==1.0.5
+unstructured-client==0.38.1
+unstructured.pytesseract==0.3.15
+pytesseract==0.3.13
+pdf2image==1.17.0
+pypdf==5.7.0
+pypdfium2==4.30.1
+pillow==11.3.0
+lxml==6.0.0
+beautifulsoup4==4.13.4
+python-docx==1.2.0
+python-pptx==1.0.2
+xlsxwriter==3.2.5
+openpyxl==3.1.5
+
+# Utility and parsing
+python-multipart==0.0.20
+python-dotenv==1.1.0
+filetype==1.2.0
+requests==2.32.4
+httpx==0.28.1
+pydantic==2.11.6
+pydantic-settings==2.9.1
+PyYAML==6.0.2
+pyPDF2==3.0.1
+pymupdf==1.26.3
+pdfplumber==0.11.7
+tiktoken==0.9.0
+nltk
+google-generativeai==0.8.5
+python-docx==1.2.0
+python-pptx==1.0.2
+aiohttp==3.12.13
