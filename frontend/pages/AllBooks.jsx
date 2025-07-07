@@ -46,52 +46,7 @@ const BooksList = () => {
     }
   };
 
-  const bulkAddBooks = async () => {
-    const allBooks = JSON.parse(localStorage.getItem('allBooks')) || books;
-    // Transform Google Books API objects to backend schema
-    const transformedBooks = allBooks.map(book => {
-      const info = book.volumeInfo || {};
-      const sale = book.saleInfo || {};
-      const access = book.accessInfo || {};
-      return {
-        googleId: book.id,
-        title: info.title,
-        authors: info.authors,
-        publisher: info.publisher,
-        publishedDate: info.publishedDate,
-        description: info.description,
-        pageCount: info.pageCount,
-        categories: info.categories,
-        thumbnail: info.imageLinks?.thumbnail,
-        previewLink: info.previewLink,
-        infoLink: info.infoLink,
-        canonicalVolumeLink: info.canonicalVolumeLink,
-        language: info.language,
-        saleability: sale.saleability,
-        isEbook: sale.isEbook,
-        buyLink: sale.buyLink,
-        webReaderLink: access.webReaderLink,
-        pdfAvailable: access.pdf?.isAvailable,
-        epubAvailable: access.epub?.isAvailable,
-      };
-    });
-
-    try {
-      const response = await fetch('http://localhost:5000/api/books/bulk-add', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(transformedBooks),
-      });
-      const result = await response.json();
-      if (response.ok) {
-        alert('Books added successfully!');
-      } else {
-        alert('Failed to add books: ' + (result.details || result.error));
-      }
-    } catch (err) {
-      alert('Error adding books: ' + err.message);
-    }
-  };
+ 
   
 
   useEffect(() => {
@@ -113,7 +68,7 @@ const BooksList = () => {
 
   return (
     <>
-    <button onClick={bulkAddBooks} style={{margin: '20px', padding: '10px 20px'}}>Bulk Add All Books to Backend</button>
+    
     <div className="books-list">
       {books.map(book => {
         const info = book.volumeInfo;
