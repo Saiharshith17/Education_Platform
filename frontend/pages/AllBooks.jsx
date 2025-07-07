@@ -1,63 +1,28 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 import './AllBooks.css';
 
-
-const TOPICS = [
-  "Programming",
-  "Data Structures",
-  "Frontend Development",
-  "Backend Development",
-  "Full Stack Development",
-  "DevOps",
-  "Machine Learning",
-  "Computer Science",
-  "Data Structures and Algorithms",
-  "Fundamentals of Computers",
-  "Generative AI",
-  "AI"
-];
 const BooksList = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_KEY = 'AIzaSyBJnny5yn2tYE9oyp8RvFg4lycBQQ1ETuo';
-  const QUERY = 'engineering';
-
   const fetchBooks = async () => {
-    let allBooks = [];
+    setLoading(true);
     try {
-      for (const topic of TOPICS) {
-        const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(topic)}&maxResults=20&key=${API_KEY}`;
-        const response = await fetch(url);
-        const data = await response.json();
-        if (data.items) {
-          allBooks = [...allBooks, ...data.items];
-        }
-      }
-      setBooks(allBooks);
-       localStorage.setItem('allBooks', JSON.stringify(allBooks)); // <-- Store in localStorage
-    
-      console.log('Fetched books:', allBooks);
+      const response = await fetch("http://localhost:5000/api/books");
+      const data = await response.json();
+      setBooks(data);
     } catch (error) {
       console.error('Error fetching books:', error);
-      alert('Failed to fetch books. Please try again later.');
+      alert('Failed to fetch books from backend.');
     } finally {
       setLoading(false);
     }
   };
 
- 
-  
-
   useEffect(() => {
     fetchBooks();
-    
   }, []);
-
-  const addToCart = (book) => {
-    // Replace with your cart logic
-    alert(`Added "${book.volumeInfo.title}" to cart!`);
-  };
 
   if (loading) return (
     <div className="books-loading">
@@ -67,27 +32,28 @@ const BooksList = () => {
   );
 
   return (
-    <>
-    
     <div className="books-list">
-      {books.map(book => {
-        const info = book.volumeInfo;
-        return (
-          <div key={book.id} className="book-card">
+      {books.map(book => (
+        <Link
+          key={book._id}
+          to={`/books/${book._id}`}
+          state={{ book }} // Pass book data to detail page
+          className="book-card-link"
+        >
+          <div className="book-card">
             <img
-              src={info.imageLinks?.thumbnail || 'https://via.placeholder.com/128x192?text=No+Image'}
-              alt={info.title}
+              src={book.thumbnail || 'https://via.placeholder.com/128x192?text=No+Image'}
+              alt={book.title}
               className="book-img"
             />
-            <h4 className="book-title">{info.title}</h4>
-            <p className="book-authors">{info.authors ? info.authors.join(', ') : 'Unknown Author'}</p>
-            <p className="book-date">{info.publishedDate || 'No Date'}</p>
-            <button className="book-cart-btn" onClick={() => addToCart(book)}>Add to Cart</button>
+            <h4 className="book-title">{book.title}</h4>
+            <p className="book-authors">{book.authors ? book.authors.join(', ') : 'Unknown Author'}</p>
+            <p className="book-date">{book.publishedDate || 'No Date'}</p>
+            <button className="book-cart-btn" onClick={e => {e.preventDefault(); alert(`Added "${book.title}" to cart!`);}}>Add to Cart</button>
           </div>
-        );
-      })}
+        </Link>
+      ))}
     </div>
-    </>
   );
 };
 
