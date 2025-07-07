@@ -10,7 +10,7 @@ const courseRoutes = require("./router/course-routes");
 const errorMiddleware=require("./middlewares/error-middleware");
 const cartRoutes = require("./router/cartRoutes");
 const preferenceRoutes= require("./router/preference-router");
-
+const bookRouter = require("./router/book-router");
 const corsOptions = {
     origin: "http://localhost:5173",
     methods: "GET,POST,PUT,DELETE,PATCH,HEAD,OPTIONS",
@@ -37,6 +37,7 @@ app.use("/api/users", preferenceRoutes);
 
 
 
+app.use("/api/books", bookRouter);
 
 
 // app.get("/register",(req,res)=>{
