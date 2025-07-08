@@ -151,6 +151,7 @@ const App = () => {
               </Layout>
             } 
           />
+          
           <Route path="/contactus" element={<Contact/>}/>
           <Route path="/load" element={<Loading/>}/>
           
