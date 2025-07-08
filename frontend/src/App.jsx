@@ -53,7 +53,7 @@ import BooksList from "../pages/AllBooks";
 import BookDetail from "../pages/BookDetail";
 const UserDashboard = lazy(()=>import("../pages/Dashboard"));
 const Login = lazy(() => import("../pages/Login"));
-const Signup = lazy(() => import("../pages/Signup"));
+const Signup = lazy(() => import("../pages/Signup.jsx"));
 const Home = lazy(() => import("../pages/Home"));
 const AllCourses=lazy(()=>import("../pages/AllCourses"));
 const CourseDetail=lazy(()=>import("../pages/CourseDetail"));
