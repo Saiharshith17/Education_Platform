@@ -53,7 +53,7 @@ import BooksList from "../pages/AllBooks";
 import BookDetail from "../pages/BookDetail";
 const UserDashboard = lazy(()=>import("../pages/Dashboard"));
 const Login = lazy(() => import("../pages/Login"));
-//const Signup = lazy(() => import("../pages/Signup"));
+const Signup = lazy(() => import("../pages/signup"));
 const Home = lazy(() => import("../pages/Home"));
 const AllCourses=lazy(()=>import("../pages/AllCourses"));
 const CourseDetail=lazy(()=>import("../pages/CourseDetail"));
@@ -151,13 +151,12 @@ const App = () => {
               </Layout>
             } 
           />
-          
           <Route path="/contactus" element={<Contact/>}/>
           <Route path="/load" element={<Loading/>}/>
           
           {/* Login and Signup without layout */}
           <Route path="/login" element={<Login />} />
-          {/* <Route path="/signUp" element={<Signup />} /> */}
+          <Route path="/signUp" element={<Signup />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
