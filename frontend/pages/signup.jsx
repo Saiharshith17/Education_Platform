@@ -1,8 +1,8 @@
 import React,{ useState } from 'react'
 import {useNavigate} from 'react-router-dom'
 import { useAuth } from '../src/store/auth'
-import "./Signup.css";
-const Register = () => {
+import "./signup.css";
+const Signup = () => {
 
   const URL="http://localhost:5000/api/auth/register";
   const [user, setUser] = useState({
@@ -129,4 +129,4 @@ const handleSubmit = async (e) => {
   )
 }
 
-export default Register
+export default Signup;
