@@ -10,8 +10,10 @@ const Signup = () => {
     email: "",
     phone: "",
     password: "",
+
   });
 
+// Import useNavigate from react-router-dom
   const Navigate=useNavigate();
 const {storetokenInLS}=useAuth();
 
