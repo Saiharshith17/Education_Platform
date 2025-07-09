@@ -12,8 +12,8 @@ const cartRoutes = require("./router/cartRoutes");
 const preferenceRoutes= require("./router/preference-router");
 const bookRouter = require("./router/book-router");
 const corsOptions = {
-    origin: "http://localhost:5173",
-    methods: "GET,POST,PUT,DELETE,PATCH,HEAD,OPTIONS",
+    origin: ["http://localhost:5173", "https://education-platform-khaki.vercel.app"],
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"]
 };
