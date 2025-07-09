@@ -32,8 +32,8 @@ const CourseDetail = () => {
   const handleToggle = async (type) => {
     const url =
       type === "read"
-        ? `http://localhost:5000/api/cart/toggle-read/${course._id}`
-        : `http://localhost:5000/api/cart/toggle-cart/${course._id}`;
+        ? `${import.meta.env.VITE_API_BASE_URL}/api/cart/toggle-read/${course._id}`
+        : `${import.meta.env.VITE_API_BASE_URL}/api/cart/toggle-cart/${course._id}`;
 
     try {
       const res = await fetch(url, {

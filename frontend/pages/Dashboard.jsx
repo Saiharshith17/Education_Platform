@@ -29,7 +29,7 @@ const UserDashboard = ({ user, setUser,token }) => {
   
     const handleSavePreferences = async (prefs) => {
       try {
-        const res = await fetch("http://localhost:5000/api/users/preferences", {
+        const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/users/preferences`, {
           method: "PUT",
           headers: { "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,

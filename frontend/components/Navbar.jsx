@@ -24,7 +24,7 @@ const Navbar = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/courses/categories");
+        const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/courses/categories`);
         const data = await res.json();
         setAllCategories(data.categories);
       } catch (error) {

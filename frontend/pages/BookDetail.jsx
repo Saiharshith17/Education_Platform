@@ -20,7 +20,7 @@ const BookDetail = () => {
   useEffect(() => {
     if (!book) {
       setLoading(true);
-      fetch(`http://localhost:5000/api/books/${id}`)
+      fetch(`${import.meta.env.VITE_API_BASE_URL}/api/books/${id}`)
         .then((res) => res.json())
         .then((data) => setBookData(data))
         .catch(() => setBookData(null))
@@ -41,8 +41,8 @@ const BookDetail = () => {
     if (!bookData) return;
     const url =
       type === "read"
-        ? `http://localhost:5000/api/cart/toggle-book-read/${bookData._id}`
-        : `http://localhost:5000/api/cart/toggle-book-cart/${bookData._id}`;
+        ? `${import.meta.env.VITE_API_BASE_URL}/api/cart/toggle-book-read/${bookData._id}`
+        : `${import.meta.env.VITE_API_BASE_URL}/api/cart/toggle-book-cart/${bookData._id}`;
 
     try {
       const res = await fetch(url, {
