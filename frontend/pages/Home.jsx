@@ -65,7 +65,7 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
 
   const handleSavePreferences = async (prefs) => {
     try {
-      const res = await fetch("http://localhost:5000/api/users/preferences", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/users/preferences`, {
         method: "POST",
         headers: { "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,

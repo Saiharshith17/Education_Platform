@@ -3,7 +3,7 @@ import { Circle } from 'lucide-react';
 import React,{ useState } from 'react';
 import './HeroSection.css';  // Traditional CSS file
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Signup from "../Signup";
+import Signup from "../signup";
 import Login from "../Login";
 import { useNavigate } from "react-router-dom";
 import Home from '../Home';

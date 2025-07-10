@@ -1,17 +1,19 @@
 import React,{ useState } from 'react'
 import {useNavigate} from 'react-router-dom'
 import { useAuth } from '../src/store/auth'
-import "./Signup.css";
-const Register = () => {
+import "./signup.css";
+const Signup = () => {
 
-  const URL="http://localhost:5000/api/auth/register";
+  const URL=`${import.meta.env.VITE_API_BASE_URL}/api/auth/register`;
   const [user, setUser] = useState({
     username: "",
     email: "",
     phone: "",
     password: "",
+
   });
 
+// Import useNavigate from react-router-dom
   const Navigate=useNavigate();
 const {storetokenInLS}=useAuth();
 
@@ -129,4 +131,4 @@ const handleSubmit = async (e) => {
   )
 }
 
-export default Register
+export default Signup;
