@@ -11,13 +11,15 @@ body, html {
   gap: 20px;
   justify-content: space-evenly;
   padding: 20px 10px 20px 10px;
-  margin:10px auto;
+  margin:5px auto;
   border:1px solid rgb(171, 171, 171);
   border-radius:5px;
-  background-color:rgb(236, 235, 233)
+  background-color:rgb(255, 255, 255)
 }
 
 .book-card {
+  text-decoration: none;
+  color:inherit;
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 6px 24px rgba(40, 60, 120, 0.13);
@@ -29,6 +31,8 @@ body, html {
   transition: box-shadow 0.25s, transform 0.18s;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color:inherit;
 }
 .book-card:hover {
   box-shadow: 0 12px 32px rgba(40, 60, 120, 0.22);
@@ -129,6 +133,32 @@ body, html {
   }
   .book-card {
     width: 92vw;
+    min-width: 0;
+    max-width: 98vw;
+    padding: 10px 4vw 10px 4vw;
+  }
+  .book-title {
+    font-size: 1rem;
+    min-height: 36px;
+  }
+  .book-img {
+    width: 90px;
+    height: 130px;
+  }
+}
+.book-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@media (max-width: 400px) {
+  .books-list {
+    gap: 20px;
+    padding: 12px 0 24px 0;
+  }
+  .book-card {
+    width: 80vw;
     min-width: 0;
     max-width: 98vw;
     padding: 10px 4vw 10px 4vw;

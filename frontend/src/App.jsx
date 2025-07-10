@@ -65,7 +65,7 @@ const App = () => {
         <Routes>
           {/* Pages with layout */}
           <Route
-            path="/"
+            path="*"
             element={
               <HeroGeometric/>
             }

@@ -3,7 +3,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import Preferences from "../components/Preferences";
 import {useCourseData} from "../src/store/CourseContext";
-
+import { useBooksData } from "../src/store/booksContext.jsx";
 import { useAuth } from "../src/store/auth"; // Example import
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
   const [showPrefModal, setShowPrefModal] = useState(false);
   const [recommendations,setRecommendations]=useState([]);
   const {courses,setCourses} = useCourseData();
+  const { books } = useBooksData(); 
   useEffect(() => {
     if (user && (!user.preferences || user.preferences.length < 3)) {
       setShowPrefModal(true);
@@ -65,7 +66,7 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
 
   const handleSavePreferences = async (prefs) => {
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/users/preferences`, {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/users/preferences`, {
         method: "POST",
         headers: { "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
@@ -141,6 +142,43 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
     <button onClick={handleNext} disabled={startIdx + visibleCount >= total} className="carousel-btn">›</button>
   </div>
       </section>
+  
+<section className="recommended-books">
+  <div className="h3">Recommended Books <span className="roll">for You</span></div>
+  <p className="recommend-info">
+    Discover curated books based on popular selections.
+  </p>
+
+  {books.length > 0 ? (
+    <div className="books-carousel">
+      <div className="books-scroll">
+        {books.slice(0, 10).map((book) => (
+          <Link
+            key={book._id}
+            to={`/books/${book._id}`}
+            state={{ book }}
+            className="book-card-link"
+          >
+            <div className="book-carousel-card">
+              <img
+                src={book.thumbnail || "https://via.placeholder.com/128x192?text=No+Image"}
+                alt={book.title}
+                className="book-img"
+              />
+              <div className="book-info">
+                <h5 className="book-title">{book.title}</h5>
+                <p className="book-author">{book.authors?.join(", ") || "Unknown Author"}</p>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  ) : (
+    <p className="empty-text">No recommended books available.</p>
+  )}
+</section>
+
 
       <section className="top-courses">
   <div className="h3">Top Enrolled Courses</div>

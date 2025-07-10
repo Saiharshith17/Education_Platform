@@ -4,7 +4,7 @@ import { useAuth } from '../src/store/auth'
 import "./signup.css";
 const Signup = () => {
 
-  const URL=`${import.meta.env.VITE_API_BASE_URL}/api/auth/register`;
+  const URL=`${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/auth/register`;
   const [user, setUser] = useState({
     username: "",
     email: "",

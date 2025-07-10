@@ -3,30 +3,24 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../src/store/auth";
 import "./CourseDetail.css";
 
+const formatDate = (dateString) => {
+  const options = { year: "numeric", month: "long", day: "numeric" };
+  return new Date(dateString).toLocaleDateString(undefined, options);
+};
+
 const CourseDetail = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
   const course = state?.course;
-
-  const { LogoutUser,user,token} = useAuth();
-  // console.log("Frontend token:", token);
-  //  console.log(isLoggedIn);
-  //  console.log(storetokenInLS);
-  //  console.log(LogoutUser);
-  //  console.log(user);
-  //  console.log(token);
+  const { user, token } = useAuth();
 
   const [isRead, setIsRead] = useState(false);
   const [isInCart, setIsInCart] = useState(false);
 
   useEffect(() => {
     if (!course || !user) return;
-
-    const readIds = user.coursesRead?.map((c) => c._id) || [];
-    const addedIds = user.coursesAdded?.map((c) => c._id) || [];
-
-    setIsRead(readIds.includes(course._id));
-    setIsInCart(addedIds.includes(course._id));
+    setIsRead(user.coursesRead?.some((c) => c._id === course._id));
+    setIsInCart(user.coursesAdded?.some((c) => c._id === course._id));
   }, [course, user]);
 
   const handleToggle = async (type) => {
@@ -47,8 +41,8 @@ const CourseDetail = () => {
       const result = await res.json();
 
       if (res.ok) {
-        if (type === "read") setIsRead(!isRead);
-        else setIsInCart(!isInCart);
+        if (type === "read") setIsRead((prev) => !prev);
+        else setIsInCart((prev) => !prev);
         alert(result.message);
       } else {
         alert(result.message || "Action failed.");
@@ -61,7 +55,7 @@ const CourseDetail = () => {
 
   if (!course) {
     return (
-      <div>
+      <div className="course-detail-container">
         <p>No course data found.</p>
         <button onClick={() => navigate("/courses")}>Back to Courses</button>
       </div>
@@ -70,40 +64,101 @@ const CourseDetail = () => {
 
   return (
     <div className="course-detail-container">
-      <div className="course-detail-image">
-        <img src="/2606584_5920.jpg" alt={course.title} />
-      </div>
+      <div className="course-header">
+        <img
+          src="../public/2606584_5920.jpg"
+          alt={course.title}
+          className="course-thumbnail"
+        />
 
-      <div className="course-detail-info">
-        <h2>{course.title}</h2>
-        <p>{course.description}</p>
+        <div className="course-header-info">
+          <h1>{course.title}</h1>
+          <p className="course-desc">{course.description}</p>
 
-        <div className="tags">
-          {course.category?.map((cat, idx) => (
-            <span key={idx} className="tag">{cat}</span>
-          ))}
+          <div className="meta-info">
+            📅 Created on: <strong>{formatDate(course.date)}</strong><br />
+            👤 Created by: <strong>{course.createdBy}</strong><br />
+            👥 Enrolled Students: <strong>{course.enrolledCount}</strong>
+          </div>
+
+          <div className="tags-section">
+            <h4>Categories</h4>
+            <div className="tags">
+              {course.category?.map((cat, idx) => (
+                <span key={idx} className="tag">{cat}</span>
+              ))}
+            </div>
+          </div>
+
+          <div className="course-actions">
+            <button
+              className={isRead ? "btn remove" : "btn add"}
+              onClick={() => handleToggle("read")}
+            >
+              {isRead ? "✔️ Unmark Read" : "📖 Mark as Read"}
+            </button>
+            <button
+              className={isInCart ? "btn remove" : "btn add"}
+              onClick={() => handleToggle("cart")}
+            >
+              {isInCart ? "🛒 Remove from Cart" : "🛒 Add to Cart"}
+            </button>
+          </div>
         </div>
-
-        <div className="course-actions">
-  <button
-    className={`read-btn  ${isRead ? "remove" : "add"}`}
-    onClick={() => handleToggle("read")}
-  >
-    {isRead ? "Unmark Read" : "Mark as Read"}
-  </button>
-
-  <button
-    className={`cart-btn ${isInCart ? "remove" : "add"}`}
-    onClick={() => handleToggle("cart")}
-  >
-    {isInCart ? "Remove from Cart" : "Add to Cart"}
-  </button>
-</div>
-
       </div>
+
+      <div className="course-content">
+        <h2>Lectures & Materials</h2>
+        {course.content?.map((item) => (
+          <div key={item._id} className="content-item">
+            <h3>{item.title}</h3>
+            <video controls src={item.videoUrl}></video>
+            <a
+              className="pdf-link"
+              href={item.pdfPath}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              📄 Download PDF
+            </a>
+          </div>
+        ))}
+      </div>
+      <div className="course-resources">
+  <h2>Additional Resources</h2>
+  <div className="resource-item">
+    <a
+      href="https://developer.mozilla.org/en-US/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="resource-link"
+    >
+      MDN Web Docs
+    </a>
+  </div>
+  <div className="resource-item">
+    <a
+      href="https://www.w3schools.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="resource-link"
+    >
+      W3Schools Tutorials
+    </a>
+  </div>
+  <div className="resource-item">
+    <a
+      href="https://stackoverflow.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="resource-link"
+    >
+      Stack Overflow
+    </a>
+  </div>
+</div>
     </div>
   );
 };
-
 
 export default CourseDetail;

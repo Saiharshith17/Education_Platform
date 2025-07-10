@@ -32,7 +32,7 @@ const Login = () => {
     }
   }, [location.state]);
 
-  const URL = `${import.meta.env.VITE_API_BASE_URL}/api/auth/login`;
+  const URL = `${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/auth/login`;
 
   const handleInput = (e) => {
     const { name, value } = e.target;

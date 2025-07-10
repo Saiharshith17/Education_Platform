@@ -41,8 +41,8 @@ const BookDetail = () => {
     if (!bookData) return;
     const url =
       type === "read"
-        ? `${import.meta.env.VITE_API_BASE_URL}/api/cart/toggle-book-read/${bookData._id}`
-        : `${import.meta.env.VITE_API_BASE_URL}/api/cart/toggle-book-cart/${bookData._id}`;
+        ? `${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/cart/toggle-book-read/${bookData._id}`
+        : `${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/cart/toggle-book-cart/${bookData._id}`;
 
     try {
       const res = await fetch(url, {

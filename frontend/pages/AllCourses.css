@@ -198,12 +198,40 @@
 
 /* Heading */
 .courses-list h2 {
-  color: #1a2330;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
   font-size: 2.2rem;
-  margin-bottom: 24px;
   letter-spacing: 1px;
   text-align: center;
+  border: 2px solid rgb(193, 191, 191);
+  background-color: #2574a9;
+  border-radius: 10px;
+  padding: 2px 16px;
+  margin-bottom: 24px;
+  animation: expandFromCenter 1s ease-out forwards;
+  white-space: nowrap;
 }
+
+@keyframes expandFromCenter {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0.9);
+    opacity: 1;
+  }
+}
+
+.courses-list {
+  text-align: center;
+}
+
 
 /* Search info */
 .search-info {
@@ -269,9 +297,9 @@
 }
 
 .course-card:hover {
-  background: #f2f7fd;
+  background: #ffffff;
   box-shadow: 0 8px 32px rgba(60, 120, 200, 0.16);
-  border-color: #b6c6e3;
+  border-color: #26334b;
 }
 
 /* Course image */
@@ -288,7 +316,7 @@
 
 /* Course title */
 .course-card h3 {
-  color: #2574a9;
+  color: #19537a;
   font-size: 1.25rem;
   margin: 0 0 10px 0;
   text-align: center;
@@ -359,4 +387,15 @@
 ::-webkit-scrollbar-thumb {
   background: #b6c6e3;
   border-radius: 5px;
+}
+@media (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  .course-card {
+    min-height: 300px;
+  }
+  .grid{
+    padding:10px;
+  }
 }

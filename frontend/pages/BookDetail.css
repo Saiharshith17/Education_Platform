@@ -131,3 +131,125 @@
   background: #fff;
   
 }
+/* 1100px and below */
+@media (max-width: 1100px) {
+  .book-detail-card {
+    gap: 24px;
+  }
+  .book-detail-info-section {
+    padding-right: 24px;
+  }
+  .book-detail-title {
+    font-size: 2rem;
+  }
+}
+
+/* 900px and below */
+@media (max-width: 900px) {
+  .book-detail-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .book-detail-info-section {
+    border-right: none;
+    padding-right: 0;
+    max-width: 100%;
+  }
+  .book-detail-image-section {
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  .book-detail-img {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+/* 600px and below */
+@media (max-width: 600px) {
+  .book-detail-container {
+    padding: 16px;
+  }
+  .book-detail-title {
+    font-size: 1.8rem;
+  }
+  .book-detail-img {
+    width: 160px;
+    height: 240px;
+  }
+  .book-cart-btn,
+  .book-read-btn,
+  .book-link-btn,
+  .book-buy-btn,
+  .book-back-btn {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+  .book-detail-description p{
+    font-size:10px;
+
+  }
+}
+
+/* 400px and below */
+@media (max-width: 400px) {
+  .main-content{
+    margin:0px;
+    padding:2px;
+    border-radius:1px;
+    overflow-x: hidden;
+  }
+  .book-detail-container {
+    padding: 12px;
+    margin:0px;
+    border:1px solid black;
+  }
+  .book-detail-title {
+    font-size: 1.6rem;
+  }
+  .book-detail-img {
+    width: 140px;
+    height: 210px;
+  }
+  .book-detail-description {
+    padding: 10px;
+    width:80%;
+    margin:auto;
+  }
+  .book-cart-btn,
+  .book-read-btn,
+  .book-link-btn,
+  .book-buy-btn,
+  .book-back-btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    width:80%;
+  }
+  .book-preview-embed{
+    width:80%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 900px) {
+  .book-detail-card {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .book-detail-info-section {
+    border-right: none;
+    padding-right: 0;
+    max-width: 100%;
+  }
+  .book-detail-image-section {
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  .book-detail-img {
+    width: 180px;
+    height: 270px;
+  }
+}
