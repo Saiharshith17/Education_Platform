@@ -21,7 +21,7 @@ const LeftSidebar = () => {
   return (
     <div className="leftbar">
       <div className="profile">
-        <img src={user?.avatar || "/default-avatar.png"} alt="Avatar" className="avatar" />
+        <img src="../src/assets/illustration-businessman/5856.jpg" alt="Avatar" className="avatar" />
         <h3>{user?.username || "Guest"}</h3>
         <p>{user?.email}</p>
       </div>

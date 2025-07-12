@@ -1,0 +1,149 @@
+/* --- Section Container --- */
+.explore-books-section {
+  margin: 20px 0;
+  padding: 24px;
+  background: linear-gradient(to bottom right, #ffffff, #f4f7fb);
+  
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+/* --- Info Text --- */
+.brecommend-info {
+  font-size: 1.3rem;
+  color: #2574a9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* --- Carousel Container --- */
+.books-carousel {
+  overflow-x: hidden;
+  position: relative;
+  padding-bottom: 12px;
+  width:95%;
+  margin:0px auto;
+}
+
+/* --- Scrollable Row --- */
+.books-scroll {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease;
+  padding: 8px;
+}
+
+/* --- Link Wrapper --- */
+.book-card-link {
+  flex: 0 0 auto;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --- Book Card --- */
+.book-carousel-card {
+  min-height:330px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideFade 0.6s forwards;
+  animation-delay: var(--delay, 0s);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* --- Hover Effect --- */
+.book-carousel-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Book Image --- */
+.book-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin:auto;
+  display: block;
+}
+
+/* --- Book Info --- */
+.book-info {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #fafafa;
+}
+
+/* --- Title --- */
+.book-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+/* --- Author --- */
+.book-author {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0;
+}
+
+/* --- Fade-in Slide Animation --- */
+@keyframes slideFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Empty Text --- */
+.empty-text {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+  margin-top: 16px;
+}
+
+/* --- Carousel Dots --- */
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.dot.active {
+  background-color: #333;
+  transform: scale(1.4);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
