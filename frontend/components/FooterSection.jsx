@@ -59,6 +59,10 @@ const FooterSection = () => {
 
 
 
+
+
+
+
             <div className="social-icons">
               <a href="#"><span>Instagram</span></a>
               <a href="#"><span>LinkedIn</span></a>
