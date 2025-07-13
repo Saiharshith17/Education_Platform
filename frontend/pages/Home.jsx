@@ -6,6 +6,9 @@ import {useCourseData} from "../src/store/CourseContext";
 import { useBooksData } from "../src/store/booksContext.jsx";
 import { useAuth } from "../src/store/auth"; // Example import
 import ExploreBooks from "../components/ExploreBooks.jsx";
+import FooterSection from "../components/FooterSection.jsx"; 
+
+
 const Home = () => {
   const { user, setUser,token } = useAuth(); // Replace with your actual user context/hook
   const [showPrefModal, setShowPrefModal] = useState(false);
@@ -173,9 +176,7 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
 
     
       {/* Footer */}
-      <footer className="footer">
-        © {new Date().getFullYear()} EduPlatform. All rights reserved.
-      </footer>
+      <FooterSection/>
       {/* Top Enrolled Courses Section */}
 
     </div>
