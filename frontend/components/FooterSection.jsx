@@ -57,6 +57,8 @@ const FooterSection = () => {
               <p>Email: <a href="mailto:support@yourbrand.com">support@eduplatform.com</a></p>
             </div>
 
+
+
             <div className="social-icons">
               <a href="#"><span>Instagram</span></a>
               <a href="#"><span>LinkedIn</span></a>
