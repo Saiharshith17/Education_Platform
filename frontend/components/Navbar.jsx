@@ -33,9 +33,14 @@ const Navbar = () => {
       }
     };
 
+  
     fetchCategories();
   }, []);
 
+  
+    const handleMenuLinkClick = () => {
+     setMenuOpen(false);
+    };
   const handleChange = (e) => {
     const value = e.target.value;
     setSearchInput(value);
@@ -104,11 +109,18 @@ const Navbar = () => {
           <span />
          </div>
         <ul className={`navbar-links${menuOpen ? " open" : ""}`}>
-  <li><NavLink to="/Home" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
-  <li><NavLink to="/courses" className={({ isActive }) => isActive ? "active" : ""}>Courses</NavLink></li>
-  <li><NavLink to="/books" className={({ isActive }) => isActive ? "active" : ""}>Books</NavLink></li>
-  <li><NavLink to="/quizzes" className={({ isActive }) => isActive ? "active" : ""}>Quizzes</NavLink></li>
-  <li><NavLink to="/chatbot" className={({ isActive }) => isActive ? "active" : ""}>Chatbot</NavLink></li>
+  <li><NavLink to="/Home" onClick={handleMenuLinkClick} className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
+  <li><NavLink to="/courses" onClick={handleMenuLinkClick} className={({ isActive }) => isActive ? "active" : ""}>Courses</NavLink></li>
+  <li><NavLink to="/books" onClick={handleMenuLinkClick} className={({ isActive }) => isActive ? "active" : ""}>Books</NavLink></li>
+  <li><NavLink to="/quizzes" onClick={handleMenuLinkClick} className={({ isActive }) => isActive ? "active" : ""}>Quizzes</NavLink></li>
+  <li><NavLink to="/chatbot" onClick={handleMenuLinkClick} className={({ isActive }) => isActive ? "active" : ""}>Chatbot</NavLink></li>
+  
+  <li className="mobile-only">
+    <NavLink to="/dashboard" onClick={handleMenuLinkClick} className={({ isActive }) => isActive ? "active" : ""}>Dashboard</NavLink>
+  </li>
+  <li className="mobile-only">
+    <NavLink to="/mycourses" onClick={handleMenuLinkClick} className={({ isActive }) => isActive ? "active" : ""}>My Courses</NavLink>
+  </li>
 </ul>
       </div>
 

@@ -294,3 +294,142 @@
     letter-spacing: 1px;
   }
 }
+.mobile-only{
+  display:none;
+}
+@media (max-width:700px){
+  .mobile-only{
+    display:block;
+  }
+
+
+  .navbar {
+    flex-direction: row;
+    padding: 8px 4vw;
+    position: relative;
+  }
+
+  .navbar-logo {
+    font-size: 20px;
+    color: #0077cc;
+  }
+
+  .navbar-center {
+    width: 100%;
+    margin: 0;
+    justify-content: flex-start;
+  }
+
+  .search-input {
+    width: 100%;
+    min-width: 0;
+    font-size: 15px;
+  }
+
+  /* Mobile hamburger button */
+  .navbar-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 32px;
+    height: 36px;
+    cursor: pointer;
+    border: 2px solid #1b3555;
+    padding: 2px 4px;
+    border-radius: 5px;
+    background: #ffffff;
+    transition: background 0.3s, border 0.3s;
+  }
+
+  .navbar-hamburger:hover {
+    background: #f0f8ff;
+    border-color: #0077cc;
+  }
+
+  .navbar-hamburger span {
+    height: 3px;
+    width: 100%;
+    background: #0077cc;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+
+  /* Animated dropdown menu */
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100vw;
+    background: linear-gradient(135deg, #f7fbff, #eaf6ff);
+    box-shadow: 0 8px 32px rgba(60, 120, 200, 0.15);
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+    z-index: 1001;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-links.open {
+    max-height: 600px; 
+    padding: 10px 0;
+  }
+
+  .navbar-links li {
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 17px;
+    margin: 15px 20px;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    background-color: #ffffff;
+    font-weight:550;
+  }
+
+  .navbar-links li:hover {
+    background-color: #0077cc;
+    color: #ffffff;
+    font-weight: 500;
+    transform: scale(1.02);
+  }
+
+  .navbar-links a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-links a.active {
+    color: #0077cc;
+    font-weight: 600;
+    border: 2px solid #0077cc;
+  }
+
+  .navbar-right {
+    order: 3;
+    margin-top: 0;
+  }
+
+  .search-suggestions {
+    left: 0;
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .navbar-left {
+    order: 1;
+  }
+
+  .navbar-right {
+    order: 2;
+  }
+
+  .navbar-center {
+    order: 3;
+  }
+}
