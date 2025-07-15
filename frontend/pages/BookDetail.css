@@ -107,7 +107,25 @@
 .book-cart-btn:hover:not(:disabled), .book-read-btn:hover:not(:disabled) {
   background: #125ea7;
 }
+.add {
+  background-color: #4caf50;
+  color: white;
+}
 
+/* REMOVE style */
+.remove {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Optional hover effect */
+.add:hover {
+  background-color: #45a049;
+}
+
+.remove:hover {
+  background-color: #e53935;
+}
 .book-preview-embed {
   margin: 24px 0 16px 0;
   padding: 14px;
@@ -252,4 +270,23 @@
     width: 180px;
     height: 270px;
   }
+}
+.add {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* REMOVE style */
+.remove {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Optional hover effect */
+.add:hover {
+  background-color: #45a049;
+}
+
+.remove:hover {
+  background-color: #e53935;
 }

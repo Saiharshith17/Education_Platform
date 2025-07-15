@@ -178,9 +178,9 @@ const UserDashboard = ({ user, setUser, token }) => {
       <section className="dashboard-section">
         <h3 className="section-title">Books Added</h3>
         <div className="book-list">
-  {booksRead.length ? (
+  {booksAdded.length ? (
     <div className="book-grid">
-      {booksRead
+      {booksAdded
         .map(id => books.find(b => b._id === id))
         .filter(Boolean)
         .map(book => (

@@ -1,6 +1,7 @@
 import React,{ useState } from 'react'
 import {useNavigate} from 'react-router-dom'
 import { useAuth } from '../src/store/auth'
+import { Link } from 'react-router-dom';
 import "./signup.css";
 const Signup = () => {
 
@@ -67,7 +68,7 @@ const handleSubmit = async (e) => {
           <div className="container grid grid-two-cols">
             <div className="registration-image reg-img">
               <img
-                src="/images/register.png"
+                src="/src/assets/phishing-account-concept.png"
                 alt="a nurse with a cute look"
                 width="400"
                 height="500"
@@ -118,9 +119,14 @@ const handleSubmit = async (e) => {
                   />
                 </div>
                 <br />
+                <div className="btn-container">
                 <button type="submit" className="btn btn-submit">
-                  Register Now
+                 SignUp
                 </button>
+                 <Link to="/signup" className="btn-signup">
+                 Login
+                 </Link>
+                </div>
               </form>
             </div>
           </div>

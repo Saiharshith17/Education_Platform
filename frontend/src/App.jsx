@@ -51,6 +51,7 @@ import Chatbot from "../pages/Chatbot";
 import Quiz from "../pages/Quiz";
 import BooksList from "../pages/AllBooks";
 import BookDetail from "../pages/BookDetail";
+import Logout from "../pages/Logout";
 const UserDashboard = lazy(()=>import("../pages/Dashboard"));
 const Login = lazy(() => import("../pages/Login"));
 const Signup = lazy(() => import("../pages/signup"));
@@ -157,6 +158,9 @@ const App = () => {
           {/* Login and Signup without layout */}
           <Route path="/login" element={<Login />} />
           <Route path="/signUp" element={<Signup />} />
+          <Route path="/logout" element={<Logout />} />
+          
+          
         </Routes>
       </Suspense>
     </BrowserRouter>

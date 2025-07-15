@@ -18,10 +18,11 @@ const CourseDetail = () => {
   const [isInCart, setIsInCart] = useState(false);
 
   useEffect(() => {
-    if (!course || !user) return;
-    setIsRead(user.coursesRead?.some((c) => c._id === course._id));
-    setIsInCart(user.coursesAdded?.some((c) => c._id === course._id));
-  }, [course, user]);
+  if (!course || !user) return;
+  setIsRead(user.coursesRead?.includes(course._id));
+  setIsInCart(user.coursesAdded?.includes(course._id));
+}, [course, user]);
+
 
   const handleToggle = async (type) => {
     const url =

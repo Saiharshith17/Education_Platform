@@ -15,6 +15,25 @@ const Home = () => {
   const [recommendations,setRecommendations]=useState([]);
   const {courses,setCourses} = useCourseData();
   const { books } = useBooksData(); 
+  const [cardWidth, setCardWidth] = useState(282); // default
+
+useEffect(() => {
+  const updateCardWidth = () => {
+    const w = window.innerWidth;
+
+    if (w >= 1440) setCardWidth(282);
+    else if (w >= 1024) setCardWidth(355);
+    else if (w >= 768) setCardWidth(357);
+    else if (w >= 425) setCardWidth(312);
+    else if (w >= 375) setCardWidth(277);
+    else setCardWidth(238); // for <= 325
+  };
+
+  updateCardWidth();
+  window.addEventListener("resize", updateCardWidth);
+  return () => window.removeEventListener("resize", updateCardWidth);
+}, []);
+
   useEffect(() => {
     if (user && (!user.preferences || user.preferences.length < 3)) {
       setShowPrefModal(true);
@@ -30,7 +49,7 @@ const Home = () => {
       const tags=user.preferences||[];
       console.log("Request body:", { course_ids, tags });
       try{
-        const res=await fetch("https://edwebchatbot-production.up.railway.app/recommend",{
+        const res=await fetch("http://127.0.0.1:8000/recommend",{
           method:"POST",
           headers:{
             "Content-Type":"application/json",
@@ -115,8 +134,8 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
       <div
         className="recommend-grid sliding"
         style={{
-          transform: `translateX(-${startIdx * (73.5)}vw)` // 270px card + 32px gap
-        }}
+        transform: `translateX(-${startIdx * cardWidth}px)`
+      }}
       >
         <div className="recommend-grid">
   {recommendations.length > 0 ? (

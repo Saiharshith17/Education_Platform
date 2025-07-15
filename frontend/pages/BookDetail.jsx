@@ -37,13 +37,20 @@ const BookDetail = () => {
     setIsInCart(addedIds.includes(bookData._id));
   }, [bookData, user]);
 
+
+  useEffect(() => {
+  if (!book || !user) return;
+  setIsRead(user.booksRead?.includes(book._id));
+  setIsInCart(user.booksAdded?.includes(book._id));
+}, [book, user]);
+
   const handleToggle = async (type) => {
     if (!bookData) return;
     const url =
       type === "read"
         ? `${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/cart/toggle-book-read/${bookData._id}`
         : `${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/cart/toggle-book-cart/${bookData._id}`;
-
+     console.log(url);
     try {
       const res = await fetch(url, {
         method: "POST",
@@ -122,18 +129,22 @@ const BookDetail = () => {
             <strong>ePub Available:</strong> {bookData.epubAvailable ? "Yes" : "No"}
           </p>
            <div className="book-detail-actions">
+
             <button
               className={`book-read-btn ${isRead ? "remove" : "add"}`}
               onClick={() => handleToggle("read")}
             >
-              {isRead ? "Unmark Read" : "Mark as Read"}
+               {isRead ? "✔️ Unmark Read" : "📖 Mark as Read"}
             </button>
             <button
               className={`book-cart-btn ${isInCart ? "remove" : "add"}`}
               onClick={() => handleToggle("cart")}
             >
-              {isInCart ? "Remove from Cart" : "Add to Cart"}
+              {isInCart ? "🛒 Remove from Cart" : "🛒 Add to Cart"}
             </button>
+
+
+
           </div>
           {/* Book Preview */}
           {bookData.previewLink && (

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { NavLink,Link,useNavigate } from "react-router-dom";
 import { useSearch } from "../src/store/searchContext";
 import "./Navbar.css";
+import Logout from "../pages/Logout";
 
 const Navbar = () => {
 

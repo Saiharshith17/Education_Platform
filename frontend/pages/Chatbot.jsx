@@ -46,7 +46,7 @@ const Chatbot = () => {
     setChatHistory(newHistory);
     console.log("Sending message:", input);
     try {
-      const res = await fetch("http://127.0.0.1:8001/chat/1", {
+      const res = await fetch("https://edwebchatbot-production.up.railway.app/chat/1", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),

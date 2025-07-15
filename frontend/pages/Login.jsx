@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from "../src/store/auth";
-
+import { Link } from 'react-router-dom';
+import "./login.css";
 const Login = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -79,7 +80,7 @@ const Login = () => {
           <div className="container grid grid-two-cols">
             <div className="registration-image reg-img">
               <img
-                src="/images/register.png"
+                src="\src\assets\phishing-account-concept.png"
                 alt="a nurse with a cute look"
                 width="400"
                 height="500"
@@ -98,7 +99,7 @@ const Login = () => {
                     value={user.email}
                     onChange={handleInput}
                     placeholder="Email"
-                    style={{ width: '400px' }}
+                    style={{ width: '100%' }}
                   />
                 </div>
 
@@ -110,13 +111,18 @@ const Login = () => {
                     value={user.password}
                     onChange={handleInput}
                     placeholder="Password"
-                    style={{ width: '400px' }}
+                    style={{ width: '100%' }}
                   />
                 </div>
                 <br />
+                <div className="btn-container">
                 <button type="submit" className="btn btn-submit">
                   Login
                 </button>
+                 <Link to="/signup" className="btn-signup">
+                 SignUp
+                 </Link>
+                </div>
               </form>
             </div>
           </div>
