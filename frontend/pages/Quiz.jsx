@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Quiz.css';
-
+import { PDFDocument } from 'pdf-lib';
 const TOPICS = [
   'Artificial Intelligence',
   'Frontend Development',
@@ -12,6 +12,22 @@ const TOPICS = [
   'Fullstack Development'
 ];
 
+async function trimPDFto40(file) {
+  const bytes = await file.arrayBuffer();
+  const pdfDoc = await PDFDocument.load(bytes);
+
+  if (pdfDoc.getPageCount() <= 40) {
+    return file;
+  }
+
+  const newPdf = await PDFDocument.create();
+  const copiedPages = await newPdf.copyPages(pdfDoc, [...Array(40).keys()]);
+  copiedPages.forEach((p) => newPdf.addPage(p));
+
+  const newBytes = await newPdf.save();
+  return new File([newBytes], `trimmed-${file.name}`, { type: 'application/pdf' });
+}
+
 const Quiz = () => {
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
@@ -21,11 +37,54 @@ const Quiz = () => {
   const [loading, setLoading] = useState(false);
   const [topic, setTopic] = useState('');
   const [customTopic, setCustomTopic] = useState('');
+  const [uploadFile, setUploadFile] = useState(null);
+
+
+  const handleFileUpload = async () => {
+  if (!uploadFile) return;
+
+  setLoading(true);
+  setTopic('Uploaded File');
+
+  let finalFile = uploadFile;
+  if (uploadFile.type === 'application/pdf') {
+    try {
+      finalFile = await trimPDFto40(uploadFile);
+    } catch (e) {
+      console.error('Error trimming PDF:', e);
+    }
+  }
+
+  const formData = new FormData();
+  formData.append('file', finalFile);
+
+  fetch('https://quizzes-production.up.railway.app/quiz_with_file', {
+    method: 'POST',
+    body: formData,
+  })
+    .then(res => res.json())
+    .then(data => {
+      if (!data.success || !data.data || !data.data.length) {
+        setQuestions([]);
+        setLoading(false);
+        alert("No questions generated. Try another file.");
+        setTopic('');
+        return;
+      }
+      setQuestions(data.data);
+      setLoading(false);
+    })
+    .catch(err => {
+      console.error(err);
+      setLoading(false);
+    });
+};
+
 
   const handleTopicSelect = (selectedTopic) => {
   setLoading(true);
   setTopic(selectedTopic);
-  fetch('http://127.0.0.1:8003/quiz', {
+  fetch('https://quizzes-production.up.railway.app/quiz', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -85,11 +144,14 @@ const Quiz = () => {
   // Progress calculation
   const progress = questions.length ? ((current + (showScore ? 1 : 0)) / questions.length) * 100 : 0;
 
-  if (!topic) {
-    return (
-      <div className="quiz-bg">
-        <div className="quiz-card select-topic-card">
-          <h2 className="quiz-title">🚀 Choose Your Quiz Topic</h2>
+ if (!topic) {
+  return (
+    <div className="quiz-bg">
+      <div className="quiz-card select-topic-card">
+        <h2 className="quiz-title">🚀 Choose How You Want to Start Your Quiz</h2>
+
+        <div className="quiz-section">
+          <h3 className="section-title">📚 Pick a Predefined Topic</h3>
           <div className="topic-list">
             {TOPICS.map((t) => (
               <button
@@ -101,10 +163,14 @@ const Quiz = () => {
               </button>
             ))}
           </div>
+        </div>
+
+        <div className="quiz-section">
+          <h3 className="section-title">📝 Enter Your Own Topic</h3>
           <div className="custom-topic">
             <input
               type="text"
-              placeholder="Or enter your own topic"
+              placeholder="Type your custom topic here"
               value={customTopic}
               onChange={e => setCustomTopic(e.target.value)}
               className="custom-topic-input"
@@ -118,20 +184,50 @@ const Quiz = () => {
             </button>
           </div>
         </div>
-      </div>
-    );
-  }
 
-  if (loading) return (
-    <div className="quiz-bg">
-      <div className="quiz-card loading-card">
-        <div className="loader"></div>
-        <p>Loading quiz...</p>
+        <div className="quiz-section">
+          <h3 className="section-title">📄 Or Upload a File</h3>
+          <div className="file-upload-container">
+            <input
+              type="file"
+              accept=".pdf,.ppt,.pptx,.doc,.docx"
+              id="fileUpload"
+              onChange={e => setUploadFile(e.target.files[0])}
+              className="file-input"
+            />
+            <div className="file-label-container">
+            <label htmlFor="fileUpload" className="file-label">
+              Choose File
+            </label>
+            <button
+              className="topic-btn upload-btn"
+              onClick={handleFileUpload}
+              disabled={!uploadFile}
+            >
+              Upload & Start Quiz
+            </button>
+            </div>
+          </div>
+          {uploadFile && (
+            <p className="file-name">Selected: {uploadFile.name}</p>
+          )}
+        </div>
       </div>
     </div>
   );
+}
 
-  if (!questions.length) return (
+  if(loading){
+    return (
+      <div className="quiz-bg">
+        <div className="quiz-card loading-card">
+          <h2>Loading questions...</h2>
+          <div className="loader"></div>
+        </div>
+      </div>
+    );
+  }
+  if (!loading&&!questions.length) return (
     <div className="quiz-bg">
       <div className="quiz-card">
         <h2>No questions found for this topic.</h2>
@@ -207,7 +303,11 @@ const Quiz = () => {
         >
           {current === questions.length - 1 ? 'Finish' : 'Next'}
         </button>
+        
       </div>
+    
+
+
     </div>
   );
 };

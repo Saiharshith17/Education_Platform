@@ -49,7 +49,7 @@ useEffect(() => {
       const tags=user.preferences||[];
       console.log("Request body:", { course_ids, tags });
       try{
-        const res=await fetch("http://127.0.0.1:8000/recommend",{
+        const res=await fetch("https://recommendations-production.up.railway.app/recommend",{
           method:"POST",
           headers:{
             "Content-Type":"application/json",
