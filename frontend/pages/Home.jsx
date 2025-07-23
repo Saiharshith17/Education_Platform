@@ -16,7 +16,7 @@ const Home = () => {
   const {courses,setCourses} = useCourseData();
   const { books } = useBooksData(); 
   const [cardWidth, setCardWidth] = useState(282); // default
-
+  const [loading, setLoading] = useState(true);
 useEffect(() => {
   const updateCardWidth = () => {
     const w = window.innerWidth;
@@ -40,8 +40,10 @@ useEffect(() => {
     }
   }, [user]);
   
+  
   useEffect(()=>{
     const fetchRecommendations=async()=>{
+      setLoading(true);
       const course_ids=[
         ...(user.coursesRead || []),
         ...(user.coursesAdded || []),
@@ -68,6 +70,7 @@ useEffect(() => {
             recommendedIds.includes(course._id)
           );
           setRecommendations(recommendedCourses);
+          setLoading(false);
           console.log("Recommendations fetched:", recommendedCourses);
         }
       }catch(error){
@@ -135,10 +138,11 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
         className="recommend-grid sliding"
         style={{
         transform: `translateX(-${startIdx * cardWidth}px)`
-      }}
-      >
-        <div className="recommend-grid">
-  {recommendations.length > 0 ? (
+      }}>
+      <div className="recommend-grid">
+  {loading ? (
+  <p className="loading-text">Loading recommendations...</p>
+) : recommendations.length > 0 ? (
     recommendations.map((rec) => (
       <Link
         key={rec._id}

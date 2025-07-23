@@ -89,19 +89,19 @@ const FooterSection = () => {
           <div className="footer-links-grid">
             <div className="footer-column">
               <h4>Explore</h4>
-              <a href="#">Home</a>
-              <a href="#">Courses</a>
-              <a href="#">Books</a>
-              <a href="#">Quizzes</a>
-              <a href="#">Chatbot</a>
+              <a href="/Home">Home</a>
+              <a href="/courses">Courses</a>
+              <a href="/books">Books</a>
+              <a href="/quizzes">Quizzes</a>
+              <a href="/chatbot">Chatbot</a>
             </div>
             <div className="footer-column">
               <h4>Account</h4>
-              <a href="#">Login</a>
-              <a href="#">Signup</a>
-              <a href="#">Dashboard</a>
-              <a href="#">Your Courses</a>
-              <a href="#">Your Books</a>
+              <a href="/login">Login</a>
+              <a href="/signUp">Signup</a>
+              <a href="/dashboard">Dashboard</a>
+              <a href="/mycourses">Your Courses</a>
+              <a href="/dashboard">Your Books</a>
             </div>
             <div className="footer-column">
               <h4>Company</h4>
@@ -121,7 +121,7 @@ const FooterSection = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 YourCompanyName. All rights reserved.</p>
+        <p>© 2025 EduPlatform. All rights reserved.</p>
       </div>
     </footer>
   

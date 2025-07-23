@@ -38,7 +38,11 @@ const Quiz = () => {
   const [topic, setTopic] = useState('');
   const [customTopic, setCustomTopic] = useState('');
   const [uploadFile, setUploadFile] = useState(null);
+  const [showHint, setShowHint] = useState(false);
 
+  const toggleHint = () => {
+    setShowHint(!showHint);
+  };
 
   const handleFileUpload = async () => {
   if (!uploadFile) return;
@@ -148,7 +152,7 @@ const Quiz = () => {
   return (
     <div className="quiz-bg">
       <div className="quiz-card select-topic-card">
-        <h2 className="quiz-title">🚀 Choose How You Want to Start Your Quiz</h2>
+        <h2 className="quiz-title"> Choose How You Want to Start Your Quiz</h2>
 
         <div className="quiz-section">
           <h3 className="section-title">📚 Pick a Predefined Topic</h3>
@@ -176,7 +180,7 @@ const Quiz = () => {
               className="custom-topic-input"
             />
             <button
-              className="topic-btn"
+              className="topic-bt"
               onClick={handleCustomTopicStart}
               disabled={!customTopic.trim()}
             >
@@ -263,16 +267,30 @@ const Quiz = () => {
   const optionsArr = Object.entries(questions[current].options);
 
   return (
-    <div className="quiz-bg">
+   <div className="quiz-bg">
       <div className="quiz-card">
         <div className="quiz-progress-bar">
           <div className="quiz-progress" style={{ width: `${progress}%` }}></div>
         </div>
+
         <div className="quiz-header">
           <span className="quiz-topic">{topic}</span>
           <span className="quiz-qno">Q{current + 1} / {questions.length}</span>
         </div>
+
+        <div className="quiz-question-area">
+         <div className="question-with-hint">
         <h3 className="quiz-question">{questions[current].question}</h3>
+        <button className="hint-btn" onClick={toggleHint}>💡</button>
+        </div>
+        </div>
+
+        {showHint && (
+          <div className="quiz-hint">
+            {questions[current].hint}
+          </div>
+        )}
+
         <div className="quiz-options">
           {optionsArr.map(([key, value]) => {
             let optionClass = "quiz-option";
@@ -296,18 +314,18 @@ const Quiz = () => {
             );
           })}
         </div>
+
         <button
           className="next-btn"
-          onClick={handleNext}
+          onClick={() => {
+            handleNext();
+            setShowHint(false); // reset hint on next
+          }}
           disabled={selected === null}
         >
           {current === questions.length - 1 ? 'Finish' : 'Next'}
         </button>
-        
       </div>
-    
-
-
     </div>
   );
 };

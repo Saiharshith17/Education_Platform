@@ -21,7 +21,7 @@ body, html {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 8px 32px rgba(40, 60, 120, 0.18);
-  max-width: 500px;
+  max-width:80%;
   width: 100%;
   padding: 36px 28px 32px 28px;
   display: flex;
@@ -53,22 +53,37 @@ body, html {
 }
 
 .topic-btn {
-  padding: 12px 20px;
-  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 500;
+    padding: 10px 18px;
+  border-radius: 20px;
+  border: 1px solid #2574a9;
+  background: #eaf1fb;
+  color: #2574a9;
+  font-weight: 550;
   cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
-  box-shadow: 0 2px 8px rgba(40, 60, 120, 0.08);
+  transition: background 0.2s, color 0.2s;
 }
 .topic-btn:hover, .topic-btn:focus {
   background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
   transform: translateY(-2px) scale(1.04);
+  color:white;
 }
 
+.topic-bt{
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: 1px solid #195074;
+  background: #eaf1fb;
+  color: #2574a9;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  font-weight:600;
+}
+.topic-bt:hover, .topic-bt:focus {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  transform: translateY(-2px) scale(1.04);
+  color:white;
+}
 .custom-topic {
   margin-top: 18px;
   display: flex;
@@ -81,9 +96,10 @@ body, html {
   border-radius: 6px;
   border: 1px solid #bfc9d9;
   font-size: 1rem;
-  width: 200px;
+  width: 25%;
   outline: none;
   transition: border 0.2s;
+  margin-right:20px;
 }
 .custom-topic-input:focus {
   border: 1.5px solid #2575fc;
@@ -214,7 +230,7 @@ body, html {
 }
 .section-title{
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 550;
   color: #2575fc;
   margin-bottom: 12px;
 }
@@ -301,6 +317,9 @@ body, html {
 .file-label{
   margin:30px;
 }
+.custom-topic-input{
+  width:64%;
+}
 
 }
 
@@ -377,6 +396,7 @@ body, html {
   margin-top: -6px;
   text-align: center;
   word-break: break-all;
+  padding:10px;
 }
 
 .file-label-container{
@@ -388,4 +408,35 @@ body, html {
 }
 .loader{
   margin-top:20px;
+}
+
+
+
+.question-with-hint {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hint-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  background: none;
+  border: 3px solid #6a11cb;
+  border-radius:10px;
+  padding:4px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.quiz-hint {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff9c4;
+  border-left: 4px solid #ffeb3b;
+  font-style: italic;
 }

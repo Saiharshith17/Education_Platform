@@ -600,3 +600,14 @@
   height:247.8px;
 }
 }
+.loading-text {
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+}
+
+.empty-text {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
