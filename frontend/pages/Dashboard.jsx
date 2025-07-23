@@ -78,7 +78,7 @@ const UserDashboard = ({ user, setUser, token }) => {
   const handleSavePreferences = async (prefs) => {
     try {
       const res = await fetch(
-        `${import.meta.env.VITE_API_BASE_URL_LOCAL}/api/users/preferences`,
+        `${import.meta.env.VITE_API_BASE_URL}/api/users/preferences`,
         {
           method: "PUT",
           headers: {
