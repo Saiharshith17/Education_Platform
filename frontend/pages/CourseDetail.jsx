@@ -67,7 +67,7 @@ const CourseDetail = () => {
     <div className="course-detail-container">
       <div className="course-header">
         <img
-          src="../public/2606584_5920.jpg"
+          src="/2606584_5920.jpg"
           alt={course.title}
           className="course-thumbnail"
         />

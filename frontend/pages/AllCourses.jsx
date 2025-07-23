@@ -116,7 +116,7 @@ const AllCourses = () => {
     >
       <div className="course-card">
         <img
-          src="\public\2606584_5920.jpg"
+          src="\2606584_5920.jpg"
           alt={course.title}
         />
         <h3>{course.title}</h3>

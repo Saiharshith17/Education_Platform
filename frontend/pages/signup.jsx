@@ -68,7 +68,7 @@ const handleSubmit = async (e) => {
           <div className="container grid grid-two-cols">
             <div className="registration-image reg-img">
               <img
-                src="/src/assets/phishing-account-concept.png"
+                src="/phishing-account-concept.png"
                 alt="a nurse with a cute look"
                 width="400"
                 height="500"
