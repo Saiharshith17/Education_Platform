@@ -30,10 +30,11 @@ const BookCard = ({ book }) => {
 
 
 const CourseCard = ({ course }) => (
-
+  
+  <Link to={`/courses/${course._id}`} state={{ course }} className="course-card-link">
   <div className="course-card">
     <img
-      src="../public/2606584_5920.jpg"
+      src="/2606584_5920.jpg"
       alt={course.title}
       className="course-thumb"
     />
@@ -51,6 +52,7 @@ const CourseCard = ({ course }) => (
       </div>
     </div>
   </div>
+  </Link>
 );
 
 const UserDashboard = ({ user, setUser, token }) => {

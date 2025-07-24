@@ -355,5 +355,9 @@
   font-style: italic;
   text-align: center;
 }
-
+.book-grid{
+  display: flex;
+  flex-wrap:wrap;
+  gap:32px;
+}
 
