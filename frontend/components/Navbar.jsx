@@ -80,8 +80,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
+        <Link to="/" className="navbar-logo-link">
         <div className="navbar-logo">{isMobileLogo ? "Edu" : "EduPlatform"}</div>
-
+        </Link>
         <div className="navbar-center">
           <input
             ref={inputRef}

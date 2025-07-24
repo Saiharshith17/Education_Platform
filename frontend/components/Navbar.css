@@ -433,3 +433,7 @@
     order: 3;
   }
 }
+.navbar-logo-link {
+  text-decoration: none;
+  color: inherit;
+}
