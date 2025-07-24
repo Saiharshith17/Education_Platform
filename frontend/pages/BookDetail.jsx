@@ -26,7 +26,7 @@ const BookDetail = () => {
         .catch(() => setBookData(null))
         .finally(() => setLoading(false));
     }
-  }, [book, id]);
+  }, [book, id,bookData, user,book,user?.booksRead, user?.booksAdded, book?._id]);
 
   // Set read/cart state based on user
   useEffect(() => {
@@ -35,14 +35,14 @@ const BookDetail = () => {
     const addedIds = user.booksAdded?.map((b) => b._id) || [];
     setIsRead(readIds.includes(bookData._id));
     setIsInCart(addedIds.includes(bookData._id));
-  }, [bookData, user]);
+  }, [bookData, user,book,user?.booksRead, user?.booksAdded, book?._id]);
 
 
   useEffect(() => {
   if (!book || !user) return;
   setIsRead(user.booksRead?.includes(book._id));
   setIsInCart(user.booksAdded?.includes(book._id));
-}, [book, user]);
+}, [book, user,bookData]);
 
   const handleToggle = async (type) => {
     if (!bookData) return;
@@ -66,6 +66,7 @@ const BookDetail = () => {
         if (type === "read") setIsRead(!isRead);
         else setIsInCart(!isInCart);
         alert(result.message);
+        window.location.reload();
       } else {
         alert(result.message || "Action failed.");
       }

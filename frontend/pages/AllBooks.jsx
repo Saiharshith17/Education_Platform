@@ -29,7 +29,7 @@ const BooksList = () => {
   };
     const handleToggle = async (book) => {
   if (!book) return;
-  const baseUrl = import.meta.env.VITE_API_BASE_URL_LOCAL;
+  const baseUrl = import.meta.env.VITE_API_BASE_URL;
   const url = `${baseUrl}/api/cart/toggle-book-cart/${book._id}`;
 
 
@@ -56,6 +56,7 @@ const BooksList = () => {
         );
       
       alert(result.message);
+      window.location.reload();
     } else {
       alert(result.message || "Action failed.");
     }

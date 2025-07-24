@@ -128,14 +128,7 @@ const App = () => {
               </Layout>
             } 
           />
-          <Route
-             path="/dashboard" 
-             element={
-              <Layout>
-                <UserDashboard user={user} setUser={setUser} token={token} />
-              </Layout>
-            } 
-          />
+          
           <Route
              path="/mycourses" 
              element={

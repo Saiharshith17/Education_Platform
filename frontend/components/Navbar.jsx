@@ -125,7 +125,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-        <Link to="/login" className="login-btn">Login</Link>
+        <Link to="/login" className="login-btn">Logout</Link>
       </div>
     </nav>
   );

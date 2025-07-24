@@ -10,6 +10,12 @@ import FooterSection from "../components/FooterSection.jsx";
 
 
 const Home = () => {
+  const POPULAR_QUIZZES = [
+  "Artificial Intelligence",
+  "Frontend Development",
+  "Backend Development",
+  "DSA",
+];
   const { user, setUser,token } = useAuth(); // Replace with your actual user context/hook
   const [showPrefModal, setShowPrefModal] = useState(false);
   const [recommendations,setRecommendations]=useState([]);
@@ -17,6 +23,8 @@ const Home = () => {
   const { books } = useBooksData(); 
   const [cardWidth, setCardWidth] = useState(282); // default
   const [loading, setLoading] = useState(true);
+  
+
 useEffect(() => {
   const updateCardWidth = () => {
     const w = window.innerWidth;
@@ -43,13 +51,31 @@ useEffect(() => {
   
   useEffect(()=>{
     const fetchRecommendations=async()=>{
-      setLoading(true);
-      const course_ids=[
-        ...(user.coursesRead || []),
-        ...(user.coursesAdded || []),
-      ];
-      const tags=user.preferences||[];
-      console.log("Request body:", { course_ids, tags });
+     setLoading(true);
+
+    const course_ids = [
+      ...(user.coursesRead || []),
+      ...(user.coursesAdded || []),
+    ];
+
+    const rawTags = user.preferences || [];
+
+    // Mapping preferences to expected backend-friendly format
+    const tagMap = {
+      "Programming": "programming",
+      "Data Structures": "dsa",
+      "Frontend Development": "frontend",
+      "Backend Development": "backend",
+      "Full Stack Development": "full stack",
+      "DevOps": "devops",
+      "Machine Learning": "machine learning",
+      "Computer Science": "fundamentals of computers"
+    };
+
+    const tags = rawTags
+      .map(tag => tagMap[tag] || tag.toLowerCase());
+
+    console.log("Request body:", { course_ids, tags });
       try{
         const res=await fetch("https://recommendations-production.up.railway.app/recommend",{
           method:"POST",
@@ -171,6 +197,25 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
   
 <ExploreBooks books={books} />
 
+     <section className="popular-quizzes">
+  <div className="h3">Popular Quizzes</div>
+  <div className="qui-grid">
+    {POPULAR_QUIZZES.map((quizTopic) => (
+      <Link
+        key={quizTopic}
+        to={`/quizzes?topic=${encodeURIComponent(quizTopic)}`}
+        className="qui-card-link"
+      >
+        <div className="qui-card">
+          <img src="\0b4a713f-6183-45f8-96db-327822832727.jpg" alt={quizTopic} className="qui-icon" />
+          <h5>{quizTopic}</h5>
+        </div>
+      </Link>
+    ))}
+  </div>
+</section>
+
+
       <section className="top-courses">
   <div className="h3">Top Enrolled Courses</div>
   <div className="top-courses-grid">
@@ -196,6 +241,7 @@ const handleNext = () => setStartIdx(idx => Math.min(total - visibleCount, idx +
     ))}
 </div>
 </section>
+
 
     
       {/* Footer */}

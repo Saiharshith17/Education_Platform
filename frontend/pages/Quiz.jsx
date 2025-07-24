@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect} from 'react';
 import './Quiz.css';
+import {useLocation} from 'react-router-dom';
 import { PDFDocument } from 'pdf-lib';
 const TOPICS = [
   'Artificial Intelligence',
@@ -39,6 +40,14 @@ const Quiz = () => {
   const [customTopic, setCustomTopic] = useState('');
   const [uploadFile, setUploadFile] = useState(null);
   const [showHint, setShowHint] = useState(false);
+  const location = useLocation();
+  useEffect(() => {
+  const params = new URLSearchParams(location.search);
+  const topicFromURL = params.get("topic");
+  if (topicFromURL && !topic) {
+    handleTopicSelect(topicFromURL);
+  }
+}, [location]);
 
   const toggleHint = () => {
     setShowHint(!showHint);
