@@ -273,6 +273,8 @@ const Quiz = () => {
     );
   }
 
+
+  
   const optionsArr = Object.entries(questions[current].options);
 
   return (
