@@ -71,7 +71,7 @@ const Quiz = () => {
   const formData = new FormData();
   formData.append('file', finalFile);
 
-  fetch('https://quizzes-f3se.onrender.com/quiz_with_file', {
+  fetch('https://quizzes-production.up.railway.app/quiz_with_file', {
     method: 'POST',
     body: formData,
   })
@@ -97,7 +97,7 @@ const Quiz = () => {
   const handleTopicSelect = (selectedTopic) => {
   setLoading(true);
   setTopic(selectedTopic);
-  fetch('https://quizzes-f3se.onrender.com/quiz', {
+  fetch('https://quizzes-production.up.railway.app/quiz', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -274,7 +274,7 @@ const Quiz = () => {
   }
 
 
-  
+
   const optionsArr = Object.entries(questions[current].options);
 
   return (
