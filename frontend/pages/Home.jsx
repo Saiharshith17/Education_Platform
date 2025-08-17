@@ -77,7 +77,7 @@ useEffect(() => {
 
     console.log("Request body:", { course_ids, tags });
       try{
-        const res=await fetch("https://recommendations-naw0.onrender.com/recommend",{
+        const res=await fetch("https://recommendations-production-59ff.up.railway.app/recommend",{
           method:"POST",
           headers:{
             "Content-Type":"application/json",
